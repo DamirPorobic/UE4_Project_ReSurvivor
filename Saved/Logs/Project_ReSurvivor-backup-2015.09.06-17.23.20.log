@@ -1,0 +1,730 @@
+﻿[2015.09.06-08.53.47:696][  0]Log file open, 09/06/15 10:53:47
+[2015.09.06-08.53.47:696][  0]LogInit:Display: Running engine for game: Project_ReSurvivor
+[2015.09.06-08.53.47:696][  0]LogInit:Display: RandInit(2135435995) SRandInit(2135435995).
+[2015.09.06-08.53.47:696][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.06-08.53.47:696][  0]LogStats: Stats thread started at 0.443900
+[2015.09.06-08.53.47:696][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.06-08.53.47:696][  0]LogInit: API Version: 2672455
+[2015.09.06-08.53.47:696][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.09.06-08.53.47:696][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.06-08.53.47:696][  0]LogInit: Build Configuration: Development
+[2015.09.06-08.53.47:696][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.06-08.53.47:696][  0]LogInit: Command line:  
+[2015.09.06-08.53.47:696][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.06-08.53.47:696][  0]LogInit: Rocket: 1
+[2015.09.06-08.53.47:711][  0]LogInit: Using libcurl 7.41.0
+[2015.09.06-08.53.47:712][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.06-08.53.47:712][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.06-08.53.47:712][  0]LogInit:  - other features:
+[2015.09.06-08.53.47:712][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.06-08.53.47:712][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.06-08.53.47:712][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.06-08.53.47:712][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.06-08.53.47:712][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.06-08.53.47:712][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.06-08.53.47:712][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.06-08.53.47:712][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.06-08.53.47:712][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.06-08.53.47:712][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.06-08.53.47:726][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.06-08.53.47:737][  0]LogInit: Object subsystem initialized
+[2015.09.06-08.53.47:746][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.06-08.53.47:746][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.06-08.53.47:753][  0]LogInit: Computer: DAMIR-PC
+[2015.09.06-08.53.47:753][  0]LogInit: User: Damir
+[2015.09.06-08.53.47:753][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.06-08.53.47:753][  0]LogInit: High frequency timer resolution =3.320341 MHz
+[2015.09.06-08.53.47:753][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.09.06-08.53.47:754][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.06-08.53.47:754][  0]LogMemory: Process Physical Memory: 53.96 MB used, 53.96 MB peak
+[2015.09.06-08.53.47:754][  0]LogMemory: Process Virtual Memory: 56.31 MB used, 56.31 MB peak
+[2015.09.06-08.53.47:754][  0]LogMemory: Physical Memory: 4379.66 MB used, 8136.55 MB total
+[2015.09.06-08.53.47:754][  0]LogMemory: Virtual Memory: 336.11 MB used, 8388608.00 MB total
+[2015.09.06-08.53.47:848][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2015.09.06-08.53.48:526][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2015.09.06-08.53.48:526][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.09.06-08.53.48:526][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.06-08.53.48:531][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.06-08.53.48:531][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.06-08.53.48:537][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.06-08.53.48:562][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Intermediate/Shaders/WorkingDirectory/4016/).
+[2015.09.06-08.53.48:562][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Intermediate/Shaders/tmp/9F4AC3234EEFBDF8FAB1F18BF555BC9B/'.
+[2015.09.06-08.53.48:562][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.06-08.53.49:645][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.06-08.53.49:650][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.06-08.53.49:655][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.06-08.53.49:660][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.06-08.53.49:665][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.06-08.53.49:669][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.06-08.53.49:673][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.06-08.53.49:677][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.06-08.53.49:681][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.06-08.53.49:685][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.06-08.53.49:689][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.06-08.53.49:692][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.06-08.53.49:694][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.06-08.53.49:714][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.06-08.53.49:717][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.06-08.53.49:721][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.06-08.53.49:725][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.06-08.53.49:725][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.06-08.53.49:816][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.06-08.53.49:947][  0]LogDerivedDataCache: Loaded boot cache 0.13s 41MB C:/Users/Damir/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.06-08.53.49:947][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Damir/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.06-08.53.49:947][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.06-08.53.49:947][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.06-08.53.49:947][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.06-08.53.49:947][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.06-08.53.50:096][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.06-08.53.50:107][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Damir/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.06-08.53.50:595][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.06-08.53.50:597][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.06-08.53.50:630][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.06-08.53.50:630][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.06-08.53.51:042][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.06-08.53.52:170][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.06-08.53.52:325][  0]LogAssetRegistry: FAssetRegistry took 0.0121 seconds to start up
+[2015.09.06-08.53.52:555][  0]SourceControl: Info Source control is disabled
+[2015.09.06-08.53.52:567][  0]SourceControl: Info Source control is disabled
+[2015.09.06-08.53.52:581][  0]SourceControl: Info Source control is disabled
+[2015.09.06-08.53.52:590][  0]SourceControl: Info Source control is disabled
+[2015.09.06-08.53.52:723][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.06-08.53.52:795][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.09.06-08.53.52:795][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.09.06-08.53.52:868][  0]LogEngine: Initializing Engine...
+[2015.09.06-08.53.52:870][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.06-08.53.52:871][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.06-08.53.53:007][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.06-08.53.53:016][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.06-08.53.53:040][  0]LogInit: FAudioDevice initialized.
+[2015.09.06-08.53.53:062][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Damir/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.06-08.53.53:065][  0]LogInit: Texture streaming: Enabled
+[2015.09.06-08.53.53:071][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.06-08.53.53:071][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.06-08.53.53:072][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 823be5244adb21341b1538b68ee82034|51c2a24b0ca544adac8a22d4708797c6|ec4eac3e-148a-4a5a-9f28-33d773939611
+[2015.09.06-08.53.53:072][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.06-08.53.53:092][  0]LogInit: Transaction tracking system initialized
+[2015.09.06-08.53.53:138][  0]BlueprintLog: New page: Editor Load
+[2015.09.06-08.53.53:283][  0]LocalizationService: Info Localization service is disabled
+[2015.09.06-08.53.53:405][  0]LogConsoleResponse:Display: 
+[2015.09.06-08.53.53:531][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.06-08.53.53:606][  0]SourceControl: Info Source control is disabled
+[2015.09.06-08.53.53:607][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.06-08.53.53:608][  0]LightingResults: New page: Lighting Build
+[2015.09.06-08.53.53:614][  0]MapCheck: New page: Map Check
+[2015.09.06-08.53.53:614][  0]LightingResults: New page: Lighting Build
+[2015.09.06-08.53.53:629][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025F66160
+[2015.09.06-08.53.53:887][  0]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning Default Enum value 'ItemTypes' for class 'ItemBaseClass_Actor_C' is invalid in object 'Default__ItemBaseClass_Actor_C' 
+[2015.09.06-08.53.53:887][  0]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning [0007.15] Compile of ItemBaseClass_Actor successful, but with 1 Warning(s) [in 0 ms]
+[2015.09.06-08.53.53:887][  0]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning [0007.15] Compile of ItemBaseClass_Actor successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.06-08.53.53:887][  0]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning [0007.15] Compile of ItemBaseClass_Actor successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.06-08.53.54:094][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning 'ReturnValue' is already a 'Item Base Class Actor', you don't need  Cast To ItemBaseClass_Actor .
+[2015.09.06-08.53.54:106][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0007.37] Compile of FirstPersonCharacter successful, but with 1 Warning(s) [in 28 ms]
+[2015.09.06-08.53.54:107][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0007.37] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.06-08.53.54:107][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0007.37] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.06-08.53.54:194][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning 'ReturnValue' is already a 'Item Base Class Actor', you don't need  Cast To ItemBaseClass_Actor .
+[2015.09.06-08.53.54:207][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0007.47] Compile of FirstPersonCharacter successful, but with 1 Warning(s) [in 28 ms]
+[2015.09.06-08.53.54:207][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0007.47] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.06-08.53.54:207][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0007.47] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.06-08.53.54:607][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.06-08.53.54:632][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.06-08.53.54:633][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.06-08.53.54:667][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.999ms to complete.
+[2015.09.06-08.53.54:667][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.061
+[2015.09.06-08.53.54:786][  0]LogCollectionManager: Loaded 0 collections in 0.001681 seconds
+[2015.09.06-08.53.54:828][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Collections/' took 0.01s
+[2015.09.06-08.53.54:828][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Developers/Damir/Collections/' took 0.01s
+[2015.09.06-08.53.54:828][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Collections/' took 0.01s
+[2015.09.06-08.53.54:828][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 1867 classes and 333 folders.
+[2015.09.06-08.53.54:839][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.09.06-08.53.54:848][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.06-08.53.54:933][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.06-08.53.54:947][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.09.06-08.53.54:997][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.06-08.53.55:004][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.06-08.53.55:026][  0]LogLoad: Full Startup: 8.29 seconds (BP compile: 0.26 seconds)
+[2015.09.06-08.53.55:038][  0]LoadErrors:Error: Error /Game/Blueprints/Widgets/Menu_Widget : Failed import for ObjectProperty /Game/Blueprints/Widgets/InventorySlot_Widget.InventorySlot_Widget_C:Item
+[2015.09.06-08.53.55:038][  0]LoadErrors:Error: Error /Game/Blueprints/Widgets/Menu_Widget : Failed import for ObjectProperty /Game/Blueprints/Widgets/InventorySlot_Widget.InventorySlot_Widget_C:ItemName_Text
+[2015.09.06-08.53.55:082][  0]LogContentStreaming: Texture pool size now 700 MB
+[2015.09.06-08.53.55:182][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.09.06-08.53.55:468][  6]LogAssetRegistry: Asset discovery search completed in 3.1541 seconds
+[2015.09.06-08.53.55:468][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.09.06-08.53.55:468][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2015.09.06-08.54.15:168][ 89]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.06-08.54.15:595][ 89]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
+[2015.09.06-08.54.23:024][780]BlueprintLog: New page: Compile Menu_Widget
+[2015.09.06-08.54.23:140][780]BlueprintEditorCompileResults: Info [0036.41] Compile of Menu_Widget successful! [in 115 ms]
+[2015.09.06-08.54.28:070][331]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.06-08.54.28:071][331]PIE: New page: PIE session: FirstPersonExampleMap (Sep 6, 2015, 12:54:28 PM)
+[2015.09.06-08.54.28:071][331]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.06-08.54.28:097][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026096s)
+[2015.09.06-08.54.28:098][331]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.06-08.54.28:099][331]LogPlayLevel: PIE: World Init took: (0.001460s)
+[2015.09.06-08.54.28:099][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027908s)
+[2015.09.06-08.54.28:124][331]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.06-08.54.28:132][331]LogInit: FAudioDevice initialized.
+[2015.09.06-08.54.28:197][331]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.06-08.54.28:206][331]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.09.06-10.54.28
+[2015.09.06-08.54.28:206][331]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.06-08.54.28:206][331]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.06-08.54.28:208][331]LogWorld: Bringing up level for play took: 0.010377
+[2015.09.06-08.54.28:217][331]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.221
+[2015.09.06-08.54.39:688][703]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Action Execution has not been implemented yet
+[2015.09.06-08.54.40:213][766]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Action Execution has not been implemented yet
+[2015.09.06-08.54.50:680][ 22]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Action Execution has not been implemented yet
+[2015.09.06-08.54.53:430][352]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.09.06-08.54.58:643][971]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003D0D760
+[2015.09.06-08.57.34:001][295]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:6021).
+[2015.09.06-08.57.55:067][807]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.06-08.57.55:067][807]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.09.06-09.01.30:071][337]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Damir\Desktop\HandgunA_Texture.png)
+[2015.09.06-09.01.30:072][337]LogTexture:Display: Building textures: HandgunA_Texture (AutoDXT)
+[2015.09.06-09.01.41:886][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.09.06-09.02.07:765][830]LogSavePackage: Save=15.857709ms
+[2015.09.06-09.02.07:765][830]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/HandgunA_Actor32B6858B49622FB7669A4D846ABB81A0.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Assets/Actors/HandgunA_Actor.uasset'
+[2015.09.06-09.02.07:766][830]LogSavePackage: Total save time: 17.050356ms
+[2015.09.06-09.02.07:766][830]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Assets/Actors/HandgunA_Actor.uasset
+[2015.09.06-09.02.08:290][893]BlueprintLog: New page: Compile HandgunA_Actor
+[2015.09.06-09.02.08:349][893]BlueprintEditorCompileResults: Info [0501.61] Compile of HandgunA_Actor successful! [in 59 ms]
+[2015.09.06-09.02.09:950][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.06-09.02.09:951][ 81]PIE: New page: PIE session: FirstPersonExampleMap (Sep 6, 2015, 1:02:09 PM)
+[2015.09.06-09.02.09:951][ 81]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.06-09.02.09:975][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024407s)
+[2015.09.06-09.02.09:977][ 81]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.06-09.02.09:977][ 81]LogPlayLevel: PIE: World Init took: (0.001428s)
+[2015.09.06-09.02.09:977][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026182s)
+[2015.09.06-09.02.10:004][ 81]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.06-09.02.10:012][ 81]LogInit: FAudioDevice initialized.
+[2015.09.06-09.02.10:042][ 81]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.06-09.02.10:047][ 81]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.09.06-11.02.10
+[2015.09.06-09.02.10:047][ 81]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.06-09.02.10:047][ 81]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.06-09.02.10:048][ 81]LogWorld: Bringing up level for play took: 0.005361
+[2015.09.06-09.02.10:058][ 81]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.058
+[2015.09.06-09.02.10:084][ 82]LogRenderer: Reallocating scene render targets to support 1256x784 (Frame:22253).
+[2015.09.06-09.02.11:508][239]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006C178EA0
+[2015.09.06-09.02.21:702][383]LogActorFactory: Actor Factory created placeholder_gunmagazine
+[2015.09.06-09.02.22:602][476]LogActorFactory: Actor Factory created placeholder_gunmagazine
+[2015.09.06-09.02.30:439][385]LogActorFactory: Actor Factory created placeholder_gunmagazine
+[2015.09.06-09.02.32:033][564]LogActorFactory: Actor Factory created placeholder_gunmagazine
+[2015.09.06-09.02.36:361][926]LogSavePackage: Save=1201.672974ms
+[2015.09.06-09.02.36:361][926]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/FirstPersonExampleMap79C39AA64947B3F7490D38998F02F018.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.09.06-09.02.36:364][926]LogSavePackage: Total save time: 1223.683652ms
+[2015.09.06-09.02.36:364][926]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2015.09.06-09.02.36:880][982]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.06-09.02.36:880][982]PIE: New page: PIE session: FirstPersonExampleMap (Sep 6, 2015, 1:02:36 PM)
+[2015.09.06-09.02.36:880][982]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.06-09.02.36:901][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020678s)
+[2015.09.06-09.02.36:902][982]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.06-09.02.36:902][982]LogPlayLevel: PIE: World Init took: (0.001387s)
+[2015.09.06-09.02.36:903][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022437s)
+[2015.09.06-09.02.36:928][982]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.06-09.02.36:937][982]LogInit: FAudioDevice initialized.
+[2015.09.06-09.02.36:969][982]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.06-09.02.36:975][982]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.09.06-11.02.36
+[2015.09.06-09.02.36:975][982]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.06-09.02.36:975][982]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.06-09.02.36:975][982]LogWorld: Bringing up level for play took: 0.005224
+[2015.09.06-09.02.36:977][982]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.977
+[2015.09.06-09.02.41:568][530]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Action Execution has not been implemented yet
+[2015.09.06-09.02.42:709][667]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Action Execution has not been implemented yet
+[2015.09.06-09.02.44:684][904]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Action Execution has not been implemented yet
+[2015.09.06-09.02.45:284][976]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Action Execution has not been implemented yet
+[2015.09.06-09.02.47:635][258]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Action Execution has not been implemented yet
+[2015.09.06-09.02.48:102][314]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Action Execution has not been implemented yet
+[2015.09.06-09.02.50:319][580]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Action Execution has not been implemented yet
+[2015.09.06-09.02.50:885][648]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Action Execution has not been implemented yet
+[2015.09.06-09.02.51:094][673]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Action Execution has not been implemented yet
+[2015.09.06-09.02.51:327][701]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Action Execution has not been implemented yet
+[2015.09.06-09.03.01:460][917]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Action Execution has not been implemented yet
+[2015.09.06-09.03.02:585][ 52]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Action Execution has not been implemented yet
+[2015.09.06-09.03.02:902][ 90]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Action Execution has not been implemented yet
+[2015.09.06-09.03.07:020][584]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Action Execution has not been implemented yet
+[2015.09.06-09.03.07:822][672]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006C17B920
+[2015.09.06-09.03.14:612][478]LogSavePackage: Save=14.225647ms
+[2015.09.06-09.03.14:612][478]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/HandgunA_Actor314C6BFB42EB431B73C066BD566B6761.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Assets/Actors/HandgunA_Actor.uasset'
+[2015.09.06-09.03.14:612][478]LogSavePackage: Total save time: 17.618369ms
+[2015.09.06-09.03.14:613][478]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Assets/Actors/HandgunA_Actor.uasset
+[2015.09.06-09.03.15:344][566]BlueprintLog: New page: Compile HandgunA_Actor
+[2015.09.06-09.03.15:398][566]BlueprintEditorCompileResults: Info [0568.66] Compile of HandgunA_Actor successful! [in 54 ms]
+[2015.09.06-09.03.34:670][779]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (placeholder_gunmagazine)
+[2015.09.06-09.03.35:709][899]Cmd: DELETE
+[2015.09.06-09.03.35:709][899]Cmd: ACTOR DELETE
+[2015.09.06-09.03.35:711][899]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.09.06-09.03.35:712][899]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.09.06-09.03.35:735][899]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2015.09.06-09.03.55:261][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (placeholder_gunmagazine2)
+[2015.09.06-09.03.57:406][471]Cmd: DELETE
+[2015.09.06-09.03.57:406][471]Cmd: ACTOR DELETE
+[2015.09.06-09.03.57:407][471]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.09.06-09.03.57:428][471]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2015.09.06-09.04.34:916][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.06-09.04.34:916][953]PIE: New page: PIE session: FirstPersonExampleMap (Sep 6, 2015, 1:04:34 PM)
+[2015.09.06-09.04.34:917][953]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.06-09.04.34:936][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019822s)
+[2015.09.06-09.04.34:938][953]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.06-09.04.34:938][953]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2015.09.06-09.04.34:938][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021383s)
+[2015.09.06-09.04.34:938][953]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.09.06-09.04.34:966][953]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.06-09.04.34:973][953]LogInit: FAudioDevice initialized.
+[2015.09.06-09.04.35:001][953]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.06-09.04.35:006][953]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.09.06-11.04.35
+[2015.09.06-09.04.35:006][953]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.06-09.04.35:007][953]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.06-09.04.35:007][953]LogWorld: Bringing up level for play took: 0.005377
+[2015.09.06-09.04.35:009][953]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.007
+[2015.09.06-09.04.40:940][662]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Action Execution has not been implemented yet
+[2015.09.06-09.04.50:403][791]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000485242C0
+[2015.09.06-09.04.54:635][141]LogSavePackage: Save=1190.671631ms
+[2015.09.06-09.04.54:635][141]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/FirstPersonExampleMapDACEAAC94CBCD90F4EF2FCAC6D2A5416.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.09.06-09.04.54:638][141]LogSavePackage: Total save time: 1196.069621ms
+[2015.09.06-09.04.54:638][141]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2015.09.06-09.04.54:665][141]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.286
+[2015.09.06-09.04.54:674][141]LogSavePackage: Save=2.004011ms
+[2015.09.06-09.04.54:674][141]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/HandgunA_Texture8F651C3846C477E949D99CB4C00AAC39.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Textures/HandgunA_Texture.uasset'
+[2015.09.06-09.04.54:674][141]LogSavePackage: Total save time: 2.893075ms
+[2015.09.06-09.04.54:674][141]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Textures/HandgunA_Texture.uasset
+[2015.09.06-10.04.06:136][405]LogHttp:Warning: Timeout processing Http request. 000000006C36A100
+[2015.09.06-10.35.19:405][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ParticelSystem/ItemGlow" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/ParticelSystem/ItemGlow.uasset" SILENT=true
+[2015.09.06-10.35.19:409][624]LogSavePackage: Save=3.439406ms
+[2015.09.06-10.35.19:409][624]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemGlowB9664CBB4F5829921E2CC3BE7349D8E3.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/ParticelSystem/ItemGlow.uasset'
+[2015.09.06-10.35.19:410][624]LogSavePackage: Total save time: 4.820891ms
+[2015.09.06-10.35.19:410][624]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/ParticelSystem/ItemGlow.uasset
+[2015.09.06-10.35.19:442][624]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.09.06-10.35.23:137][ 54]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2015.09.06-10.35.54:598][804]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.09.06-10.37.07:459][650]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.024
+[2015.09.06-10.37.07:464][650]LogSavePackage: Save=0.671015ms
+[2015.09.06-10.37.07:464][650]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemGlow_Auto1ACB87FB6445C3E9D75DF58A16099CA40.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Particels/ItemGlow_Auto1.uasset'
+[2015.09.06-10.37.07:465][650]LogSavePackage: Total save time: 1.206804ms
+[2015.09.06-10.37.07:465][650]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Particels/ItemGlow_Auto1.uasset
+[2015.09.06-10.37.07:468][650]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ParticelSystem/ItemGlow] ([1] browsable assets)...
+[2015.09.06-10.37.07:473][650]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/ParticelSystem/ItemGlow.ItemGlow]
+[2015.09.06-10.37.07:473][650]OBJ SavePackage: Finished generating thumbnails for package [/Game/ParticelSystem/ItemGlow]
+[2015.09.06-10.37.07:485][650]LogSavePackage: Save=4.846490ms
+[2015.09.06-10.37.07:485][650]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemGlow_Auto11B7D84E049315D3F061FD09967900E89.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/ParticelSystem/ItemGlow_Auto1.uasset'
+[2015.09.06-10.37.07:485][650]LogSavePackage: Total save time: 11.842158ms
+[2015.09.06-10.37.07:485][650]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/ParticelSystem/ItemGlow_Auto1.uasset
+[2015.09.06-10.37.07:485][650]LogFileHelpers: Auto-saving content packages took 0.026
+[2015.09.06-10.39.01:313][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/ItemGlow" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemGlow.uasset" SILENT=true
+[2015.09.06-10.39.01:318][  1]LogSavePackage: Save=5.182299ms
+[2015.09.06-10.39.01:318][  1]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemGlow5C9A87EB4E72CF21CA7DAAA5B1D37167.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemGlow.uasset'
+[2015.09.06-10.39.01:319][  1]LogSavePackage: Total save time: 6.366514ms
+[2015.09.06-10.39.01:319][  1]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemGlow.uasset
+[2015.09.06-10.39.08:454][834]LogCascade: Quitting Cascade. FXSystem=0x000000002D60F600
+[2015.09.06-10.39.27:779][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/ItemSparcling_Particle" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparcling_Particle.uasset" SILENT=true
+[2015.09.06-10.39.27:784][127]LogSavePackage: Save=5.113631ms
+[2015.09.06-10.39.27:784][127]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemSparcling_ParticleB85A0AC74FE46FCA5E8D2196CE5829E0.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparcling_Particle.uasset'
+[2015.09.06-10.39.27:786][127]LogSavePackage: Total save time: 6.663773ms
+[2015.09.06-10.39.27:786][127]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparcling_Particle.uasset
+[2015.09.06-10.39.27:859][127]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D60F600
+[2015.09.06-10.39.56:596][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/ItemSparkling_Particle" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset" SILENT=true
+[2015.09.06-10.39.56:602][561]LogSavePackage: Save=5.251569ms
+[2015.09.06-10.39.56:602][561]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemSparkling_Particle2B9EA9AA4ACC1201B4206CAD816EE207.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset'
+[2015.09.06-10.39.56:603][561]LogSavePackage: Total save time: 6.474335ms
+[2015.09.06-10.39.56:603][561]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset
+[2015.09.06-10.41.32:827][770]LogMaterial: Missing cached shader map for material Spark, compiling. 
+[2015.09.06-10.41.32:910][770]LogMaterial: Missing cached shader map for material Spark, compiling. 
+[2015.09.06-10.41.32:915][770]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.06-10.41.34:662][876]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.09.06-10.41.34:662][876]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.09.06-10.41.34:662][876]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.09.06-10.41.59:770][418]LogMaterial: Missing cached shader map for material Spark, compiling. 
+[2015.09.06-10.41.59:778][418]LogMaterial: Missing cached shader map for material Spark, compiling. 
+[2015.09.06-10.41.59:783][418]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.06-10.42.00:853][532]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.09.06-10.42.00:853][532]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.09.06-10.42.00:853][532]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.09.06-10.42.01:663][629]LogMaterial: Missing cached shader map for material Spark, compiling. 
+[2015.09.06-10.42.01:679][629]LogMaterial: Missing cached shader map for material Spark, compiling. 
+[2015.09.06-10.42.01:685][629]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.06-10.42.03:483][822]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.09.06-10.42.03:483][822]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 60 instructions
+[2015.09.06-10.42.03:483][822]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.09.06-10.42.03:484][822]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.09.06-10.42.04:601][956]LogMaterial: Missing cached shader map for material Spark, compiling. 
+[2015.09.06-10.42.04:606][956]LogMaterial: Missing cached shader map for material Spark, compiling. 
+[2015.09.06-10.42.04:609][956]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.06-10.42.05:694][  5]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2015.09.06-10.42.05:694][  5]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.09.06-10.42.05:694][  5]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.06-10.42.16:843][634]LogMaterial: Missing cached shader map for material Spark, compiling. 
+[2015.09.06-10.42.16:846][634]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.06-10.42.17:569][714]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2015.09.06-10.42.17:569][714]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.09.06-10.42.17:569][714]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.06-10.42.26:743][149]LogMaterial: Missing cached shader map for material Spark, compiling. 
+[2015.09.06-10.42.26:747][149]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.06-10.42.27:497][235]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.09.06-10.42.27:497][235]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.09.06-10.42.27:497][235]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.06-10.42.28:318][333]LogMaterial: Missing cached shader map for material Spark, compiling. 
+[2015.09.06-10.42.28:321][333]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.06-10.42.29:112][425]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.09.06-10.42.29:112][425]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.09.06-10.42.29:112][425]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.06-10.43.40:329][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Spark_Material" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/Spark_Material.uasset" SILENT=true
+[2015.09.06-10.43.40:340][ 41]LogSavePackage: Save=9.727917ms
+[2015.09.06-10.43.40:340][ 41]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Spark_MaterialBAC6786F4A323430FDD8CF8068BCEDA8.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/Spark_Material.uasset'
+[2015.09.06-10.43.40:341][ 41]LogSavePackage: Total save time: 11.012726ms
+[2015.09.06-10.43.40:341][ 41]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/Spark_Material.uasset
+[2015.09.06-10.43.50:577][254]LogMaterial:Warning: Material /Game/Particles/Spark_Material.Spark_Material needed to have new flag set bUsedWithParticleSprites !
+[2015.09.06-10.43.50:577][254]LogMaterial:Warning: Material /Engine/Transient.Spark needed to have new flag set bUsedWithParticleSprites !
+[2015.09.06-10.43.50:579][254]LogMaterial: Missing cached shader map for material Spark, compiling. 
+[2015.09.06-10.43.50:582][254]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.06-10.43.50:583][254]LogMaterial: Missing cached shader map for material Spark_Material, compiling. 
+[2015.09.06-10.43.50:610][254]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.06-10.43.51:702][329]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.09.06-10.43.51:702][329]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.09.06-10.43.51:702][329]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.06-10.43.58:960][112]LogCascade: Quitting Cascade. FXSystem=0x000000002D60C4A0
+[2015.09.06-10.44.07:498][ 99]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.09.06-10.44.20:568][658]LogMaterialEditor: Saving and Compiling material Spark_Material
+[2015.09.06-10.44.21:086][658]LogMaterial: Missing cached shader map for material Spark, compiling. 
+[2015.09.06-10.44.21:095][658]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.06-10.44.21:122][658]LogMaterial: Missing cached shader map for material Spark_Material, compiling. 
+[2015.09.06-10.44.21:133][658]LogMaterial: Missing cached shader map for material Spark_Material, compiling. 
+[2015.09.06-10.44.21:140][658]LogMaterial: 0.000742 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.06-10.44.23:078][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Spark_Material" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/Spark_Material.uasset" SILENT=true
+[2015.09.06-10.44.23:093][658]LogSavePackage: Save=8.291920ms
+[2015.09.06-10.44.23:093][658]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Spark_Material8BB8B5DA4C9D1A9193C008813FAEB67F.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/Spark_Material.uasset'
+[2015.09.06-10.44.23:095][658]LogSavePackage: Total save time: 15.763741ms
+[2015.09.06-10.44.23:095][658]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/Spark_Material.uasset
+[2015.09.06-10.44.23:098][658]MaterialEditorStats: Info Base pass shader without light map: 37 instructions
+[2015.09.06-10.44.23:099][658]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.09.06-10.44.23:099][658]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.09.06-10.44.58:406][721]LogCascade: Quitting Cascade. FXSystem=0x000000002D60D580
+[2015.09.06-10.45.01:791][105]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D60D580
+[2015.09.06-10.45.01:792][105]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D60C4A0
+[2015.09.06-10.45.25:020][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/ItemSparkling_Particle" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset" SILENT=true
+[2015.09.06-10.45.25:025][717]LogSavePackage: Save=4.415510ms
+[2015.09.06-10.45.25:025][717]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemSparkling_Particle45AC409649C3814509A03C8F091A5EEC.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset'
+[2015.09.06-10.45.25:026][717]LogSavePackage: Total save time: 5.676825ms
+[2015.09.06-10.45.25:026][717]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset
+[2015.09.06-10.46.53:183][526]LogCascade: Non-seeded module ParticleModuleTypeDataGpu
+[2015.09.06-10.47.56:136][990]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.025
+[2015.09.06-10.47.56:140][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Spark" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Particles/Spark_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.09.06-10.47.56:142][990]LogSavePackage: Save=1.002909ms
+[2015.09.06-10.47.56:142][990]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Spark_Auto28564DC0D4A243F161E8E51B29872F366.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Particles/Spark_Auto2.uasset'
+[2015.09.06-10.47.56:142][990]LogSavePackage: Total save time: 1.766987ms
+[2015.09.06-10.47.56:142][990]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Particles/Spark_Auto2.uasset
+[2015.09.06-10.47.56:145][990]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/ItemSparkling_Particle] ([1] browsable assets)...
+[2015.09.06-10.47.56:151][990]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/ItemSparkling_Particle.ItemSparkling_Particle]
+[2015.09.06-10.47.56:151][990]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/ItemSparkling_Particle]
+[2015.09.06-10.47.56:159][990]LogSavePackage: Save=5.335597ms
+[2015.09.06-10.47.56:160][990]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemSparkling_Particle_Auto2DEAB6F1D490FE3D825B6C5BFA797F5E0.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Particles/ItemSparkling_Particle_Auto2.uasset'
+[2015.09.06-10.47.56:160][990]LogSavePackage: Total save time: 8.498825ms
+[2015.09.06-10.47.56:160][990]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Particles/ItemSparkling_Particle_Auto2.uasset
+[2015.09.06-10.47.56:160][990]LogFileHelpers: Auto-saving content packages took 0.024
+[2015.09.06-10.54.23:299][590]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Rendering/ParticleSystems/Cascade/index.html?utm_source=editor&utm_medium=docs&utm_campaign=tutorials#emitterspanel
+[2015.09.06-10.55.48:708][177]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Rendering/ParticleSystems/Reference/index.html?utm_source=editor&utm_medium=docs&utm_campaign=tutorials
+[2015.09.06-10.56.50:515][843]LogCascade: Quitting Cascade. FXSystem=0x0000000047079620
+[2015.09.06-10.57.56:828][773]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.09.06-10.58.44:417][644]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047079620
+[2015.09.06-10.58.44:421][644]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.026
+[2015.09.06-10.58.44:425][644]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/ItemSparkling_Particle] ([1] browsable assets)...
+[2015.09.06-10.58.44:430][644]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/ItemSparkling_Particle.ItemSparkling_Particle]
+[2015.09.06-10.58.44:430][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/ItemSparkling_Particle]
+[2015.09.06-10.58.44:442][644]LogSavePackage: Save=4.895280ms
+[2015.09.06-10.58.44:442][644]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemSparkling_Particle_Auto34EC27337483657D18359D78167939C95.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Particles/ItemSparkling_Particle_Auto3.uasset'
+[2015.09.06-10.58.44:442][644]LogSavePackage: Total save time: 11.809934ms
+[2015.09.06-10.58.44:442][644]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Particles/ItemSparkling_Particle_Auto3.uasset
+[2015.09.06-10.58.44:443][644]LogFileHelpers: Auto-saving content packages took 0.021
+[2015.09.06-10.58.55:956][839]LogCascade: Non-seeded module ParticleModuleSize
+[2015.09.06-10.58.59:070][212]LogCascade: Non-seeded module ParticleModuleSize
+[2015.09.06-10.59.00:887][429]LogCascade: Non-seeded module ParticleModuleSize
+[2015.09.06-10.59.26:068][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/ItemSparkling_Particle" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset" SILENT=true
+[2015.09.06-10.59.26:076][735]LogSavePackage: Save=4.843478ms
+[2015.09.06-10.59.26:076][735]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemSparkling_Particle590621E345F41AA02BA5BFB5D43CC3EF.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset'
+[2015.09.06-10.59.26:077][735]LogSavePackage: Total save time: 8.268427ms
+[2015.09.06-10.59.26:077][735]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset
+[2015.09.06-10.59.36:368][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/ItemSparkling_Particle" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset" SILENT=true
+[2015.09.06-10.59.36:376][968]LogSavePackage: Save=4.832937ms
+[2015.09.06-10.59.36:376][968]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemSparkling_Particle8B755F224B54DF53088B3087CEC32BC7.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset'
+[2015.09.06-10.59.36:377][968]LogSavePackage: Total save time: 8.295536ms
+[2015.09.06-10.59.36:377][968]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset
+[2015.09.06-10.59.39:652][361]LogCascade: Quitting Cascade. FXSystem=0x00000000514091C0
+[2015.09.06-10.59.39:681][361]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2015.09.06-11.00.03:018][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/ItemSparkling_Particle" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset" SILENT=true
+[2015.09.06-11.00.03:026][127]LogSavePackage: Save=4.810650ms
+[2015.09.06-11.00.03:026][127]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemSparkling_Particle49F6665E4B2E845964E4E0BE7154D24E.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset'
+[2015.09.06-11.00.03:027][127]LogSavePackage: Total save time: 8.069351ms
+[2015.09.06-11.00.03:027][127]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset
+[2015.09.06-11.00.50:896][ 51]LogCascade: Non-seeded module ParticleModuleSizeMultiplyLife
+[2015.09.06-11.04.34:752][295]LogCascade: Non-seeded module ParticleModuleSizeScaleBySpeed
+[2015.09.06-11.05.46:154][856]LogCascade: Non-seeded module ParticleModuleSizeScale
+[2015.09.06-11.06.25:009][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/ItemSparkling_Particle" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset" SILENT=true
+[2015.09.06-11.06.25:021][507]LogSavePackage: Save=5.215729ms
+[2015.09.06-11.06.25:021][507]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemSparkling_ParticleD890CB1D4D9A8EDD8FE855987417B7E2.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset'
+[2015.09.06-11.06.25:022][507]LogSavePackage: Total save time: 12.268919ms
+[2015.09.06-11.06.25:022][507]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset
+[2015.09.06-11.08.45:333][843]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000514091C0
+[2015.09.06-11.08.45:336][843]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.025
+[2015.09.06-11.08.45:340][843]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/ItemSparkling_Particle] ([1] browsable assets)...
+[2015.09.06-11.08.45:346][843]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/ItemSparkling_Particle.ItemSparkling_Particle]
+[2015.09.06-11.08.45:346][843]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/ItemSparkling_Particle]
+[2015.09.06-11.08.45:354][843]LogSavePackage: Save=4.910942ms
+[2015.09.06-11.08.45:354][843]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemSparkling_Particle_Auto441637B7843471564DB745D95ED6C25D4.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Particles/ItemSparkling_Particle_Auto4.uasset'
+[2015.09.06-11.08.45:354][843]LogSavePackage: Total save time: 8.041043ms
+[2015.09.06-11.08.45:354][843]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Particles/ItemSparkling_Particle_Auto4.uasset
+[2015.09.06-11.08.45:354][843]LogFileHelpers: Auto-saving content packages took 0.018
+[2015.09.06-12.13.51:164][830]LogCascade: Non-seeded module ParticleModuleTypeDataGpu
+[2015.09.06-12.13.56:221][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/ItemSparkling_Particle" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset" SILENT=true
+[2015.09.06-12.13.56:234][433]LogSavePackage: Save=5.337404ms
+[2015.09.06-12.13.56:234][433]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemSparkling_ParticleB9BBE5A146CD84A025D84C87C3ED63DF.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset'
+[2015.09.06-12.13.56:235][433]LogSavePackage: Total save time: 13.825085ms
+[2015.09.06-12.13.56:235][433]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset
+[2015.09.06-12.15.33:656][729]LogCascade: Non-seeded module ParticleModuleVelocity
+[2015.09.06-12.15.36:433][ 59]LogCascade: Non-seeded module ParticleModuleColorOverLife
+[2015.09.06-12.16.57:050][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/ItemSparkling_Particle" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset" SILENT=true
+[2015.09.06-12.16.57:058][ 25]LogSavePackage: Save=5.022978ms
+[2015.09.06-12.16.57:059][ 25]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemSparkling_Particle7C124FAD40489FF9171C48A063FCB0F2.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset'
+[2015.09.06-12.16.57:060][ 25]LogSavePackage: Total save time: 8.653630ms
+[2015.09.06-12.16.57:060][ 25]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset
+[2015.09.06-12.21.42:535][952]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.027
+[2015.09.06-12.21.42:539][952]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/ItemSparkling_Particle] ([1] browsable assets)...
+[2015.09.06-12.21.42:547][952]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/ItemSparkling_Particle.ItemSparkling_Particle]
+[2015.09.06-12.21.42:547][952]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/ItemSparkling_Particle]
+[2015.09.06-12.21.42:557][952]LogSavePackage: Save=6.146959ms
+[2015.09.06-12.21.42:557][952]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemSparkling_Particle_Auto5A37AE62D44AAC33DB9E1B09A520F9098.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Particles/ItemSparkling_Particle_Auto5.uasset'
+[2015.09.06-12.21.42:557][952]LogSavePackage: Total save time: 9.388793ms
+[2015.09.06-12.21.42:557][952]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Particles/ItemSparkling_Particle_Auto5.uasset
+[2015.09.06-12.21.42:557][952]LogFileHelpers: Auto-saving content packages took 0.022
+[2015.09.06-12.25.53:858][ 62]LogCascade: Quitting Cascade. FXSystem=0x00000000447AB2E0
+[2015.09.06-12.26.59:102][658]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000447AB2E0
+[2015.09.06-12.26.59:104][658]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000049A59800
+[2015.09.06-12.26.59:125][658]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C7165C0
+[2015.09.06-12.27.02:453][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particels/ItemGlow" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particels/ItemGlow.uasset" SILENT=true
+[2015.09.06-12.27.02:455][658]LogSavePackage: Save=0.730949ms
+[2015.09.06-12.27.02:455][658]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemGlow448E2B5F43216CD0EEA63CAA091D2F0A.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particels/ItemGlow.uasset'
+[2015.09.06-12.27.02:456][658]LogSavePackage: Total save time: 1.822103ms
+[2015.09.06-12.27.02:456][658]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particels/ItemGlow.uasset
+[2015.09.06-12.27.02:461][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/ItemSparkling_Particle" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset" SILENT=true
+[2015.09.06-12.27.02:468][658]LogSavePackage: Save=3.317129ms
+[2015.09.06-12.27.02:468][658]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/ItemSparkling_ParticleB089DAD24DCC857893F943B03B0AF2C3.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset'
+[2015.09.06-12.27.02:469][658]LogSavePackage: Total save time: 7.348344ms
+[2015.09.06-12.27.02:469][658]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/ItemSparkling_Particle.uasset
+[2015.09.06-12.27.02:474][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Spark" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/Spark.uasset" SILENT=true
+[2015.09.06-12.27.02:475][658]LogSavePackage: Save=0.659872ms
+[2015.09.06-12.27.02:475][658]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/SparkA415BA3D4171B90EB85C818C22A14441.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/Spark.uasset'
+[2015.09.06-12.27.02:476][658]LogSavePackage: Total save time: 1.781143ms
+[2015.09.06-12.27.02:476][658]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Particles/Spark.uasset
+[2015.09.06-12.27.02:988][659]Cmd: QUIT_EDITOR
+[2015.09.06-12.27.03:291][659]LogExit: Preparing to exit.
+[2015.09.06-12.27.04:288][659]LogExit: Editor shut down
+[2015.09.06-12.27.04:292][659]LogExit: Transaction tracking system shut down
+[2015.09.06-12.27.04:337][659]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002CC8E520
+[2015.09.06-12.27.04:353][659]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000035FB3880
+[2015.09.06-12.27.04:353][659]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000036108680
+[2015.09.06-12.27.04:353][659]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032D26DE0
+[2015.09.06-12.27.04:363][659]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032D272E0
+[2015.09.06-12.27.04:367][659]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000059DF7EC0
+[2015.09.06-12.27.07:084][659]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000370C0540
+[2015.09.06-12.27.07:084][659]LogExit: Object subsystem successfully closed.
+[2015.09.06-12.27.07:113][659]LogD3D11RHI: Shutdown
+[2015.09.06-12.27.07:113][659]LogD3D11RHI: CleanupD3DDevice
+[2015.09.06-12.27.07:303][659]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.06-12.27.07:317][659]LogModuleManager: Shutting down and abandoning module MaterialEditor (202)
+[2015.09.06-12.27.07:317][659]LogModuleManager: Shutting down and abandoning module DistCurveEditor (201)
+[2015.09.06-12.27.07:317][659]LogModuleManager: Shutting down and abandoning module Cascade (200)
+[2015.09.06-12.27.07:317][659]LogModuleManager: Shutting down and abandoning module SequencerWidgets (199)
+[2015.09.06-12.27.07:317][659]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2015.09.06-12.27.07:317][659]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.09.06-12.27.07:317][659]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.09.06-12.27.07:317][659]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.09.06-12.27.07:317][659]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.09.06-12.27.07:317][659]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.09.06-12.27.07:350][659]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.09.06-12.27.07:350][659]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.09.06-12.27.07:350][659]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.09.06-12.27.07:351][659]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.09.06-12.27.07:351][659]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.09.06-12.27.07:351][659]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.09.06-12.27.07:351][659]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.09.06-12.27.07:351][659]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.09.06-12.27.07:351][659]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.09.06-12.27.07:351][659]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.09.06-12.27.07:351][659]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.09.06-12.27.07:351][659]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.09.06-12.27.07:351][659]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.09.06-12.27.07:351][659]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.09.06-12.27.07:351][659]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.09.06-12.27.07:352][659]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.09.06-12.27.07:352][659]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.09.06-12.27.07:352][659]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.09.06-12.27.07:352][659]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.09.06-12.27.07:352][659]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.09.06-12.27.07:352][659]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.09.06-12.27.08:325][659]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.09.06-12.27.08:325][659]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.09.06-12.27.08:325][659]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.09.06-12.27.08:325][659]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.09.06-12.27.08:325][659]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.09.06-12.27.08:325][659]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.09.06-12.27.08:326][659]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.09.06-12.27.08:326][659]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.09.06-12.27.08:326][659]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.09.06-12.27.08:326][659]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.09.06-12.27.08:326][659]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.09.06-12.27.08:326][659]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.09.06-12.27.08:327][659]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.09.06-12.27.08:327][659]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.09.06-12.27.08:327][659]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.09.06-12.27.08:327][659]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.09.06-12.27.08:327][659]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.09.06-12.27.08:327][659]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.09.06-12.27.08:327][659]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.09.06-12.27.08:328][659]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.09.06-12.27.08:328][659]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.09.06-12.27.08:328][659]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.09.06-12.27.08:328][659]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.09.06-12.27.08:328][659]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.09.06-12.27.08:328][659]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.09.06-12.27.08:328][659]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.09.06-12.27.08:328][659]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.09.06-12.27.08:328][659]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.09.06-12.27.08:328][659]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.09.06-12.27.08:328][659]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.09.06-12.27.08:328][659]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.09.06-12.27.08:328][659]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.09.06-12.27.08:329][659]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.09.06-12.27.08:329][659]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.09.06-12.27.08:329][659]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.09.06-12.27.08:329][659]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.09.06-12.27.08:331][659]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.09.06-12.27.08:331][659]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.09.06-12.27.08:331][659]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.09.06-12.27.08:331][659]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.09.06-12.27.08:331][659]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.09.06-12.27.08:331][659]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.09.06-12.27.08:331][659]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.09.06-12.27.08:331][659]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.09.06-12.27.08:332][659]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.09.06-12.27.08:332][659]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.09.06-12.27.08:332][659]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.09.06-12.27.08:332][659]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.09.06-12.27.08:332][659]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.09.06-12.27.08:332][659]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.09.06-12.27.08:348][659]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.09.06-12.27.08:348][659]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.09.06-12.27.08:348][659]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.09.06-12.27.08:348][659]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.09.06-12.27.08:348][659]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.09.06-12.27.08:348][659]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.09.06-12.27.08:348][659]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.09.06-12.27.08:348][659]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.09.06-12.27.08:356][659]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.09.06-12.27.08:356][659]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.09.06-12.27.08:356][659]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.09.06-12.27.08:356][659]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.09.06-12.27.08:356][659]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.09.06-12.27.08:356][659]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.09.06-12.27.08:356][659]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.09.06-12.27.08:357][659]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.09.06-12.27.08:357][659]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.09.06-12.27.08:357][659]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.09.06-12.27.08:357][659]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.09.06-12.27.08:357][659]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.09.06-12.27.08:357][659]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.09.06-12.27.08:357][659]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.09.06-12.27.08:358][659]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.09.06-12.27.08:358][659]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.09.06-12.27.08:358][659]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.09.06-12.27.08:358][659]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.09.06-12.27.08:358][659]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.09.06-12.27.08:358][659]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.09.06-12.27.08:358][659]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.09.06-12.27.08:358][659]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.09.06-12.27.08:358][659]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.09.06-12.27.08:358][659]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.09.06-12.27.08:359][659]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.09.06-12.27.08:379][659]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.09.06-12.27.08:564][659]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.09.06-12.27.08:566][659]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.09.06-12.27.08:566][659]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.09.06-12.27.08:666][659]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.09.06-12.27.08:666][659]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.09.06-12.27.08:666][659]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.09.06-12.27.08:680][659]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.09.06-12.27.08:681][659]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.09.06-12.27.08:683][659]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.09.06-12.27.08:683][659]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.09.06-12.27.08:683][659]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.09.06-12.27.08:683][659]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.09.06-12.27.08:683][659]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.09.06-12.27.08:683][659]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.09.06-12.27.08:683][659]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.09.06-12.27.08:683][659]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.09.06-12.27.08:683][659]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.09.06-12.27.08:683][659]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.09.06-12.27.08:683][659]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.09.06-12.27.08:683][659]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.09.06-12.27.08:683][659]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.09.06-12.27.08:683][659]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.09.06-12.27.08:685][659]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.09.06-12.27.08:685][659]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.09.06-12.27.08:685][659]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.09.06-12.27.08:685][659]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.09.06-12.27.08:685][659]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.09.06-12.27.08:685][659]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.09.06-12.27.08:685][659]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.09.06-12.27.08:685][659]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.09.06-12.27.08:685][659]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.09.06-12.27.08:685][659]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.09.06-12.27.08:691][659]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.09.06-12.27.08:706][659]LogDerivedDataCache: Shutdown
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.09.06-12.27.08:706][659]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.09.06-12.27.08:707][659]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.09.06-12.27.08:707][659]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.09.06-12.27.10:708][659]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.09.06-12.27.10:708][659]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.09.06-12.27.10:708][659]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.09.06-12.27.10:708][659]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.09.06-12.27.10:708][659]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.09.06-12.27.10:708][659]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.09.06-12.27.10:730][659]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.09.06-12.27.10:731][659]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.09.06-12.27.10:731][659]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.09.06-12.27.10:731][659]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.06-12.27.10:731][659]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.06-12.27.10:731][659]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.06-12.27.10:731][659]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.06-12.27.10:731][659]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.06-12.27.10:731][659]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.06-12.27.10:731][659]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.06-12.27.10:732][659]LogExit: Exiting.
+[2015.09.06-12.27.10:751][659]Log file closed, 09/06/15 14:27:10
