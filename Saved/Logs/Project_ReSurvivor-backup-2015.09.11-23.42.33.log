@@ -1,0 +1,621 @@
+﻿[2015.09.11-21.41.36:595][  0]Log file open, 09/11/15 23:41:36
+[2015.09.11-21.41.36:595][  0]LogInit:Display: Running engine for game: Project_ReSurvivor
+[2015.09.11-21.41.36:595][  0]LogInit:Display: RandInit(-267060350) SRandInit(-267060349).
+[2015.09.11-21.41.36:595][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.11-21.41.36:595][  0]LogStats: Stats thread started at 0.241334
+[2015.09.11-21.41.36:595][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.11-21.41.36:595][  0]LogInit: API Version: 2672455
+[2015.09.11-21.41.36:595][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.09.11-21.41.36:595][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.11-21.41.36:595][  0]LogInit: Build Configuration: Development
+[2015.09.11-21.41.36:595][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.11-21.41.36:595][  0]LogInit: Command line:  
+[2015.09.11-21.41.36:595][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.11-21.41.36:595][  0]LogInit: Rocket: 1
+[2015.09.11-21.41.36:611][  0]LogInit: Using libcurl 7.41.0
+[2015.09.11-21.41.36:611][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.11-21.41.36:611][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.11-21.41.36:611][  0]LogInit:  - other features:
+[2015.09.11-21.41.36:612][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.11-21.41.36:612][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.11-21.41.36:612][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.11-21.41.36:612][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.11-21.41.36:612][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.11-21.41.36:612][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.11-21.41.36:612][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.11-21.41.36:612][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.11-21.41.36:612][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.11-21.41.36:612][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.11-21.41.36:625][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.11-21.41.36:632][  0]LogInit: Object subsystem initialized
+[2015.09.11-21.41.36:635][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.11-21.41.36:635][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.11-21.41.36:641][  0]LogInit: Computer: DAMIR-PC
+[2015.09.11-21.41.36:641][  0]LogInit: User: Damir
+[2015.09.11-21.41.36:641][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.11-21.41.36:641][  0]LogInit: High frequency timer resolution =3.320371 MHz
+[2015.09.11-21.41.36:641][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.09.11-21.41.36:641][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.11-21.41.36:641][  0]LogMemory: Process Physical Memory: 53.86 MB used, 53.86 MB peak
+[2015.09.11-21.41.36:641][  0]LogMemory: Process Virtual Memory: 56.33 MB used, 56.33 MB peak
+[2015.09.11-21.41.36:641][  0]LogMemory: Physical Memory: 3450.49 MB used, 8136.55 MB total
+[2015.09.11-21.41.36:641][  0]LogMemory: Virtual Memory: 336.11 MB used, 8388608.00 MB total
+[2015.09.11-21.41.36:700][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2015.09.11-21.41.37:386][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2015.09.11-21.41.37:386][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.09.11-21.41.37:386][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.11-21.41.37:392][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.11-21.41.37:392][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.11-21.41.37:398][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.11-21.41.37:415][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Intermediate/Shaders/WorkingDirectory/6816/).
+[2015.09.11-21.41.37:415][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Intermediate/Shaders/tmp/F72735E445A76D6E7FB71487FE7FCCDF/'.
+[2015.09.11-21.41.37:415][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.11-21.41.38:547][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.11-21.41.38:552][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.11-21.41.38:557][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.11-21.41.38:562][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.11-21.41.38:566][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.11-21.41.38:570][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.11-21.41.38:573][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.11-21.41.38:576][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.11-21.41.38:579][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.11-21.41.38:583][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.11-21.41.38:586][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.11-21.41.38:590][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.11-21.41.38:591][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.11-21.41.38:608][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.11-21.41.38:611][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.11-21.41.38:614][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.11-21.41.38:618][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.11-21.41.38:618][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.11-21.41.38:695][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.11-21.41.38:824][  0]LogDerivedDataCache: Loaded boot cache 0.13s 41MB C:/Users/Damir/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.11-21.41.38:824][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Damir/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.11-21.41.38:824][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.11-21.41.38:824][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.11-21.41.38:824][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.11-21.41.38:824][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.11-21.41.38:957][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.11-21.41.38:968][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Damir/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.11-21.41.39:329][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.11-21.41.39:329][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.11-21.41.39:351][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.11-21.41.39:351][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.11-21.41.39:671][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.11-21.41.40:730][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.11-21.41.40:897][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2015.09.11-21.41.41:099][  0]SourceControl: Info Source control is disabled
+[2015.09.11-21.41.41:104][  0]SourceControl: Info Source control is disabled
+[2015.09.11-21.41.41:114][  0]SourceControl: Info Source control is disabled
+[2015.09.11-21.41.41:123][  0]SourceControl: Info Source control is disabled
+[2015.09.11-21.41.41:269][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.11-21.41.41:351][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.09.11-21.41.41:351][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.09.11-21.41.41:418][  0]LogEngine: Initializing Engine...
+[2015.09.11-21.41.41:421][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.11-21.41.41:423][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.11-21.41.41:549][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.11-21.41.41:554][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.11-21.41.41:591][  0]LogInit: FAudioDevice initialized.
+[2015.09.11-21.41.41:617][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Damir/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.11-21.41.41:621][  0]LogInit: Texture streaming: Enabled
+[2015.09.11-21.41.41:627][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.11-21.41.41:627][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.11-21.41.41:627][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 823be5244adb21341b1538b68ee82034|51c2a24b0ca544adac8a22d4708797c6|ec4eac3e-148a-4a5a-9f28-33d773939611
+[2015.09.11-21.41.41:627][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.11-21.41.41:646][  0]LogInit: Transaction tracking system initialized
+[2015.09.11-21.41.41:680][  0]BlueprintLog: New page: Editor Load
+[2015.09.11-21.41.41:804][  0]LocalizationService: Info Localization service is disabled
+[2015.09.11-21.41.41:896][  0]LogConsoleResponse:Display: 
+[2015.09.11-21.41.41:998][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.11-21.41.42:072][  0]SourceControl: Info Source control is disabled
+[2015.09.11-21.41.42:072][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.11-21.41.42:073][  0]LightingResults: New page: Lighting Build
+[2015.09.11-21.41.42:078][  0]MapCheck: New page: Map Check
+[2015.09.11-21.41.42:078][  0]LightingResults: New page: Lighting Build
+[2015.09.11-21.41.42:086][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023DD2160
+[2015.09.11-21.41.42:479][  0]LogBlueprint:Warning: [Menu_Widget] CreatePinForVariable: 'RestoreValue' variable not found. Base class was probably changed.
+[2015.09.11-21.41.42:512][  0]LogBlueprint:Warning: [compiler Menu_Widget] Warning Could not find a variable named "RestoreValue" in 'HealthRestoreBase_Actor_C'.
+Make sure 'HealthRestoreBase_Actor_C' has been compiled for  Get RestoreValue 
+[2015.09.11-21.41.42:517][  0]LogBlueprint:Error: [compiler Menu_Widget] Error The property associated with  Restore Value  could not be found
+[2015.09.11-21.41.42:533][  0]LogBlueprint:Warning: [compiler Menu_Widget] Warning [0006.66] Compile of Menu_Widget failed. 1 Fatal Issue(s) 1 Warning(s) [in 32 ms]
+[2015.09.11-21.41.42:534][  0]LogBlueprint:Warning: [compiler Menu_Widget] Warning [0006.66] Compile of Menu_Widget failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.09.11-21.41.42:534][  0]LogBlueprint:Warning: [compiler Menu_Widget] Warning [0006.66] Compile of Menu_Widget failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.09.11-21.41.42:544][  0]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning Default Enum value 'ItemTypes' for class 'ItemBaseClass_Actor_C' is invalid in object 'Default__ItemBaseClass_Actor_C' 
+[2015.09.11-21.41.42:544][  0]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning [0006.67] Compile of ItemBaseClass_Actor successful, but with 1 Warning(s) [in 4 ms]
+[2015.09.11-21.41.42:545][  0]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning [0006.67] Compile of ItemBaseClass_Actor successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.11-21.41.42:545][  0]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning [0006.67] Compile of ItemBaseClass_Actor successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.11-21.41.42:557][  0]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning Default Enum value 'WeaponName' for class 'WeaponBaseClass_Actor_C' is invalid in object 'Default__WeaponBaseClass_Actor_C' 
+[2015.09.11-21.41.42:557][  0]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning Default Enum value 'WeaponClass' for class 'WeaponBaseClass_Actor_C' is invalid in object 'Default__WeaponBaseClass_Actor_C' 
+[2015.09.11-21.41.42:558][  0]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning [0006.68] Compile of WeaponBaseClass_Actor successful, but with 2 Warning(s) [in 1 ms]
+[2015.09.11-21.41.42:558][  0]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning [0006.68] Compile of WeaponBaseClass_Actor successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.11-21.41.42:558][  0]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning [0006.69] Compile of WeaponBaseClass_Actor successful, but with 4 Warning(s) [in 0 ms]
+[2015.09.11-21.41.42:560][  0]LogBlueprint:Warning: [compiler AmmunitionBaseClass_Actor] Warning Default Enum value 'WeaponClass' for class 'AmmunitionBaseClass_Actor_C' is invalid in object 'Default__AmmunitionBaseClass_Actor_C' 
+[2015.09.11-21.41.42:560][  0]LogBlueprint:Warning: [compiler AmmunitionBaseClass_Actor] Warning [0006.69] Compile of AmmunitionBaseClass_Actor successful, but with 1 Warning(s) [in 0 ms]
+[2015.09.11-21.41.42:560][  0]LogBlueprint:Warning: [compiler AmmunitionBaseClass_Actor] Warning [0006.69] Compile of AmmunitionBaseClass_Actor successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.11-21.41.42:560][  0]LogBlueprint:Warning: [compiler AmmunitionBaseClass_Actor] Warning [0006.69] Compile of AmmunitionBaseClass_Actor successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.11-21.41.42:957][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/FileBase_Actor.FileBase_Actor_C:UserConstructionScript; removing parent information, but keeping function
+[2015.09.11-21.41.42:977][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/GameItems/FirstAidSpray_Actor.FirstAidSpray_Actor_C:UserConstructionScript; removing parent information, but keeping function
+[2015.09.11-21.41.42:985][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/GameItems/HandgunA_Actor.HandgunA_Actor_C:UserConstructionScript; removing parent information, but keeping function
+[2015.09.11-21.41.42:993][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/GameItems/Shotgun_Actor.Shotgun_Actor_C:UserConstructionScript; removing parent information, but keeping function
+[2015.09.11-21.41.43:000][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/GameItems/ShotgunShells_Actor.ShotgunShells_Actor_C:UserConstructionScript; removing parent information, but keeping function
+[2015.09.11-21.41.43:320][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.11-21.41.43:321][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:321][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:322][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:322][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:322][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:322][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:322][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:322][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:322][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:322][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:322][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:322][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:322][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:325][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:325][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:325][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:325][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:325][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:325][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.11-21.41.43:338][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.11-21.41.43:339][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.11-21.41.43:375][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 35.826ms to complete.
+[2015.09.11-21.41.43:375][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.303
+[2015.09.11-21.41.43:471][  0]LogCollectionManager: Loaded 0 collections in 0.001848 seconds
+[2015.09.11-21.41.43:508][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Collections/' took 0.01s
+[2015.09.11-21.41.43:508][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Developers/Damir/Collections/' took 0.01s
+[2015.09.11-21.41.43:508][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Collections/' took 0.01s
+[2015.09.11-21.41.43:508][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 1867 classes and 333 folders.
+[2015.09.11-21.41.43:513][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.09.11-21.41.43:520][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.09.11-21.41.43:603][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.11-21.41.43:612][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.09.11-21.41.43:641][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.11-21.41.43:645][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.11-21.41.43:666][  0]LogLoad: Full Startup: 7.79 seconds (BP compile: 0.34 seconds)
+[2015.09.11-21.41.43:677][  0]LoadErrors:Error: Error /Game/Blueprints/Widgets/Menu_Widget : Failed import for FloatProperty /Game/Placeholder_Assets/Actors/HealthRestoreBase_Actor.HealthRestoreBase_Actor_C:RestoreValue
+[2015.09.11-21.41.43:677][  0]LoadErrors:Error: Error /Game/Blueprints/Widgets/Menu_Widget : Failed import for IntProperty /Game/Blueprints/Widgets/InventorySlot_Widget.InventorySlot_Widget_C:InventoryIndex
+[2015.09.11-21.41.43:724][  0]LogContentStreaming: Texture pool size now 700 MB
+[2015.09.11-21.41.43:818][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.09.11-21.41.44:205][  8]LogAssetRegistry: Asset discovery search completed in 3.3183 seconds
+[2015.09.11-21.41.44:205][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.09.11-21.41.44:205][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2015.09.11-21.41.53:273][ 63]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.11-21.41.53:693][ 63]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2015.09.11-21.41.59:329][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.11-21.42.01:696][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FirstPersonCharacter" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2015.09.11-21.42.01:745][943]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseTurnRate' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:745][943]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseLookUpRate' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:745][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CharacterMovement' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:745][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:745][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:745][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:745][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:745][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:745][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:745][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponMesh' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MenuIsOpen' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'ItemTypes' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponClass' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponClass' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempNeedToLoad' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:746][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempNeedToLoad' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentInLoop' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentInLoop' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentInLoop' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempLooping' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'FirstPersonCamera' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'FirstPersonCamera' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:747][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Class' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'IsStackable' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Class' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Class' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempArrayElement' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponMesh' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponMesh' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'AttachmentSocket' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CurrentHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:748][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaximumHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:749][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaximumHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:749][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CurrentHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:749][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:749][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CurrentHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:749][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaximumHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:749][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:749][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:793][943]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseTurnRate' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:793][943]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseLookUpRate' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:793][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CharacterMovement' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:793][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponMesh' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MenuIsOpen' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'ItemTypes' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponClass' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponClass' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:794][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempNeedToLoad' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempNeedToLoad' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentInLoop' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentInLoop' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentInLoop' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempLooping' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:795][943]LogBlueprintUserMessages: Serialization for Get node for variable 'FirstPersonCamera' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'FirstPersonCamera' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Class' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'IsStackable' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Class' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Class' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempArrayElement' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponMesh' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponMesh' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'AttachmentSocket' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:796][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:797][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CurrentHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:797][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaximumHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:797][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaximumHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:797][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CurrentHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:797][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:797][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CurrentHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:797][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaximumHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:797][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:797][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:842][943]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseTurnRate' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:842][943]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseLookUpRate' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:842][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CharacterMovement' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:842][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponMesh' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MenuIsOpen' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'ItemTypes' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponClass' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponClass' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:843][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempNeedToLoad' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempNeedToLoad' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentInLoop' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentInLoop' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentInLoop' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempLooping' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'FirstPersonCamera' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:844][943]LogBlueprintUserMessages: Serialization for Get node for variable 'FirstPersonCamera' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Class' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'IsStackable' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Class' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Class' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempArrayElement' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponMesh' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponMesh' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'AttachmentSocket' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:845][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CurrentHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:846][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaximumHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:846][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaximumHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:846][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CurrentHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:846][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:846][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CurrentHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:846][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaximumHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:846][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:846][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:989][943]LogBlueprintUserMessages: Serialization for Get node for variable 'IsStackable' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:989][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Class' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Class' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempArrayElement' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CurrentHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaximumHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaximumHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CurrentHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CurrentHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaximumHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponMesh' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'AttachmentSocket' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponMesh' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseTurnRate' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CharacterMovement' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseLookUpRate' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:990][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Class' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'FirstPersonCamera' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempNeedToLoad' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentInLoop' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentInLoop' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentInLoop' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempLooping' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'ItemTypes' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponClass' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponClass' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempNeedToLoad' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:991][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:992][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:992][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:992][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:992][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:992][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:992][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:992][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:992][943]LogBlueprintUserMessages: Serialization for Get node for variable 'FirstPersonCamera' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:992][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MenuIsOpen' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:992][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:992][943]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:992][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:992][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:992][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponMesh' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.01:992][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:057][943]LogBlueprintUserMessages: Serialization for Get node for variable 'IsStackable' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:057][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:057][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Class' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:057][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:057][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Class' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:057][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:057][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:057][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:057][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:057][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:057][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempArrayElement' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:057][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:057][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:057][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:057][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempAddItem' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:057][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CurrentHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:057][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaximumHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaximumHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CurrentHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CurrentHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaximumHealth' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponMesh' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'AttachmentSocket' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponMesh' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseTurnRate' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'CharacterMovement' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseLookUpRate' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Class' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'FirstPersonCamera' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempNeedToLoad' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentInLoop' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:058][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentInLoop' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentInLoop' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempLooping' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempCurrentIndex' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'ItemTypes' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponClass' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponClass' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'TempNeedToLoad' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:059][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:060][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:060][943]LogBlueprintUserMessages: Serialization for Get node for variable 'StackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:060][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MaxStackSize' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:060][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:060][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:060][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Inventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:060][943]LogBlueprintUserMessages: Serialization for Get node for variable 'FirstPersonCamera' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:060][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MenuIsOpen' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:060][943]LogBlueprintUserMessages: Serialization for Get node for variable 'HUDElements' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:060][943]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:060][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponLinkToInventory' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:060][943]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:060][943]LogBlueprintUserMessages: Serialization for Get node for variable 'WeaponMesh' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:060][943]LogBlueprintUserMessages: Serialization for Get node for variable 'MovementStopped' in Blueprint '/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.09.11-21.42.02:061][943]LogSavePackage: Save=361.779144ms
+[2015.09.11-21.42.02:061][943]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/FirstPersonCharacterB1C575ED48C77FC85F50B7B9F5633737.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Blueprints/FirstPersonCharacter.uasset'
+[2015.09.11-21.42.02:063][943]LogSavePackage: Total save time: 366.447907ms
+[2015.09.11-21.42.02:063][943]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Blueprints/FirstPersonCharacter.uasset
+[2015.09.11-21.42.04:268][206]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.09.11-21.42.06:251][206]LogSavePackage: Save=1842.142700ms
+[2015.09.11-21.42.06:251][206]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/FirstPersonExampleMapD2A84AB14C10B86C788C08A66E0CF98E.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.09.11-21.42.06:255][206]LogSavePackage: Total save time: 1848.484702ms
+[2015.09.11-21.42.06:255][206]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2015.09.11-21.42.06:286][206]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.943
+[2015.09.11-21.42.27:127][682]LogCrashTracker: 
+
+
+[2015.09.11-21.42.27:127][682]LogCrashTracker: 
+
+
+[2015.09.11-21.42.27:127][682]LogWindows: === Critical error: ===
+Fatal error!
+
+
+
+[2015.09.11-21.42.27:240][682]LogExit: Executing StaticShutdownAfterError
+[2015.09.11-21.42.27:244][682]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.09.11-21.42.27:245][682]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.09.11-21.42.27:245][682]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.09.11-21.42.27:245][682]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.09.11-21.42.27:245][682]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.09.11-21.42.27:245][682]Log file closed, 09/11/15 23:42:27
