@@ -43,3 +43,5 @@ Temporary Items
 .apdisk
 *.ini
 Saved/AutoScreenshot.png
+Intermediate/CachedAssetRegistry.bin
+Intermediate/Config/CoalescedSourceConfigs/Engine.ini
