@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<Version>1</Version>
+<ProcessId>7012</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<GameName>Project_ReSurvivor</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.9.0-2672455+++depot+UE4-Releases+4.9</EngineVersion>
+<CommandLine> </CommandLine>
+<LanguageLCID>9</LanguageLCID>
+<DefaultLocale>de_DE</DefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Program Files/Epic Games/4.9/</RootDir>
+<MachineId>823BE5244ADB21341B1538B68EE82034</MachineId>
+<EpicAccountId>51c2a24b0ca544adac8a22d4708797c6</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage></ErrorMessage>
+<MiscNumberOfCores>4</MiscNumberOfCores>
+<MiscNumberOfCoresIncludingHyperthreads>4</MiscNumberOfCoresIncludingHyperthreads>
+<MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
+<MiscCPUVendor>GenuineIntel</MiscCPUVendor>
+<MiscCPUBrand>Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz</MiscCPUBrand>
+<MiscPrimaryGPUBrand>NVIDIA GeForce GTX 660  </MiscPrimaryGPUBrand>
+<MiscOSVersionMajor>Windows 7</MiscOSVersionMajor>
+<MiscOSVersionMinor>Service Pack 1</MiscOSVersionMinor>
+<CrashDumpMode>0</CrashDumpMode>
+<MemoryStatsTotalPhysical>8531795968</MemoryStatsTotalPhysical>
+<MemoryStatsTotalVirtual>8796092891136</MemoryStatsTotalVirtual>
+<MemoryStatsPageSize>4096</MemoryStatsPageSize>
+<MemoryStatsTotalPhysicalGB>8</MemoryStatsTotalPhysicalGB>
+<MemoryStatsAvailablePhysical>0</MemoryStatsAvailablePhysical>
+<MemoryStatsAvailableVirtual>0</MemoryStatsAvailableVirtual>
+<MemoryStatsUsedPhysical>0</MemoryStatsUsedPhysical>
+<MemoryStatsPeakUsedPhysical>0</MemoryStatsPeakUsedPhysical>
+<MemoryStatsUsedVirtual>0</MemoryStatsUsedVirtual>
+<MemoryStatsPeakUsedVirtual>0</MemoryStatsPeakUsedVirtual>
+<MemoryStatsbIsOOM>0</MemoryStatsbIsOOM>
+<MemoryStatsOOMAllocationSize>0</MemoryStatsOOMAllocationSize>
+<MemoryStatsOOMAllocationAlignment>0</MemoryStatsOOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>

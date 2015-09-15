@@ -1,0 +1,984 @@
+<<<<<<< HEAD
+﻿[2015.09.14-05.26.52:243][  0]Log file open, 09/14/15 07:26:52
+[2015.09.14-05.26.52:243][  0]LogInit:Display: Running engine for game: Project_ReSurvivor
+[2015.09.14-05.26.52:243][  0]LogInit:Display: RandInit(933840319) SRandInit(933840320).
+[2015.09.14-05.26.52:243][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.14-05.26.52:243][  0]LogStats: Stats thread started at 0.371773
+[2015.09.14-05.26.52:243][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.14-05.26.52:243][  0]LogInit: API Version: 2672455
+[2015.09.14-05.26.52:243][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.09.14-05.26.52:243][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.14-05.26.52:243][  0]LogInit: Build Configuration: Development
+[2015.09.14-05.26.52:243][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.14-05.26.52:243][  0]LogInit: Command line:  
+[2015.09.14-05.26.52:243][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.14-05.26.52:243][  0]LogInit: Rocket: 1
+[2015.09.14-05.26.52:260][  0]LogInit: Using libcurl 7.41.0
+[2015.09.14-05.26.52:260][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.14-05.26.52:260][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.14-05.26.52:260][  0]LogInit:  - other features:
+[2015.09.14-05.26.52:260][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.14-05.26.52:260][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.14-05.26.52:260][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.14-05.26.52:260][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.14-05.26.52:260][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.14-05.26.52:261][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.14-05.26.52:261][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.14-05.26.52:261][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.14-05.26.52:261][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.14-05.26.52:261][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.14-05.26.52:276][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.14-05.26.52:287][  0]LogInit: Object subsystem initialized
+[2015.09.14-05.26.52:296][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.14-05.26.52:296][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.14-05.26.52:304][  0]LogInit: Computer: DAMIR-PC
+[2015.09.14-05.26.52:304][  0]LogInit: User: Damir
+[2015.09.14-05.26.52:304][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.14-05.26.52:304][  0]LogInit: High frequency timer resolution =3.320380 MHz
+[2015.09.14-05.26.52:304][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.09.14-05.26.52:304][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.14-05.26.52:304][  0]LogMemory: Process Physical Memory: 54.24 MB used, 54.24 MB peak
+[2015.09.14-05.26.52:304][  0]LogMemory: Process Virtual Memory: 56.30 MB used, 56.30 MB peak
+[2015.09.14-05.26.52:304][  0]LogMemory: Physical Memory: 4957.41 MB used, 8136.55 MB total
+[2015.09.14-05.26.52:304][  0]LogMemory: Virtual Memory: 336.11 MB used, 8388608.00 MB total
+[2015.09.14-05.26.52:397][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2015.09.14-05.26.53:091][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2015.09.14-05.26.53:091][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.09.14-05.26.53:091][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.14-05.26.53:095][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.14-05.26.53:095][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.14-05.26.53:101][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.14-05.26.53:126][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Intermediate/Shaders/WorkingDirectory/1936/).
+[2015.09.14-05.26.53:126][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Intermediate/Shaders/tmp/A687FBAA4E03656928D280A0DA692B6D/'.
+[2015.09.14-05.26.53:126][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.14-05.26.54:220][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.14-05.26.54:225][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.14-05.26.54:230][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.14-05.26.54:235][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.14-05.26.54:241][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.14-05.26.54:245][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.14-05.26.54:249][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.14-05.26.54:253][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.14-05.26.54:257][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.14-05.26.54:261][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.14-05.26.54:265][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.14-05.26.54:269][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.14-05.26.54:271][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.14-05.26.54:291][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.14-05.26.54:295][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.14-05.26.54:298][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.14-05.26.54:302][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.14-05.26.54:302][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.14-05.26.54:402][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.14-05.26.54:523][  0]LogDerivedDataCache: Loaded boot cache 0.12s 41MB C:/Users/Damir/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.14-05.26.54:523][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Damir/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.14-05.26.54:523][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.14-05.26.54:523][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.14-05.26.54:523][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.14-05.26.54:523][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.14-05.26.54:658][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.14-05.26.54:669][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Damir/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.14-05.26.55:109][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.14-05.26.55:110][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.14-05.26.55:144][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.14-05.26.55:144][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.14-05.26.55:569][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.14-05.26.56:724][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
+[2015.09.14-05.26.56:753][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.14-05.26.57:090][  0]SourceControl: Info Source control is disabled
+[2015.09.14-05.26.57:102][  0]SourceControl: Info Source control is disabled
+[2015.09.14-05.26.57:113][  0]SourceControl: Info Source control is disabled
+[2015.09.14-05.26.57:123][  0]SourceControl: Info Source control is disabled
+[2015.09.14-05.26.57:260][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.14-05.26.57:349][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2015.09.14-05.26.57:349][  0]LogUObjectAllocator: 6068464 out of 0 bytes used by permanent object pool.
+[2015.09.14-05.26.57:424][  0]LogEngine: Initializing Engine...
+[2015.09.14-05.26.57:426][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.14-05.26.57:428][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.14-05.26.57:564][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.14-05.26.57:575][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.14-05.26.57:584][  0]LogInit: FAudioDevice initialized.
+[2015.09.14-05.26.57:607][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Damir/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.14-05.26.57:612][  0]LogInit: Texture streaming: Enabled
+[2015.09.14-05.26.57:617][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.14-05.26.57:618][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.14-05.26.57:618][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 823be5244adb21341b1538b68ee82034|51c2a24b0ca544adac8a22d4708797c6|ec4eac3e-148a-4a5a-9f28-33d773939611
+[2015.09.14-05.26.57:618][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.14-05.26.57:638][  0]LogInit: Transaction tracking system initialized
+[2015.09.14-05.26.57:682][  0]BlueprintLog: New page: Editor Load
+[2015.09.14-05.26.57:832][  0]LocalizationService: Info Localization service is disabled
+[2015.09.14-05.26.57:941][  0]LogConsoleResponse:Display: 
+[2015.09.14-05.26.58:066][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.14-05.26.58:147][  0]SourceControl: Info Source control is disabled
+[2015.09.14-05.26.58:148][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.14-05.26.58:148][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.09.14-05.26.58:149][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.14-05.26.58:175][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 26.558ms to complete.
+[2015.09.14-05.26.58:175][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.028
+[2015.09.14-05.26.58:301][  0]LogCollectionManager: Loaded 0 collections in 0.001849 seconds
+[2015.09.14-05.26.58:346][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Collections/' took 0.01s
+[2015.09.14-05.26.58:346][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Developers/Damir/Collections/' took 0.01s
+[2015.09.14-05.26.58:346][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Collections/' took 0.01s
+[2015.09.14-05.26.58:346][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 1882 classes and 339 folders.
+[2015.09.14-05.26.58:358][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.09.14-05.26.58:367][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.14-05.26.58:455][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.14-05.26.58:469][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.09.14-05.26.58:519][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.14-05.26.58:528][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.14-05.26.58:551][  0]LogLoad: Full Startup: 7.19 seconds (BP compile: 0.02 seconds)
+[2015.09.14-05.26.58:602][  0]LogContentStreaming: Texture pool size now 700 MB
+[2015.09.14-05.26.58:716][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.09.14-05.26.58:830][  2]LogAssetRegistry: Asset discovery search completed in 2.1168 seconds
+[2015.09.14-05.26.58:830][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.09.14-05.26.58:830][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2015.09.14-05.28.48:184][956]Cmd: QUIT_EDITOR
+[2015.09.14-05.28.48:426][956]LogExit: Preparing to exit.
+[2015.09.14-05.28.48:827][956]LogExit: Editor shut down
+[2015.09.14-05.28.48:831][956]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000256EC2C0
+[2015.09.14-05.28.48:831][956]LogExit: Transaction tracking system shut down
+[2015.09.14-05.28.48:832][956]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000241DFB00
+[2015.09.14-05.28.48:832][956]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024009940
+[2015.09.14-05.28.48:942][956]LogExit: Object subsystem successfully closed.
+[2015.09.14-05.28.48:954][956]LogD3D11RHI: Shutdown
+[2015.09.14-05.28.48:954][956]LogD3D11RHI: CleanupD3DDevice
+[2015.09.14-05.28.48:975][956]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.14-05.28.48:991][956]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (199)
+[2015.09.14-05.28.48:991][956]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.09.14-05.28.48:991][956]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.09.14-05.28.48:991][956]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.09.14-05.28.48:991][956]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.09.14-05.28.48:991][956]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.09.14-05.28.48:992][956]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.09.14-05.28.48:992][956]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.09.14-05.28.48:992][956]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2015.09.14-05.28.48:992][956]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2015.09.14-05.28.48:992][956]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2015.09.14-05.28.48:992][956]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2015.09.14-05.28.48:992][956]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2015.09.14-05.28.48:992][956]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2015.09.14-05.28.48:992][956]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2015.09.14-05.28.48:992][956]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2015.09.14-05.28.48:992][956]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2015.09.14-05.28.48:992][956]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2015.09.14-05.28.48:992][956]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2015.09.14-05.28.48:992][956]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2015.09.14-05.28.48:993][956]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2015.09.14-05.28.48:993][956]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2015.09.14-05.28.48:993][956]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2015.09.14-05.28.48:993][956]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2015.09.14-05.28.48:993][956]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2015.09.14-05.28.48:993][956]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2015.09.14-05.28.49:881][956]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2015.09.14-05.28.49:882][956]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2015.09.14-05.28.49:882][956]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2015.09.14-05.28.49:882][956]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2015.09.14-05.28.49:882][956]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2015.09.14-05.28.49:882][956]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2015.09.14-05.28.49:882][956]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2015.09.14-05.28.49:882][956]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2015.09.14-05.28.49:882][956]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2015.09.14-05.28.49:882][956]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2015.09.14-05.28.49:883][956]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2015.09.14-05.28.49:883][956]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2015.09.14-05.28.49:883][956]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2015.09.14-05.28.49:883][956]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2015.09.14-05.28.49:883][956]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2015.09.14-05.28.49:884][956]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2015.09.14-05.28.49:884][956]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2015.09.14-05.28.49:885][956]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2015.09.14-05.28.49:885][956]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2015.09.14-05.28.49:885][956]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2015.09.14-05.28.49:886][956]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2015.09.14-05.28.49:886][956]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2015.09.14-05.28.49:886][956]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2015.09.14-05.28.49:886][956]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2015.09.14-05.28.49:886][956]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2015.09.14-05.28.49:887][956]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2015.09.14-05.28.49:887][956]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2015.09.14-05.28.49:887][956]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2015.09.14-05.28.49:887][956]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2015.09.14-05.28.49:887][956]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2015.09.14-05.28.49:887][956]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2015.09.14-05.28.49:887][956]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2015.09.14-05.28.49:897][956]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2015.09.14-05.28.49:897][956]LogModuleManager: Shutting down and abandoning module SubstanceEditor (122)
+[2015.09.14-05.28.49:897][956]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.09.14-05.28.49:897][956]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.09.14-05.28.49:897][956]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.09.14-05.28.49:897][956]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.09.14-05.28.49:897][956]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.09.14-05.28.49:897][956]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.09.14-05.28.49:897][956]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.09.14-05.28.49:904][956]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.09.14-05.28.49:904][956]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.09.14-05.28.49:904][956]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.09.14-05.28.49:904][956]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.09.14-05.28.49:904][956]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.09.14-05.28.49:904][956]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.09.14-05.28.49:904][956]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.09.14-05.28.49:904][956]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.09.14-05.28.49:904][956]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.09.14-05.28.49:904][956]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.09.14-05.28.49:904][956]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.09.14-05.28.49:904][956]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.09.14-05.28.49:905][956]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.09.14-05.28.49:905][956]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.09.14-05.28.49:905][956]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.09.14-05.28.49:905][956]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.09.14-05.28.49:905][956]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.09.14-05.28.49:905][956]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.09.14-05.28.49:905][956]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.09.14-05.28.49:905][956]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.09.14-05.28.49:905][956]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.09.14-05.28.49:905][956]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.09.14-05.28.49:905][956]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.09.14-05.28.49:905][956]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.09.14-05.28.49:906][956]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2015.09.14-05.28.49:906][956]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2015.09.14-05.28.49:907][956]LogModuleManager: Shutting down and abandoning module UdpMessaging (88)
+[2015.09.14-05.28.50:007][956]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.09.14-05.28.50:007][956]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2015.09.14-05.28.50:090][956]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2015.09.14-05.28.50:090][956]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.09.14-05.28.50:090][956]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.09.14-05.28.50:090][956]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.09.14-05.28.50:092][956]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.09.14-05.28.50:092][956]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.09.14-05.28.50:092][956]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.09.14-05.28.50:092][956]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.09.14-05.28.50:092][956]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.09.14-05.28.50:092][956]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.09.14-05.28.50:093][956]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.09.14-05.28.50:093][956]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.09.14-05.28.50:093][956]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.09.14-05.28.50:093][956]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.09.14-05.28.50:093][956]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.09.14-05.28.50:093][956]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.09.14-05.28.50:094][956]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.09.14-05.28.50:094][956]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.09.14-05.28.50:094][956]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.09.14-05.28.50:094][956]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.09.14-05.28.50:096][956]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.09.14-05.28.50:096][956]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.09.14-05.28.50:096][956]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.09.14-05.28.50:096][956]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.09.14-05.28.50:096][956]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.09.14-05.28.50:096][956]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.09.14-05.28.50:096][956]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.09.14-05.28.50:096][956]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.09.14-05.28.50:096][956]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.09.14-05.28.50:096][956]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.09.14-05.28.50:096][956]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.09.14-05.28.50:168][956]LogDerivedDataCache: Shutdown
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.09.14-05.28.50:168][956]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.09.14-05.28.50:169][956]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.09.14-05.28.50:169][956]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.09.14-05.28.50:169][956]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.09.14-05.28.50:169][956]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.09.14-05.28.50:169][956]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.09.14-05.28.51:169][956]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.09.14-05.28.51:169][956]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.09.14-05.28.51:169][956]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.09.14-05.28.51:170][956]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.09.14-05.28.51:170][956]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.09.14-05.28.51:170][956]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.09.14-05.28.51:170][956]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.09.14-05.28.51:170][956]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.09.14-05.28.51:170][956]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.09.14-05.28.51:171][956]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.14-05.28.51:171][956]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.14-05.28.51:171][956]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.14-05.28.51:171][956]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.14-05.28.51:171][956]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.14-05.28.51:171][956]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.14-05.28.51:171][956]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.14-05.28.51:172][956]LogExit: Exiting.
+[2015.09.14-05.28.51:174][956]Log file closed, 09/14/15 07:28:51
+=======
+﻿[2015.09.14-14.50.43:970][  0]Log file open, 09/14/15 16:50:43
+[2015.09.14-14.50.43:970][  0]LogInit:Display: Running engine for game: Project_ReSurvivor
+[2015.09.14-14.50.43:970][  0]LogInit:Display: RandInit(-693327292) SRandInit(-693327291).
+[2015.09.14-14.50.43:970][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.14-14.50.43:970][  0]LogStats: Stats thread started at 0.143082
+[2015.09.14-14.50.43:970][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.14-14.50.43:970][  0]LogInit: API Version: 2672455
+[2015.09.14-14.50.43:970][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.09.14-14.50.43:970][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.14-14.50.43:970][  0]LogInit: Build Configuration: Development
+[2015.09.14-14.50.43:970][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.14-14.50.43:970][  0]LogInit: Command line:  
+[2015.09.14-14.50.43:970][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.14-14.50.43:970][  0]LogInit: Rocket: 1
+[2015.09.14-14.50.43:985][  0]LogInit: Using libcurl 7.41.0
+[2015.09.14-14.50.43:985][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.14-14.50.43:985][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.14-14.50.43:985][  0]LogInit:  - other features:
+[2015.09.14-14.50.43:985][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.14-14.50.43:985][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.14-14.50.43:985][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.14-14.50.43:985][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.14-14.50.43:985][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.14-14.50.43:985][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.14-14.50.43:985][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.14-14.50.43:985][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.14-14.50.43:985][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.14-14.50.43:985][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.14-14.50.44:001][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.14-14.50.44:016][  0]LogInit: Object subsystem initialized
+[2015.09.14-14.50.44:016][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.14-14.50.44:016][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.14-14.50.44:037][  0]LogInit: Computer: EPICBEARDMAN3D
+[2015.09.14-14.50.44:037][  0]LogInit: User: Tomislav
+[2015.09.14-14.50.44:037][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.14-14.50.44:037][  0]LogInit: High frequency timer resolution =3.906252 MHz
+[2015.09.14-14.50.44:037][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.09.14-14.50.44:037][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.14-14.50.44:037][  0]LogMemory: Process Physical Memory: 56.17 MB used, 56.17 MB peak
+[2015.09.14-14.50.44:037][  0]LogMemory: Process Virtual Memory: 55.32 MB used, 55.32 MB peak
+[2015.09.14-14.50.44:037][  0]LogMemory: Physical Memory: 3328.17 MB used, 16268.80 MB total
+[2015.09.14-14.50.44:037][  0]LogMemory: Virtual Memory: 364.80 MB used, 134217728.00 MB total
+[2015.09.14-14.50.44:175][  0]LogTextLocalizationManager: No translations for ('sr-Latn-RS') exist, falling back to 'en' for localization and internationalization data.
+[2015.09.14-14.50.44:690][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.09.14-14.50.44:690][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 1 output[s]
+[2015.09.14-14.50.44:697][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.09.14-14.50.44:697][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 0 output[s]
+[2015.09.14-14.50.44:699][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.14-14.50.44:699][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 0 output[s]
+[2015.09.14-14.50.44:699][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.14-14.50.44:701][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.14-14.50.44:701][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.14-14.50.44:712][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.14-14.50.44:731][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Intermediate/Shaders/WorkingDirectory/2840/).
+[2015.09.14-14.50.44:731][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Intermediate/Shaders/tmp/795669A14830FFD321070F83D2DA1FB8/'.
+[2015.09.14-14.50.44:731][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.14-14.50.46:064][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.14-14.50.46:069][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.14-14.50.46:073][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.14-14.50.46:077][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.14-14.50.46:082][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.14-14.50.46:086][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.14-14.50.46:089][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.14-14.50.46:091][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.14-14.50.46:094][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.14-14.50.46:096][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.14-14.50.46:099][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.14-14.50.46:102][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.14-14.50.46:102][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.14-14.50.46:141][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.14-14.50.46:143][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.14-14.50.46:147][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.14-14.50.46:152][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.14-14.50.46:152][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.14-14.50.46:402][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.14-14.50.46:553][  0]LogDerivedDataCache: Loaded boot cache 0.15s 41MB C:/Users/Tomislav/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.14-14.50.46:553][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tomislav/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.14-14.50.46:553][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.14-14.50.46:553][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.14-14.50.46:553][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.14-14.50.46:553][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.14-14.50.46:672][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.14-14.50.46:685][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tomislav/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.14-14.50.49:159][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.14-14.50.49:174][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.14-14.50.49:398][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.14-14.50.49:398][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.14-14.50.49:954][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.14-14.50.51:953][  0]LogAssetRegistry: FAssetRegistry took 0.0126 seconds to start up
+[2015.09.14-14.50.51:966][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.14-14.50.52:435][  0]SourceControl: Info Source control is disabled
+[2015.09.14-14.50.52:459][  0]SourceControl: Info Source control is disabled
+[2015.09.14-14.50.52:472][  0]SourceControl: Info Source control is disabled
+[2015.09.14-14.50.52:483][  0]SourceControl: Info Source control is disabled
+[2015.09.14-14.50.52:684][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.14-14.50.52:799][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2015.09.14-14.50.52:799][  0]LogUObjectAllocator: 6068456 out of 0 bytes used by permanent object pool.
+[2015.09.14-14.50.52:910][  0]LogEngine: Initializing Engine...
+[2015.09.14-14.50.52:915][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.14-14.50.52:926][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.14-14.50.53:136][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.14-14.50.53:155][  0]LogInit: XAudio2 using 'Speakers (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.14-14.50.53:178][  0]LogInit: FAudioDevice initialized.
+[2015.09.14-14.50.53:201][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Tomislav/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.14-14.50.53:208][  0]LogInit: Texture streaming: Enabled
+[2015.09.14-14.50.53:214][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.14-14.50.53:214][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.14-14.50.53:214][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId a1cfbb91420322c620ec8ab13eb8ccb7|f9225645bd7847cda58b36280a4487c8|f208c7ae-d060-4a92-8815-3b254badd6b6
+[2015.09.14-14.50.53:215][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.14-14.50.53:271][  0]LogInit: Transaction tracking system initialized
+[2015.09.14-14.50.53:378][  0]BlueprintLog: New page: Editor Load
+[2015.09.14-14.50.53:631][  0]LocalizationService: Info Localization service is disabled
+[2015.09.14-14.50.53:788][  0]LogConsoleResponse:Display: 
+[2015.09.14-14.50.53:917][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.14-14.50.54:035][  0]SourceControl: Info Source control is disabled
+[2015.09.14-14.50.54:038][  0]Cmd: MAP LOAD FILE="D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.14-14.50.54:038][  0]LogEditorServer:Warning: Can't find file 'D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.09.14-14.50.54:038][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.14-14.50.54:079][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.101ms to complete.
+[2015.09.14-14.50.54:080][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.043
+[2015.09.14-14.50.54:285][  0]LogCollectionManager: Loaded 0 collections in 0.002453 seconds
+[2015.09.14-14.50.54:335][  0]LogFileCache: Scanning file cache for directory 'D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Saved/Collections/' took 0.01s
+[2015.09.14-14.50.54:335][  0]LogFileCache: Scanning file cache for directory 'D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Content/Developers/Tomislav/Collections/' took 0.01s
+[2015.09.14-14.50.54:335][  0]LogFileCache: Scanning file cache for directory 'D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Content/Collections/' took 0.01s
+[2015.09.14-14.50.54:335][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 1882 classes and 339 folders.
+[2015.09.14-14.50.54:352][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2015.09.14-14.50.54:365][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.14-14.50.54:631][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.14-14.50.54:642][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2015.09.14-14.50.54:706][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.14-14.50.54:720][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.14-14.50.54:745][  0]LogLoad: Full Startup: 11.60 seconds (BP compile: 0.05 seconds)
+[2015.09.14-14.50.54:855][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.09.14-14.50.54:964][  0]LogRenderer: Reallocating scene render targets to support 1208x668 (Frame:2).
+[2015.09.14-14.50.56:206][132]LogAssetRegistry: Asset discovery search completed in 4.2636 seconds
+[2015.09.14-14.50.56:206][132]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.09.14-14.50.56:206][132]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2015.09.14-14.51.08:620][243]LogBlueprint:Warning: [Menu_Widget] CreatePinForVariable: 'RestoreValue' variable not found. Base class was probably changed.
+[2015.09.14-14.51.08:648][243]LogBlueprint:Warning: [compiler Menu_Widget] Warning Could not find a variable named "RestoreValue" in 'HealthRestoreBase_Actor_C'.
+Make sure 'HealthRestoreBase_Actor_C' has been compiled for  Get RestoreValue 
+[2015.09.14-14.51.08:661][243]LogBlueprint:Error: [compiler Menu_Widget] Error The property associated with  Restore Value  could not be found
+[2015.09.14-14.51.08:685][243]LogBlueprint:Warning: [compiler Menu_Widget] Warning [0025.54] Compile of Menu_Widget failed. 1 Fatal Issue(s) 1 Warning(s) [in 49 ms]
+[2015.09.14-14.51.08:686][243]LogBlueprint:Warning: [compiler Menu_Widget] Warning [0025.54] Compile of Menu_Widget failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.09.14-14.51.08:686][243]LogBlueprint:Warning: [compiler Menu_Widget] Warning [0025.54] Compile of Menu_Widget failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.09.14-14.51.08:694][243]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning Default Enum value 'ItemTypes' for class 'ItemBaseClass_Actor_C' is invalid in object 'Default__ItemBaseClass_Actor_C' 
+[2015.09.14-14.51.08:694][243]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning [0025.55] Compile of ItemBaseClass_Actor successful, but with 1 Warning(s) [in 3 ms]
+[2015.09.14-14.51.08:695][243]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning [0025.55] Compile of ItemBaseClass_Actor successful, but with 2 Warning(s) [in 1 ms]
+[2015.09.14-14.51.08:695][243]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning [0025.55] Compile of ItemBaseClass_Actor successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.14-14.51.08:724][243]LogBlueprint:Error: [compiler FileReader_Widget] Error Could not find a function named "GetFileSize" in 'FileBase_Actor_C'.
+Make sure 'FileBase_Actor_C' has been compiled for  Get File Size 
+[2015.09.14-14.51.08:728][243]LogBlueprint:Warning: [compiler FileReader_Widget] Warning Can't connect pins  File  and  Target : File Base Actor Reference is not compatible with Item Base Class Actor Reference.
+[2015.09.14-14.51.08:728][243]LogBlueprint:Warning: [compiler FileReader_Widget] Warning Can't connect pins  Target  and  File : Item Base Class Actor Reference is not compatible with File Base Actor Reference.
+[2015.09.14-14.51.08:738][243]LogBlueprint:Warning: [compiler FileReader_Widget] Warning [0025.59] Compile of FileReader_Widget failed. 1 Fatal Issue(s) 2 Warning(s) [in 17 ms]
+[2015.09.14-14.51.08:738][243]LogBlueprint:Warning: [compiler FileReader_Widget] Warning [0025.59] Compile of FileReader_Widget failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.09.14-14.51.08:738][243]LogBlueprint:Warning: [compiler FileReader_Widget] Warning [0025.59] Compile of FileReader_Widget failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.09.14-14.51.08:746][243]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning Default Enum value 'WeaponName' for class 'WeaponBaseClass_Actor_C' is invalid in object 'Default__WeaponBaseClass_Actor_C' 
+[2015.09.14-14.51.08:746][243]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning Default Enum value 'WeaponClass' for class 'WeaponBaseClass_Actor_C' is invalid in object 'Default__WeaponBaseClass_Actor_C' 
+[2015.09.14-14.51.08:746][243]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning [0025.60] Compile of WeaponBaseClass_Actor successful, but with 2 Warning(s) [in 1 ms]
+[2015.09.14-14.51.08:747][243]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning [0025.60] Compile of WeaponBaseClass_Actor successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.14-14.51.08:747][243]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning [0025.60] Compile of WeaponBaseClass_Actor successful, but with 4 Warning(s) [in 0 ms]
+[2015.09.14-14.51.08:749][243]LogBlueprint:Warning: [compiler AmmunitionBaseClass_Actor] Warning Default Enum value 'WeaponClass' for class 'AmmunitionBaseClass_Actor_C' is invalid in object 'Default__AmmunitionBaseClass_Actor_C' 
+[2015.09.14-14.51.08:749][243]LogBlueprint:Warning: [compiler AmmunitionBaseClass_Actor] Warning [0025.61] Compile of AmmunitionBaseClass_Actor successful, but with 1 Warning(s) [in 0 ms]
+[2015.09.14-14.51.08:749][243]LogBlueprint:Warning: [compiler AmmunitionBaseClass_Actor] Warning [0025.61] Compile of AmmunitionBaseClass_Actor successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.14-14.51.08:749][243]LogBlueprint:Warning: [compiler AmmunitionBaseClass_Actor] Warning [0025.61] Compile of AmmunitionBaseClass_Actor successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.14-14.51.09:133][243]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/Files/RestaurantOwnerDiary_Actor.RestaurantOwnerDiary_Actor_C:UserConstructionScript; removing parent information, but keeping function
+[2015.09.14-14.51.09:139][243]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/GameItems/FirstAidSpray_Actor.FirstAidSpray_Actor_C:UserConstructionScript; removing parent information, but keeping function
+[2015.09.14-14.51.09:147][243]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/GameItems/HandgunA_Actor.HandgunA_Actor_C:UserConstructionScript; removing parent information, but keeping function
+[2015.09.14-14.51.09:153][243]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/GameItems/Shotgun_Actor.Shotgun_Actor_C:UserConstructionScript; removing parent information, but keeping function
+[2015.09.14-14.51.09:159][243]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/GameItems/ShotgunShells_Actor.ShotgunShells_Actor_C:UserConstructionScript; removing parent information, but keeping function
+[2015.09.14-14.51.09:727][243]LogAIModule: Creating AISystem for world TestingInstance
+[2015.09.14-14.51.09:814][243]Cmd: MAP LOAD FILE="D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Content/Maps/TestingInstance.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.14-14.51.09:814][243]LightingResults: New page: Lighting Build
+[2015.09.14-14.51.09:819][243]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
+[2015.09.14-14.51.09:837][243]LoadErrors: New page: Loading map: TestingInstance.umap
+[2015.09.14-14.51.09:838][243]MapCheck: New page: Map Check
+[2015.09.14-14.51.09:838][243]LightingResults: New page: Lighting Build
+[2015.09.14-14.51.09:854][243]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F7F809D620
+[2015.09.14-14.51.09:866][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:867][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:867][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:867][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:867][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:867][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:867][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:867][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:867][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:867][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:867][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:867][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:867][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:868][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:868][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:869][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:869][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:869][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:869][243]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.51.09:886][243]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.14-14.51.09:918][243]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.14-14.51.09:956][243]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.159ms to complete.
+[2015.09.14-14.51.09:957][243]LogFileHelpers: Loading map 'TestingInstance' took 0.145
+[2015.09.14-14.51.09:960][243]LoadErrors:Error: Error /Game/Blueprints/Widgets/Menu/Menu_Widget : Failed import for FloatProperty /Game/Placeholder_Assets/Actors/HealthRestoreBase_Actor.HealthRestoreBase_Actor_C:RestoreValue
+[2015.09.14-14.51.57:202][569]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 D:/EpicBeardMan/Work/Project Re-Survivor/Assets/Placeholders/Typewriter/typewriter_placeholder.fbx)
+[2015.09.14-14.51.57:228][569]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.09.14-14.51.57:228][569]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.09.14-14.51.57:228][569]LogFbx: ItemName: Model, ItemCount : 1
+[2015.09.14-14.51.57:228][569]LogFbx: ItemName: Material, ItemCount : 1
+[2015.09.14-14.51.57:235][569]LogFbx: Loading FBX Scene from D:/EpicBeardMan/Work/Project Re-Survivor/Assets/Placeholders/Typewriter/typewriter_placeholder.fbx
+[2015.09.14-14.51.57:248][569]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.14-14.51.59:982][569]LogFbx: Loading FBX Scene from D:/EpicBeardMan/Work/Project Re-Survivor/Assets/Placeholders/Typewriter/typewriter_placeholder.fbx
+[2015.09.14-14.51.59:990][569]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.14-14.51.59:992][569]LogLinker:Warning: Can't find file '/Game/Placeholder_Assets/Material'
+[2015.09.14-14.51.59:993][569]LogLinker:Warning: Can't find file '/Game/Placeholder_Assets/Material'
+[2015.09.14-14.52.00:001][569]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.14-14.52.00:029][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:029][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:029][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:029][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:029][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:029][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:029][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:029][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:029][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:029][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:029][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:029][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:029][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:030][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:030][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:030][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:030][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:030][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:030][569]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.52.00:036][569]LogFbx:Warning: Triangulating static mesh Cube
+[2015.09.14-14.52.00:663][569]LogStaticMesh: Building static mesh typewriter_placeholder...
+[2015.09.14-14.52.00:819][569]LogStaticMesh: Built static mesh [0.156877.2s] /Game/Placeholder_Assets/typewriter_placeholder.typewriter_placeholder
+[2015.09.14-14.52.06:058][105]LogActorFactory: Actor Factory created typewriter_placeholder
+[2015.09.14-14.52.07:008][211]LogActorFactory: Actor Factory created typewriter_placeholder
+[2015.09.14-14.52.13:650][995]Cmd: DELETE
+[2015.09.14-14.52.13:650][995]Cmd: ACTOR DELETE
+[2015.09.14-14.52.13:655][995]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.09.14-14.52.13:655][995]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.14-14.52.13:656][995]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.09.14-14.52.13:682][995]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2015.09.14-14.52.20:281][480]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 D:/EpicBeardMan/Work/Project Re-Survivor/Assets/Placeholders/Typewriter/typewriter_placeholder.fbx)
+[2015.09.14-14.52.20:284][480]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.09.14-14.52.20:284][480]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.09.14-14.52.20:284][480]LogFbx: ItemName: Model, ItemCount : 1
+[2015.09.14-14.52.20:284][480]LogFbx: ItemName: Material, ItemCount : 1
+[2015.09.14-14.52.20:288][480]LogFbx: Loading FBX Scene from D:/EpicBeardMan/Work/Project Re-Survivor/Assets/Placeholders/Typewriter/typewriter_placeholder.fbx
+[2015.09.14-14.52.20:295][480]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.14-14.53.09:932][115]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 D:/EpicBeardMan/Work/Project Re-Survivor/Assets/Placeholders/Typewriter/typewriter_placeholder.fbx)
+[2015.09.14-14.53.09:935][115]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.09.14-14.53.09:935][115]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.09.14-14.53.09:935][115]LogFbx: ItemName: Model, ItemCount : 1
+[2015.09.14-14.53.09:935][115]LogFbx: ItemName: Material, ItemCount : 1
+[2015.09.14-14.53.09:939][115]LogFbx: Loading FBX Scene from D:/EpicBeardMan/Work/Project Re-Survivor/Assets/Placeholders/Typewriter/typewriter_placeholder.fbx
+[2015.09.14-14.53.09:946][115]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.14-14.53.16:357][115]LogFbx: Loading FBX Scene from D:/EpicBeardMan/Work/Project Re-Survivor/Assets/Placeholders/Typewriter/typewriter_placeholder.fbx
+[2015.09.14-14.53.16:365][115]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.14-14.53.16:370][115]LogFbx:Warning: Triangulating static mesh Cube
+[2015.09.14-14.53.16:959][115]LogStaticMesh: Building static mesh typewriter_placeholder...
+[2015.09.14-14.53.17:078][115]LogStaticMesh: Built static mesh [0.122155.2s] /Game/Placeholder_Assets/typewriter_placeholder.typewriter_placeholder
+[2015.09.14-14.53.19:420][385]LogActorFactory: Actor Factory created typewriter_placeholder
+[2015.09.14-14.53.20:262][485]LogActorFactory: Actor Factory created typewriter_placeholder
+[2015.09.14-14.53.21:975][683]Cmd: DELETE
+[2015.09.14-14.53.21:975][683]Cmd: ACTOR DELETE
+[2015.09.14-14.53.21:976][683]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.09.14-14.53.21:976][683]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.14-14.53.21:987][683]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2015.09.14-14.53.38:901][379]LogEditorFactories: Performing atomic reimport of [D:/EpicBeardMan/Work/Project Re-Survivor/Assets/Placeholders/Typewriter/typewriter_placeholder.fbx]
+[2015.09.14-14.53.38:924][379]LogFbx: Loading FBX Scene from D:/EpicBeardMan/Work/Project Re-Survivor/Assets/Placeholders/Typewriter/typewriter_placeholder.fbx
+[2015.09.14-14.53.38:931][379]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.14-14.53.38:940][379]LogFbx:Warning: Triangulating static mesh Cube
+[2015.09.14-14.53.39:547][379]LogStaticMesh: Building static mesh typewriter_placeholder...
+[2015.09.14-14.53.39:675][379]LogStaticMesh: Built static mesh [0.130185.2s] /Game/Placeholder_Assets/typewriter_placeholder.typewriter_placeholder
+[2015.09.14-14.53.39:697][379]LogEditorFactories: -- imported successfully
+[2015.09.14-14.53.40:438][446]LogActorFactory: Actor Factory created typewriter_placeholder
+[2015.09.14-14.53.41:057][518]LogActorFactory: Actor Factory created typewriter_placeholder
+[2015.09.14-14.53.42:943][738]Cmd: DELETE
+[2015.09.14-14.53.42:943][738]Cmd: ACTOR DELETE
+[2015.09.14-14.53.42:944][738]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.09.14-14.53.42:944][738]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.14-14.53.42:956][738]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2015.09.14-14.53.49:111][467]LogActorFactory: Actor Factory created typewriter_placeholder
+[2015.09.14-14.53.50:460][628]LogActorFactory: Actor Factory created typewriter_placeholder
+[2015.09.14-14.53.57:654][478]Cmd: SELECT NONE
+[2015.09.14-14.54.04:530][299]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (typewriter_placeholder)
+[2015.09.14-14.54.07:218][617]Cmd: MODE GRID=0
+[2015.09.14-14.54.12:338][225]Cmd: MODE GRID=1
+[2015.09.14-14.54.12:984][300]Cmd: SELECT NONE
+[2015.09.14-14.54.16:418][703]MapCheck: New page: Map Check
+[2015.09.14-14.54.16:430][703]Cmd: MAP REBUILD ALLVISIBLE
+[2015.09.14-14.54.16:436][703]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.09.14-14.54.16:446][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:446][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:446][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:446][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:447][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:447][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:447][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:447][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:447][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:447][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:447][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:447][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:447][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:449][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:449][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:449][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:449][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:449][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:449][703]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.16:464][703]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.14-14.54.16:475][703]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.09.14-14.54.16:475][703]LogStats:          STAT_HLOD_BuildClusters - 11.312 ms
+[2015.09.14-14.54.16:477][703]LightingResults: New page: Lighting Build - Sep 14, 2015, 6:54:16 PM
+[2015.09.14-14.54.19:320][703]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.09.14-14.54.19:320][703]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.09.14-14.54.19:320][703]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.09.14-14.54.19:320][703]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.09.14-14.54.19:320][703]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.09.14-14.54.19:472][703]LogEditorBuildUtils: Build time 0:00:03
+[2015.09.14-14.54.19:489][703]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling. 
+[2015.09.14-14.54.19:492][703]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling. 
+[2015.09.14-14.54.55:140][611]Job is a success!
+[2015.09.14-14.54.55:834][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:834][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:834][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:834][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:834][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:834][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:834][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:834][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:834][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:834][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:834][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:834][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:834][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:834][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:835][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:835][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:835][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:835][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:835][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.54.55:835][612]LogMaterial:Warning: Material /Game/Placeholder_Assets/Material.Material needed to have new flag set bUsedWithStaticLighting !
+[2015.09.14-14.54.55:839][612]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.14-14.54.55:855][612]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.14-14.54.58:038][612]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2015.09.14-14.54.58:203][612]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.09.14-14.54.58:207][612]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.09.14-14.54.58:208][612]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT)
+[2015.09.14-14.54.58:220][612]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.09.14-14.54.58:383][612]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.09.14-14.54.58:871][612]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2015.09.14-14.54.59:090][612]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.09.14-14.54.59:263][612]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.09.14-14.54.59:677][612]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2015.09.14-14.54.59:887][612]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.09.14-14.55.00:081][612]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.09.14-14.55.00:652][612]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2015.09.14-14.55.00:867][612]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.09.14-14.55.01:050][612]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.09.14-14.55.01:503][612]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2015.09.14-14.55.01:697][612]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.09.14-14.55.01:882][612]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.09.14-14.55.02:382][612]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2015.09.14-14.55.02:558][612]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.09.14-14.55.02:740][612]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.09.14-14.55.03:192][612]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2015.09.14-14.55.03:462][612]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.09.14-14.55.03:639][612]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.09.14-14.55.04:346][612]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2015.09.14-14.55.04:739][612]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2015.09.14-14.55.05:128][612]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2015.09.14-14.55.05:523][612]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2015.09.14-14.55.05:915][612]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2015.09.14-14.55.06:307][612]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2015.09.14-14.55.06:712][612]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
+[2015.09.14-14.55.06:771][612]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2015.09.14-14.55.06:772][612]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8)
+[2015.09.14-14.55.06:796][612]Lightmass on EPICBEARDMAN3D: 46.1 sec total, 90 ms importing, 7 ms setup, 2.49 sec photons, 43.5 sec processing, 0 ms extra exporting [9/9 mappings]. Threads: 5:04 min total, 2:22 min processing.
+[2015.09.14-14.55.06:798][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:798][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:798][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:798][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:798][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:798][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:798][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:798][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:798][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:798][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:799][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:799][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:799][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:799][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:799][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:799][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:799][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:799][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:799][612]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.14-14.55.06:844][612]LogStaticLightingSystem: Illumination: 50.0 sec (10.8 sec encoding lightmaps)
+[2015.09.14-14.55.06:844][612]LogStaticLightingSystem: Lightmap texture memory:  37.3 MB (37.3 MB streaming, 0.0 MB non-streaming), 16 textures
+[2015.09.14-14.55.06:844][612]LogStaticLightingSystem: Shadowmap texture memory: 18.7 MB (18.7 MB streaming, 0.0 MB non-streaming), 9 textures
+[2015.09.14-14.55.07:379][613]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.09.14-14.55.07:379][613]MapCheck: New page: TestingInstance - Sep 14, 2015, 6:55:07 PM
+[2015.09.14-14.55.07:380][613]MapCheck:Warning: Warning FirstPersonCharacter_C_0 Static mesh actor has NULL StaticMesh property 
+[2015.09.14-14.55.07:451][613]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 70.708ms to complete.
+[2015.09.14-14.55.23:909][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestingInstance" FILE="D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Content/Maps/TestingInstance.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.14-14.55.25:122][413]LogSavePackage: Save=1163.071411ms
+[2015.09.14-14.55.25:122][413]LogSavePackage: Moving 'D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Saved/TestingInstanceBA04C8FE4B266514A60363A90B33546E.tmp' to 'D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Content/Maps/TestingInstance.umap'
+[2015.09.14-14.55.25:124][413]LogSavePackage: Total save time: 1203.636374ms
+[2015.09.14-14.55.25:124][413]LogSavePackage:Warning: Finished SavePackage D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Content/Maps/TestingInstance.umap
+[2015.09.14-14.55.25:163][413]LogFileHelpers: Saving map 'TestingInstance' took 1.297
+[2015.09.14-14.55.25:178][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Placeholder_Assets/Material" FILE="D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Content/Placeholder_Assets/Material.uasset" SILENT=true
+[2015.09.14-14.55.25:189][413]LogSavePackage: Save=9.437691ms
+[2015.09.14-14.55.25:189][413]LogSavePackage: Moving 'D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Saved/MaterialA83CCB7647E76BD7BC9E888E50E1333F.tmp' to 'D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Content/Placeholder_Assets/Material.uasset'
+[2015.09.14-14.55.25:190][413]LogSavePackage: Total save time: 11.131387ms
+[2015.09.14-14.55.25:190][413]LogSavePackage:Warning: Finished SavePackage D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Content/Placeholder_Assets/Material.uasset
+[2015.09.14-14.55.25:218][413]LogSavePackage: Save=9.637115ms
+[2015.09.14-14.55.25:218][413]LogSavePackage: Moving 'D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Saved/typewriter_placeholder9E095F0C43D4047494B4589E59317527.tmp' to 'D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Content/Placeholder_Assets/typewriter_placeholder.uasset'
+[2015.09.14-14.55.25:219][413]LogSavePackage: Total save time: 10.861050ms
+[2015.09.14-14.55.25:219][413]LogSavePackage:Warning: Finished SavePackage D:/EpicBeardMan/Work/Project Re-Survivor/Project_ReSurvivor/Content/Placeholder_Assets/typewriter_placeholder.uasset
+[2015.09.14-14.55.27:537][678]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.14-14.55.27:537][678]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.14-14.55.27:751][679]Cmd: QUIT_EDITOR
+[2015.09.14-14.55.27:950][679]LogExit: Preparing to exit.
+[2015.09.14-14.55.28:212][679]LogExit: Editor shut down
+[2015.09.14-14.55.28:213][679]LogExit: Transaction tracking system shut down
+[2015.09.14-14.55.28:213][679]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F7E694D260
+[2015.09.14-14.55.28:213][679]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F7945C87C0
+[2015.09.14-14.55.28:216][679]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F79FD4E5C0
+[2015.09.14-14.55.28:221][679]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F7A1294540
+[2015.09.14-14.55.28:373][679]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F7F396DE40
+[2015.09.14-14.55.28:373][679]LogExit: Object subsystem successfully closed.
+[2015.09.14-14.55.28:391][679]LogD3D11RHI: Shutdown
+[2015.09.14-14.55.28:391][679]LogD3D11RHI: CleanupD3DDevice
+[2015.09.14-14.55.28:439][679]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.14-14.55.28:460][679]LogModuleManager: Shutting down and abandoning module StatsViewer (199)
+[2015.09.14-14.55.28:460][679]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.09.14-14.55.28:460][679]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.09.14-14.55.28:460][679]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.09.14-14.55.28:460][679]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.09.14-14.55.28:460][679]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.09.14-14.55.28:461][679]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.09.14-14.55.28:461][679]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.09.14-14.55.28:461][679]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2015.09.14-14.55.28:461][679]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2015.09.14-14.55.28:462][679]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2015.09.14-14.55.28:462][679]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2015.09.14-14.55.28:462][679]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2015.09.14-14.55.28:462][679]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2015.09.14-14.55.28:462][679]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2015.09.14-14.55.28:462][679]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2015.09.14-14.55.28:462][679]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2015.09.14-14.55.28:462][679]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2015.09.14-14.55.28:462][679]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2015.09.14-14.55.28:462][679]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2015.09.14-14.55.28:462][679]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2015.09.14-14.55.28:463][679]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2015.09.14-14.55.28:463][679]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2015.09.14-14.55.28:463][679]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2015.09.14-14.55.28:463][679]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2015.09.14-14.55.28:463][679]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2015.09.14-14.55.28:808][679]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2015.09.14-14.55.28:808][679]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2015.09.14-14.55.28:808][679]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2015.09.14-14.55.28:808][679]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2015.09.14-14.55.28:810][679]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2015.09.14-14.55.28:812][679]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2015.09.14-14.55.28:812][679]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2015.09.14-14.55.28:812][679]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2015.09.14-14.55.28:812][679]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2015.09.14-14.55.28:812][679]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2015.09.14-14.55.28:813][679]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2015.09.14-14.55.28:813][679]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2015.09.14-14.55.28:813][679]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2015.09.14-14.55.28:813][679]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2015.09.14-14.55.28:814][679]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2015.09.14-14.55.28:814][679]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2015.09.14-14.55.28:815][679]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2015.09.14-14.55.28:815][679]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2015.09.14-14.55.28:815][679]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2015.09.14-14.55.28:816][679]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2015.09.14-14.55.28:816][679]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2015.09.14-14.55.28:816][679]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2015.09.14-14.55.28:816][679]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2015.09.14-14.55.28:816][679]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2015.09.14-14.55.28:816][679]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2015.09.14-14.55.28:816][679]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2015.09.14-14.55.28:816][679]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2015.09.14-14.55.28:816][679]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2015.09.14-14.55.28:816][679]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2015.09.14-14.55.28:816][679]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2015.09.14-14.55.28:816][679]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2015.09.14-14.55.28:931][679]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2015.09.14-14.55.28:931][679]LogModuleManager: Shutting down and abandoning module SubstanceEditor (122)
+[2015.09.14-14.55.28:933][679]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.09.14-14.55.28:933][679]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.09.14-14.55.28:933][679]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.09.14-14.55.28:933][679]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.09.14-14.55.28:933][679]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.09.14-14.55.28:933][679]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.09.14-14.55.28:933][679]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.09.14-14.55.28:939][679]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.09.14-14.55.28:940][679]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.09.14-14.55.28:940][679]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.09.14-14.55.28:940][679]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.09.14-14.55.28:940][679]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.09.14-14.55.28:940][679]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.09.14-14.55.28:940][679]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.09.14-14.55.28:940][679]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.09.14-14.55.28:941][679]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.09.14-14.55.28:941][679]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.09.14-14.55.28:941][679]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.09.14-14.55.28:941][679]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.09.14-14.55.28:941][679]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.09.14-14.55.28:941][679]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.09.14-14.55.28:941][679]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.09.14-14.55.28:941][679]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.09.14-14.55.28:941][679]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.09.14-14.55.28:941][679]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.09.14-14.55.28:941][679]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.09.14-14.55.28:941][679]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.09.14-14.55.28:941][679]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.09.14-14.55.28:941][679]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.09.14-14.55.28:941][679]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.09.14-14.55.28:941][679]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.09.14-14.55.28:943][679]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2015.09.14-14.55.28:944][679]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2015.09.14-14.55.28:944][679]LogModuleManager: Shutting down and abandoning module UdpMessaging (88)
+[2015.09.14-14.55.29:045][679]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.09.14-14.55.29:045][679]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2015.09.14-14.55.29:143][679]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2015.09.14-14.55.29:143][679]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.09.14-14.55.29:143][679]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.09.14-14.55.29:143][679]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.09.14-14.55.29:145][679]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.09.14-14.55.29:145][679]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.09.14-14.55.29:145][679]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.09.14-14.55.29:145][679]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.09.14-14.55.29:145][679]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.09.14-14.55.29:145][679]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.09.14-14.55.29:148][679]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.09.14-14.55.29:148][679]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.09.14-14.55.29:148][679]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.09.14-14.55.29:148][679]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.09.14-14.55.29:148][679]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.09.14-14.55.29:149][679]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.09.14-14.55.29:149][679]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.09.14-14.55.29:150][679]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.09.14-14.55.29:150][679]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.09.14-14.55.29:150][679]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.09.14-14.55.29:151][679]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.09.14-14.55.29:151][679]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.09.14-14.55.29:151][679]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.09.14-14.55.29:151][679]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.09.14-14.55.29:151][679]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.09.14-14.55.29:151][679]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.09.14-14.55.29:151][679]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.09.14-14.55.29:151][679]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.09.14-14.55.29:151][679]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.09.14-14.55.29:151][679]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.09.14-14.55.29:153][679]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.09.14-14.55.29:232][679]LogDerivedDataCache: Shutdown
+[2015.09.14-14.55.29:232][679]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.09.14-14.55.29:234][679]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.09.14-14.55.29:234][679]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.09.14-14.55.29:235][679]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.09.14-14.55.29:236][679]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.09.14-14.55.29:236][679]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.09.14-14.55.29:237][679]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.09.14-14.55.29:237][679]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.09.14-14.55.29:237][679]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.09.14-14.55.29:237][679]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.09.14-14.55.29:237][679]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.09.14-14.55.29:237][679]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.09.14-14.55.29:237][679]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.09.14-14.55.29:237][679]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.09.14-14.55.29:237][679]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.09.14-14.55.29:237][679]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.09.14-14.55.29:237][679]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.09.14-14.55.29:237][679]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.09.14-14.55.30:239][679]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.09.14-14.55.30:244][679]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.09.14-14.55.30:244][679]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.09.14-14.55.30:244][679]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.09.14-14.55.30:244][679]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.09.14-14.55.30:244][679]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.09.14-14.55.30:245][679]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.09.14-14.55.30:246][679]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.09.14-14.55.30:246][679]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.09.14-14.55.30:246][679]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.14-14.55.30:246][679]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.14-14.55.30:246][679]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.14-14.55.30:246][679]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.14-14.55.30:247][679]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.14-14.55.30:247][679]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.14-14.55.30:247][679]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.14-14.55.30:249][679]LogExit: Exiting.
+[2015.09.14-14.55.30:282][679]Log file closed, 09/14/15 16:55:30
+>>>>>>> origin/master
