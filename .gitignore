@@ -42,6 +42,11 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.ini
+
+
+# Unreal Engine files Damir has removed
+Saved/Logs
+Saved/SaveGames
 Saved/AutoScreenshot.png
 Intermediate/CachedAssetRegistry.bin
 Intermediate/Config/CoalescedSourceConfigs/Engine.ini

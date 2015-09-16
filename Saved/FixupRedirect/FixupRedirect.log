@@ -54,12 +54,39 @@
 /Engine/Tutorial/SubEditors/PersonaAnimBlueprintEditorTutorial.PersonaAnimBlueprintEditorTutorial = Blueprint /Engine/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough.PersonaAnimBlueprintEditorWalkthrough
 /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial = Blueprint /Engine/Tutorial/SubEditors/PersonaAnimEditorWalkthrough.PersonaAnimEditorWalkthrough
 /Engine/Tutorial/SubEditors/SkeletalMeshEditorTutorial.SkeletalMeshEditorTutorial = Blueprint /Engine/Tutorial/SubEditors/SkeletalMeshEditorWalkthrough.SkeletalMeshEditorWalkthrough
+/Game/Blueprints/FirstPersonCharacter.Default__FirstPersonCharacter_C = REINST_FirstPersonCharacter_BP_C_240 /Engine/Transient.TRASH_Default__FirstPersonCharacter_BP_C_0
+/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter = Blueprint /Game/Blueprints/FirstPersonCharacter_BP.FirstPersonCharacter_BP
+/Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C = BlueprintGeneratedClass /Game/Blueprints/FirstPersonCharacter_BP.FirstPersonCharacter_BP_C
+/Game/Blueprints/Widgets/IntroScreen.Default__IntroScreen_C = None
+/Game/Blueprints/Widgets/IntroScreen.IntroScreen = WidgetBlueprint /Game/Blueprints/Widgets/IntroScreen_Widget.IntroScreen_Widget
+/Game/Blueprints/Widgets/IntroScreen.IntroScreen_C = WidgetBlueprintGeneratedClass /Game/Blueprints/Widgets/IntroScreen_Widget.IntroScreen_Widget_C
+/Game/FirstPersonBP/Meshes/CubeMesh.CubeMesh = StaticMesh /Game/Meshes/CubeMesh.CubeMesh
+/Game/FirstPersonBP/Meshes/FirstPersonCube_Rounded.FirstPersonCube_Rounded = StaticMesh /Game/Meshes/FirstPersonCube_Rounded.FirstPersonCube_Rounded
+/Game/Placeholder_Assets/Actors/HandgunA_Actor.Default__HandgunA_Actor_C = None
+/Game/Placeholder_Assets/Actors/HandgunA_Actor.HandgunA_Actor = Blueprint /Game/Placeholder_Assets/Actors/GameItems/HandgunA_Actor.HandgunA_Actor
+/Game/Placeholder_Assets/Actors/HandgunA_Actor.HandgunA_Actor_C = BlueprintGeneratedClass /Game/Placeholder_Assets/Actors/GameItems/HandgunA_Actor.HandgunA_Actor_C
+/Game/Placeholder_Assets/Actors/ShotgunShells_Actor.Default__ShotgunShells_Actor_C = None
+/Game/Placeholder_Assets/Actors/ShotgunShells_Actor.ShotgunShells_Actor = Blueprint /Game/Placeholder_Assets/Actors/GameItems/ShotgunShells_Actor.ShotgunShells_Actor
+/Game/Placeholder_Assets/Actors/ShotgunShells_Actor.ShotgunShells_Actor_C = BlueprintGeneratedClass /Game/Placeholder_Assets/Actors/GameItems/ShotgunShells_Actor.ShotgunShells_Actor_C
+/Game/Placeholder_Assets/Actors/Shotgun_Actor.Default__Shotgun_Actor_C = None
+/Game/Placeholder_Assets/Actors/Shotgun_Actor.Shotgun_Actor = Blueprint /Game/Placeholder_Assets/Actors/GameItems/Shotgun_Actor.Shotgun_Actor
+/Game/Placeholder_Assets/Actors/Shotgun_Actor.Shotgun_Actor_C = BlueprintGeneratedClass /Game/Placeholder_Assets/Actors/GameItems/Shotgun_Actor.Shotgun_Actor_C
+/Game/Placeholder_Assets/Actors/GameItems/Booklet_Actor.Booklet_Actor = Blueprint /Game/Placeholder_Assets/Actors/Files/RestaurantOwnerDiary_Actor.RestaurantOwnerDiary_Actor
+/Game/Placeholder_Assets/Actors/GameItems/Booklet_Actor.Booklet_Actor_C = BlueprintGeneratedClass /Game/Placeholder_Assets/Actors/Files/RestaurantOwnerDiary_Actor.RestaurantOwnerDiary_Actor_C
 /Paper2D/DummySpriteTexture.DummySpriteTexture = Texture2D /Paper2D/PlaceholderTextures/DummySpriteTexture.DummySpriteTexture
 
 [Deleted]
-../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Textures/healthbar_background.uasset
-../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Textures/heartbeat.uasset
-../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Textures/heartbeat_orange.uasset
-../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Textures/heartbeat_purple.uasset
-../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Textures/heartbeat_red.uasset
-../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Textures/heartbeat_yellow.uasset
+../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Blueprints/FirstPersonCharacter.uasset
+../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Blueprints/NewBlueprint.uasset
+../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Blueprints/Widgets/IntroScreen.uasset
+../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/FirstPersonBP/Meshes/CubeMesh.uasset
+../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/FirstPersonBP/Meshes/FirstPersonCube_Rounded.uasset
+../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Assets/Actors/File_Actor.uasset
+../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Assets/Actors/File_Actor_Child.uasset
+../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Assets/Actors/FirstAidSpray_Actor.uasset
+../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Assets/Actors/HandgunA_Actor.uasset
+../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Assets/Actors/ShotgunShells_Actor.uasset
+../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Assets/Actors/Shotgun_Actor.uasset
+../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Assets/Actors/WeaponBaseClass_Actor_Child.uasset
+../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Assets/Actors/GameItems/Booklet_Actor.uasset
+../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Textures/274129.uasset
