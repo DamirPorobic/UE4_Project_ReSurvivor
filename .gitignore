@@ -50,3 +50,8 @@ Saved/SaveGames
 Saved/AutoScreenshot.png
 Intermediate/CachedAssetRegistry.bin
 Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+
+# Unreal Engine files that we don't want to track 
+Saved/**
+Intermediate/**
+DerivedDataCache/**
