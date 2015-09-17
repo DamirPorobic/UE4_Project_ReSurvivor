@@ -1,248 +1,1288 @@
-﻿[2015.09.16-19.43.18:053][  0]Log file open, 09/16/15 21:43:18
-[2015.09.16-19.43.18:053][  0]LogInit:Display: Running engine for game: Project_ReSurvivor
-[2015.09.16-19.43.18:053][  0]LogInit:Display: RandInit(262053004) SRandInit(262053004).
-[2015.09.16-19.43.18:053][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2015.09.16-19.43.18:053][  0]LogStats: Stats thread started at 0.064889
-[2015.09.16-19.43.18:053][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
-[2015.09.16-19.43.18:053][  0]LogInit: API Version: 2672455
-[2015.09.16-19.43.18:053][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
-[2015.09.16-19.43.18:053][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.09.16-19.43.18:053][  0]LogInit: Build Configuration: Development
-[2015.09.16-19.43.18:053][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2015.09.16-19.43.18:053][  0]LogInit: Command line:  
-[2015.09.16-19.43.18:053][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
-[2015.09.16-19.43.18:053][  0]LogInit: Rocket: 1
-[2015.09.16-19.43.18:063][  0]LogInit: Using libcurl 7.41.0
-[2015.09.16-19.43.18:063][  0]LogInit:  - built for x86_64-pc-win32
-[2015.09.16-19.43.18:063][  0]LogInit:  - supports SSL with WinSSL
-[2015.09.16-19.43.18:063][  0]LogInit:  - other features:
-[2015.09.16-19.43.18:063][  0]LogInit:      CURL_VERSION_SSL
-[2015.09.16-19.43.18:063][  0]LogInit:      CURL_VERSION_IPV6
-[2015.09.16-19.43.18:063][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.09.16-19.43.18:063][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.09.16-19.43.18:063][  0]LogInit:      CURL_VERSION_IDN
-[2015.09.16-19.43.18:063][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.09.16-19.43.18:063][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.09.16-19.43.18:063][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.09.16-19.43.18:063][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.09.16-19.43.18:063][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.09.16-19.43.18:069][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.09.16-19.43.18:075][  0]LogInit: Object subsystem initialized
-[2015.09.16-19.43.18:076][  0]LogInit: Selected Device Profile: [Windows]
-[2015.09.16-19.43.18:076][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.09.16-19.43.18:081][  0]LogInit: Computer: DAMIR-PC
-[2015.09.16-19.43.18:081][  0]LogInit: User: Damir
-[2015.09.16-19.43.18:081][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.09.16-19.43.18:081][  0]LogInit: High frequency timer resolution =3.320351 MHz
-[2015.09.16-19.43.18:081][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2015.09.16-19.43.18:081][  0]LogMemory: Platform Memory Stats for Windows
-[2015.09.16-19.43.18:081][  0]LogMemory: Process Physical Memory: 54.30 MB used, 54.30 MB peak
-[2015.09.16-19.43.18:081][  0]LogMemory: Process Virtual Memory: 56.36 MB used, 56.36 MB peak
-[2015.09.16-19.43.18:081][  0]LogMemory: Physical Memory: 3191.60 MB used, 8136.55 MB total
-[2015.09.16-19.43.18:081][  0]LogMemory: Virtual Memory: 336.11 MB used, 8388608.00 MB total
-[2015.09.16-19.43.18:110][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
-[2015.09.16-19.43.18:784][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
-[2015.09.16-19.43.18:784][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
-[2015.09.16-19.43.18:784][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.09.16-19.43.18:790][  0]LogD3D11RHI: !Direct3DDevice
-[2015.09.16-19.43.18:790][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.09.16-19.43.18:796][  0]LogD3D11RHI: Async texture creation enabled
-[2015.09.16-19.43.18:809][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Intermediate/Shaders/WorkingDirectory/4216/).
-[2015.09.16-19.43.18:809][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Intermediate/Shaders/tmp/F4B3BE394C49C420AD7A97B64F227DF2/'.
-[2015.09.16-19.43.18:809][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.09.16-19.43.19:753][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2015.09.16-19.43.19:758][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.09.16-19.43.19:762][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.09.16-19.43.19:766][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.09.16-19.43.19:770][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.09.16-19.43.19:773][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.09.16-19.43.19:775][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.09.16-19.43.19:778][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.09.16-19.43.19:781][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.09.16-19.43.19:784][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.09.16-19.43.19:787][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.09.16-19.43.19:790][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.09.16-19.43.19:790][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2015.09.16-19.43.19:805][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.09.16-19.43.19:807][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.09.16-19.43.19:810][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.09.16-19.43.19:813][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.09.16-19.43.19:813][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.09.16-19.43.19:873][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.09.16-19.43.19:912][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Damir/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.09.16-19.43.19:912][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Damir/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2015.09.16-19.43.19:912][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.09.16-19.43.19:912][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.09.16-19.43.19:912][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.09.16-19.43.19:912][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.09.16-19.43.20:037][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.09.16-19.43.20:048][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Damir/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.09.16-19.43.20:175][  0]LogInit: Selected Device Profile: [Windows]
-[2015.09.16-19.43.20:176][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.09.16-19.43.20:195][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.09.16-19.43.20:195][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.09.16-19.43.20:482][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.09.16-19.43.21:532][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
-[2015.09.16-19.43.21:542][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.09.16-19.43.21:796][  0]SourceControl: Info Source control is disabled
-[2015.09.16-19.43.21:800][  0]SourceControl: Info Source control is disabled
-[2015.09.16-19.43.21:807][  0]SourceControl: Info Source control is disabled
-[2015.09.16-19.43.21:814][  0]SourceControl: Info Source control is disabled
-[2015.09.16-19.43.21:919][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.09.16-19.43.21:983][  0]LogObj: 28528 objects as part of root set at end of initial load.
-[2015.09.16-19.43.21:983][  0]LogUObjectAllocator: 6068464 out of 0 bytes used by permanent object pool.
-[2015.09.16-19.43.22:036][  0]LogEngine: Initializing Engine...
-[2015.09.16-19.43.22:038][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
-[2015.09.16-19.43.22:040][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2015.09.16-19.43.22:148][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.09.16-19.43.22:153][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.09.16-19.43.22:187][  0]LogInit: FAudioDevice initialized.
-[2015.09.16-19.43.22:210][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Damir/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.09.16-19.43.22:214][  0]LogInit: Texture streaming: Enabled
-[2015.09.16-19.43.22:219][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.09.16-19.43.22:219][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
-[2015.09.16-19.43.22:219][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 823be5244adb21341b1538b68ee82034|51c2a24b0ca544adac8a22d4708797c6|ec4eac3e-148a-4a5a-9f28-33d773939611
-[2015.09.16-19.43.22:219][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.09.16-19.43.22:237][  0]LogInit: Transaction tracking system initialized
-[2015.09.16-19.43.22:268][  0]BlueprintLog: New page: Editor Load
-[2015.09.16-19.43.22:370][  0]LocalizationService: Info Localization service is disabled
-[2015.09.16-19.43.22:451][  0]LogConsoleResponse:Display: 
-[2015.09.16-19.43.22:550][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.09.16-19.43.22:615][  0]SourceControl: Info Source control is disabled
-[2015.09.16-19.43.22:615][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Maps/TestingInstance.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.09.16-19.43.22:615][  0]LightingResults: New page: Lighting Build
-[2015.09.16-19.43.22:618][  0]MapCheck: New page: Map Check
-[2015.09.16-19.43.22:618][  0]LightingResults: New page: Lighting Build
-[2015.09.16-19.43.22:626][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002652C2C0
-[2015.09.16-19.43.23:183][  0]LogBlueprint:Warning: [Menu_Widget] CreatePinForVariable: 'RestoreValue' variable not found. Base class was probably changed.
-[2015.09.16-19.43.23:209][  0]LogBlueprint:Warning: [compiler Menu_Widget] Warning Could not find a variable named "RestoreValue" in 'HealthRestoreBase_Actor_C'.
+﻿[2015.09.16-20.28.28:380][  0]Log file open, 09/16/15 22:28:28
+[2015.09.16-20.28.28:380][  0]LogInit:Display: Running engine for game: Project_ReSurvivor
+[2015.09.16-20.28.28:380][  0]LogInit:Display: RandInit(671264407) SRandInit(671264408).
+[2015.09.16-20.28.28:380][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.16-20.28.28:380][  0]LogStats: Stats thread started at 0.064665
+[2015.09.16-20.28.28:380][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.16-20.28.28:380][  0]LogInit: API Version: 2672455
+[2015.09.16-20.28.28:380][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.09.16-20.28.28:380][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.16-20.28.28:380][  0]LogInit: Build Configuration: Development
+[2015.09.16-20.28.28:380][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.16-20.28.28:380][  0]LogInit: Command line:  
+[2015.09.16-20.28.28:380][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.16-20.28.28:380][  0]LogInit: Rocket: 1
+[2015.09.16-20.28.28:389][  0]LogInit: Using libcurl 7.41.0
+[2015.09.16-20.28.28:389][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.16-20.28.28:389][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.16-20.28.28:389][  0]LogInit:  - other features:
+[2015.09.16-20.28.28:389][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.16-20.28.28:389][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.16-20.28.28:389][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.16-20.28.28:389][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.16-20.28.28:389][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.16-20.28.28:389][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.16-20.28.28:389][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.16-20.28.28:389][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.16-20.28.28:389][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.16-20.28.28:389][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.16-20.28.28:395][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.16-20.28.28:401][  0]LogInit: Object subsystem initialized
+[2015.09.16-20.28.28:402][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.16-20.28.28:402][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.16-20.28.28:407][  0]LogInit: Computer: DAMIR-PC
+[2015.09.16-20.28.28:407][  0]LogInit: User: Damir
+[2015.09.16-20.28.28:407][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.16-20.28.28:407][  0]LogInit: High frequency timer resolution =3.320351 MHz
+[2015.09.16-20.28.28:407][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.09.16-20.28.28:407][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.16-20.28.28:407][  0]LogMemory: Process Physical Memory: 54.34 MB used, 54.34 MB peak
+[2015.09.16-20.28.28:407][  0]LogMemory: Process Virtual Memory: 56.38 MB used, 56.38 MB peak
+[2015.09.16-20.28.28:407][  0]LogMemory: Physical Memory: 3481.95 MB used, 8136.55 MB total
+[2015.09.16-20.28.28:407][  0]LogMemory: Virtual Memory: 336.11 MB used, 8388608.00 MB total
+[2015.09.16-20.28.28:436][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2015.09.16-20.28.29:084][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2015.09.16-20.28.29:084][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.09.16-20.28.29:084][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.16-20.28.29:089][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.16-20.28.29:089][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.16-20.28.29:094][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.16-20.28.29:107][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Intermediate/Shaders/WorkingDirectory/8184/).
+[2015.09.16-20.28.29:107][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Intermediate/Shaders/tmp/9FEB128B41F242C19E05DD84F3B588D0/'.
+[2015.09.16-20.28.29:107][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.16-20.28.30:058][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.16-20.28.30:062][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.16-20.28.30:066][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.16-20.28.30:070][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.16-20.28.30:075][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.16-20.28.30:078][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.16-20.28.30:080][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.16-20.28.30:083][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.16-20.28.30:086][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.16-20.28.30:089][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.16-20.28.30:092][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.16-20.28.30:095][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.16-20.28.30:095][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.16-20.28.30:110][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.16-20.28.30:112][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.16-20.28.30:115][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.16-20.28.30:118][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.16-20.28.30:118][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.16-20.28.30:181][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.16-20.28.30:223][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Damir/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.16-20.28.30:223][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Damir/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.16-20.28.30:223][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.16-20.28.30:223][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.16-20.28.30:223][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.16-20.28.30:223][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.16-20.28.30:356][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.16-20.28.30:366][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Damir/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.16-20.28.30:507][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.16-20.28.30:508][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.16-20.28.30:528][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.16-20.28.30:528][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.16-20.28.30:828][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.16-20.28.31:386][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
+[2015.09.16-20.28.31:397][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.16-20.28.31:635][  0]SourceControl: Info Source control is disabled
+[2015.09.16-20.28.31:640][  0]SourceControl: Info Source control is disabled
+[2015.09.16-20.28.31:647][  0]SourceControl: Info Source control is disabled
+[2015.09.16-20.28.31:655][  0]SourceControl: Info Source control is disabled
+[2015.09.16-20.28.31:755][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.16-20.28.31:821][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2015.09.16-20.28.31:821][  0]LogUObjectAllocator: 6068464 out of 0 bytes used by permanent object pool.
+[2015.09.16-20.28.31:869][  0]LogEngine: Initializing Engine...
+[2015.09.16-20.28.31:871][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.16-20.28.31:871][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.16-20.28.31:974][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.16-20.28.31:978][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.16-20.28.31:999][  0]LogInit: FAudioDevice initialized.
+[2015.09.16-20.28.32:022][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Damir/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.16-20.28.32:026][  0]LogInit: Texture streaming: Enabled
+[2015.09.16-20.28.32:030][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.16-20.28.32:030][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.16-20.28.32:030][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 823be5244adb21341b1538b68ee82034|51c2a24b0ca544adac8a22d4708797c6|ec4eac3e-148a-4a5a-9f28-33d773939611
+[2015.09.16-20.28.32:030][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.16-20.28.32:045][  0]LogInit: Transaction tracking system initialized
+[2015.09.16-20.28.32:066][  0]BlueprintLog: New page: Editor Load
+[2015.09.16-20.28.32:129][  0]LocalizationService: Info Localization service is disabled
+[2015.09.16-20.28.32:189][  0]LogConsoleResponse:Display: 
+[2015.09.16-20.28.32:275][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.16-20.28.32:317][  0]SourceControl: Info Source control is disabled
+[2015.09.16-20.28.32:317][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Maps/TestingInstance.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.16-20.28.32:318][  0]LightingResults: New page: Lighting Build
+[2015.09.16-20.28.32:320][  0]MapCheck: New page: Map Check
+[2015.09.16-20.28.32:320][  0]LightingResults: New page: Lighting Build
+[2015.09.16-20.28.32:335][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024A482C0
+[2015.09.16-20.28.32:912][  0]LogBlueprint:Warning: [Menu_Widget] CreatePinForVariable: 'RestoreValue' variable not found. Base class was probably changed.
+[2015.09.16-20.28.32:938][  0]LogBlueprint:Warning: [compiler Menu_Widget] Warning Could not find a variable named "RestoreValue" in 'HealthRestoreBase_Actor_C'.
 Make sure 'HealthRestoreBase_Actor_C' has been compiled for  Get RestoreValue 
-[2015.09.16-19.43.23:223][  0]LogBlueprint:Error: [compiler Menu_Widget] Error The property associated with  Restore Value  could not be found
-[2015.09.16-19.43.23:248][  0]LogBlueprint:Warning: [compiler Menu_Widget] Warning [0005.64] Compile of Menu_Widget failed. 1 Fatal Issue(s) 1 Warning(s) [in 52 ms]
-[2015.09.16-19.43.23:248][  0]LogBlueprint:Warning: [compiler Menu_Widget] Warning [0005.64] Compile of Menu_Widget failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
-[2015.09.16-19.43.23:249][  0]LogBlueprint:Warning: [compiler Menu_Widget] Warning [0005.64] Compile of Menu_Widget failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
-[2015.09.16-19.43.23:258][  0]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning Default Enum value 'ItemTypes' for class 'ItemBaseClass_Actor_C' is invalid in object 'Default__ItemBaseClass_Actor_C' 
-[2015.09.16-19.43.23:258][  0]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning [0005.65] Compile of ItemBaseClass_Actor successful, but with 1 Warning(s) [in 4 ms]
-[2015.09.16-19.43.23:260][  0]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning [0005.65] Compile of ItemBaseClass_Actor successful, but with 2 Warning(s) [in 1 ms]
-[2015.09.16-19.43.23:260][  0]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning [0005.65] Compile of ItemBaseClass_Actor successful, but with 3 Warning(s) [in 0 ms]
-[2015.09.16-19.43.23:290][  0]LogBlueprint:Error: [compiler FileReader_Widget] Error Could not find a function named "GetFileSize" in 'FileBase_Actor_C'.
+[2015.09.16-20.28.32:953][  0]LogBlueprint:Error: [compiler Menu_Widget] Error The property associated with  Restore Value  could not be found
+[2015.09.16-20.28.32:981][  0]LogBlueprint:Warning: [compiler Menu_Widget] Warning [0005.04] Compile of Menu_Widget failed. 1 Fatal Issue(s) 1 Warning(s) [in 56 ms]
+[2015.09.16-20.28.32:981][  0]LogBlueprint:Warning: [compiler Menu_Widget] Warning [0005.04] Compile of Menu_Widget failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.09.16-20.28.32:981][  0]LogBlueprint:Warning: [compiler Menu_Widget] Warning [0005.04] Compile of Menu_Widget failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.09.16-20.28.32:990][  0]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning Default Enum value 'ItemTypes' for class 'ItemBaseClass_Actor_C' is invalid in object 'Default__ItemBaseClass_Actor_C' 
+[2015.09.16-20.28.32:991][  0]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning [0005.05] Compile of ItemBaseClass_Actor successful, but with 1 Warning(s) [in 4 ms]
+[2015.09.16-20.28.32:993][  0]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning [0005.05] Compile of ItemBaseClass_Actor successful, but with 2 Warning(s) [in 2 ms]
+[2015.09.16-20.28.32:993][  0]LogBlueprint:Warning: [compiler ItemBaseClass_Actor] Warning [0005.05] Compile of ItemBaseClass_Actor successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.16-20.28.33:023][  0]LogBlueprint:Error: [compiler FileReader_Widget] Error Could not find a function named "GetFileSize" in 'FileBase_Actor_C'.
 Make sure 'FileBase_Actor_C' has been compiled for  Get File Size 
-[2015.09.16-19.43.23:294][  0]LogBlueprint:Warning: [compiler FileReader_Widget] Warning Can't connect pins  File  and  Target : File Base Actor Reference is not compatible with Item Base Class Actor Reference.
-[2015.09.16-19.43.23:294][  0]LogBlueprint:Warning: [compiler FileReader_Widget] Warning Can't connect pins  Target  and  File : Item Base Class Actor Reference is not compatible with File Base Actor Reference.
-[2015.09.16-19.43.23:304][  0]LogBlueprint:Warning: [compiler FileReader_Widget] Warning [0005.70] Compile of FileReader_Widget failed. 1 Fatal Issue(s) 2 Warning(s) [in 18 ms]
-[2015.09.16-19.43.23:304][  0]LogBlueprint:Warning: [compiler FileReader_Widget] Warning [0005.70] Compile of FileReader_Widget failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
-[2015.09.16-19.43.23:305][  0]LogBlueprint:Warning: [compiler FileReader_Widget] Warning [0005.70] Compile of FileReader_Widget failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
-[2015.09.16-19.43.23:313][  0]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning Default Enum value 'WeaponName' for class 'WeaponBaseClass_Actor_C' is invalid in object 'Default__WeaponBaseClass_Actor_C' 
-[2015.09.16-19.43.23:313][  0]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning Default Enum value 'WeaponClass' for class 'WeaponBaseClass_Actor_C' is invalid in object 'Default__WeaponBaseClass_Actor_C' 
-[2015.09.16-19.43.23:313][  0]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning [0005.70] Compile of WeaponBaseClass_Actor successful, but with 2 Warning(s) [in 1 ms]
-[2015.09.16-19.43.23:314][  0]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning [0005.71] Compile of WeaponBaseClass_Actor successful, but with 3 Warning(s) [in 0 ms]
-[2015.09.16-19.43.23:314][  0]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning [0005.71] Compile of WeaponBaseClass_Actor successful, but with 4 Warning(s) [in 0 ms]
-[2015.09.16-19.43.23:316][  0]LogBlueprint:Warning: [compiler AmmunitionBaseClass_Actor] Warning Default Enum value 'WeaponClass' for class 'AmmunitionBaseClass_Actor_C' is invalid in object 'Default__AmmunitionBaseClass_Actor_C' 
-[2015.09.16-19.43.23:316][  0]LogBlueprint:Warning: [compiler AmmunitionBaseClass_Actor] Warning [0005.71] Compile of AmmunitionBaseClass_Actor successful, but with 1 Warning(s) [in 0 ms]
-[2015.09.16-19.43.23:317][  0]LogBlueprint:Warning: [compiler AmmunitionBaseClass_Actor] Warning [0005.71] Compile of AmmunitionBaseClass_Actor successful, but with 2 Warning(s) [in 0 ms]
-[2015.09.16-19.43.23:317][  0]LogBlueprint:Warning: [compiler AmmunitionBaseClass_Actor] Warning [0005.71] Compile of AmmunitionBaseClass_Actor successful, but with 3 Warning(s) [in 0 ms]
-[2015.09.16-19.43.23:753][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/Files/RestaurantOwnerDiary_Actor.RestaurantOwnerDiary_Actor_C:UserConstructionScript; removing parent information, but keeping function
-[2015.09.16-19.43.23:760][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/GameItems/FirstAidSpray_Actor.FirstAidSpray_Actor_C:UserConstructionScript; removing parent information, but keeping function
-[2015.09.16-19.43.23:768][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/GameItems/HandgunA_Actor.HandgunA_Actor_C:UserConstructionScript; removing parent information, but keeping function
-[2015.09.16-19.43.23:775][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/GameItems/Shotgun_Actor.Shotgun_Actor_C:UserConstructionScript; removing parent information, but keeping function
-[2015.09.16-19.43.23:783][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/GameItems/ShotgunShells_Actor.ShotgunShells_Actor_C:UserConstructionScript; removing parent information, but keeping function
-[2015.09.16-19.43.23:886][  0]LogMaterial: Missing cached shader map for material Plane01Mat, compiling. 
-[2015.09.16-19.43.23:887][  0]LogMaterial:Warning: Failed to compile Material /Game/Placeholder_Assets/Plane01Mat.Plane01Mat for platform PCD3D_SM5, Default Material will be used in game.
-[2015.09.16-19.43.23:887][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
-[2015.09.16-19.43.24:191][  0]LogAIModule: Creating AISystem for world TestingInstance
-[2015.09.16-19.43.24:192][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:192][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:192][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:192][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:192][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:192][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:192][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:192][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:192][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:192][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:193][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:193][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:193][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:196][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:196][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:196][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:196][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:196][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:196][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.24:210][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.09.16-19.43.24:211][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.09.16-19.43.24:249][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.309ms to complete.
-[2015.09.16-19.43.24:249][  0]LogFileHelpers: Loading map 'TestingInstance' took 1.634
-[2015.09.16-19.43.24:339][  0]LogCollectionManager: Loaded 0 collections in 0.001899 seconds
-[2015.09.16-19.43.24:377][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Collections/' took 0.01s
-[2015.09.16-19.43.24:377][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Developers/Damir/Collections/' took 0.01s
-[2015.09.16-19.43.24:377][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Collections/' took 0.01s
-[2015.09.16-19.43.24:377][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 1882 classes and 339 folders.
-[2015.09.16-19.43.24:384][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2015.09.16-19.43.24:391][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2015.09.16-19.43.24:456][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2015.09.16-19.43.24:467][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2015.09.16-19.43.24:494][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.09.16-19.43.24:498][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.09.16-19.43.24:519][  0]LogLoad: Full Startup: 6.91 seconds (BP compile: 0.45 seconds)
-[2015.09.16-19.43.24:532][  0]LoadErrors:Error: Error /Game/Blueprints/Widgets/Menu/Menu_Widget : Failed import for FloatProperty /Game/Placeholder_Assets/Actors/HealthRestoreBase_Actor.HealthRestoreBase_Actor_C:RestoreValue
-[2015.09.16-19.43.24:597][  0]LogContentStreaming: Texture pool size now 700 MB
-[2015.09.16-19.43.24:725][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
-[2015.09.16-19.43.25:154][  9]LogAssetRegistry: Asset discovery search completed in 3.6330 seconds
-[2015.09.16-19.43.25:154][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2015.09.16-19.43.25:154][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
-[2015.09.16-19.43.48:736][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.09.16-19.43.50:618][809]PIE: New page: PIE session: TestingInstance (Sep 16, 2015, 11:43:50 PM)
-[2015.09.16-19.43.50:618][809]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestingInstance
-[2015.09.16-19.43.50:645][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027016s)
-[2015.09.16-19.43.50:646][809]LogAIModule: Creating AISystem for world TestingInstance
-[2015.09.16-19.43.50:647][809]LogPlayLevel: PIE: World Init took: (0.001449s)
-[2015.09.16-19.43.50:647][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingInstance.TestingInstance to /Game/Maps/UEDPIE_0_TestingInstance.TestingInstance (0.028845s)
-[2015.09.16-19.43.50:647][809]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.09.16-19.43.50:709][809]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.09.16-19.43.50:717][809]LogInit: FAudioDevice initialized.
-[2015.09.16-19.43.50:761][809]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2015.09.16-19.43.50:762][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:763][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:763][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:763][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:763][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:763][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:763][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:763][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:763][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:764][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:764][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:764][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:764][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:765][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:765][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:766][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:766][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:766][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:766][809]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2015.09.16-19.43.50:769][809]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestingInstance.TestingInstance up for play (max tick rate 0) at 2015.09.16-21.43.50
-[2015.09.16-19.43.50:769][809]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_TestingInstance.TestingInstance:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.09.16-19.43.50:769][809]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_TestingInstance.TestingInstance:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.09.16-19.43.50:770][809]LogWorld: Bringing up level for play took: 0.007551
-[2015.09.16-19.43.50:772][809]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestingInstance 1.184
-[2015.09.16-19.43.54:316][223]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002FCB5C60
-[2015.09.16-19.43.59:952][894]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2015.09.16-19.44.00:011][895]LogMaterial: Missing cached shader map for material Material_1, compiling. 
-[2015.09.16-19.44.00:029][896]LogMaterial: Missing cached shader map for material Material_2, compiling. 
-[2015.09.16-19.44.00:047][897]LogMaterial: Missing cached shader map for material Material_3, compiling. 
-[2015.09.16-19.44.42:304][163]LogFactory: FactoryCreateBinary: MediaPlayer with MediaPlayerFactory (0 0 C:\Users\Damir\Downloads\title_start.mp3)
-[2015.09.16-19.45.01:002][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Press_Start_Sound" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Audio/Press_Start_Sound.uasset" SILENT=true
-[2015.09.16-19.45.01:004][207]LogSavePackage: Save=0.918276ms
-[2015.09.16-19.45.01:004][207]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Press_Start_Sound3049DC47466211F8303C76A461132AEC.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Audio/Press_Start_Sound.uasset'
-[2015.09.16-19.45.01:005][207]LogSavePackage: Total save time: 2.087127ms
-[2015.09.16-19.45.01:005][207]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Audio/Press_Start_Sound.uasset
-[2015.09.16-19.45.01:027][207]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.09.16-19.45.50:238][ 86]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.09.16-19.45.51:564][ 86]LogWmfMedia:Error: An unrecoverable error occured in the media session: 0xC00D3E85
-[2015.09.16-19.53.31:057][488]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.09.16-19.53.31:071][488]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestingInstance' took 0.014
-[2015.09.16-19.53.31:076][488]LogSavePackage: Save=0.689987ms
-[2015.09.16-19.53.31:076][488]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/title_start_Auto146403E164BCD370451B165BAE475CED0.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Audio/title_start_Auto1.uasset'
-[2015.09.16-19.53.31:077][488]LogSavePackage: Total save time: 1.232401ms
-[2015.09.16
+[2015.09.16-20.28.33:026][  0]LogBlueprint:Warning: [compiler FileReader_Widget] Warning Can't connect pins  File  and  Target : File Base Actor Reference is not compatible with Item Base Class Actor Reference.
+[2015.09.16-20.28.33:026][  0]LogBlueprint:Warning: [compiler FileReader_Widget] Warning Can't connect pins  Target  and  File : Item Base Class Actor Reference is not compatible with File Base Actor Reference.
+[2015.09.16-20.28.33:037][  0]LogBlueprint:Warning: [compiler FileReader_Widget] Warning [0005.10] Compile of FileReader_Widget failed. 1 Fatal Issue(s) 2 Warning(s) [in 18 ms]
+[2015.09.16-20.28.33:037][  0]LogBlueprint:Warning: [compiler FileReader_Widget] Warning [0005.10] Compile of FileReader_Widget failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.09.16-20.28.33:037][  0]LogBlueprint:Warning: [compiler FileReader_Widget] Warning [0005.10] Compile of FileReader_Widget failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.09.16-20.28.33:046][  0]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning Default Enum value 'WeaponName' for class 'WeaponBaseClass_Actor_C' is invalid in object 'Default__WeaponBaseClass_Actor_C' 
+[2015.09.16-20.28.33:046][  0]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning Default Enum value 'WeaponClass' for class 'WeaponBaseClass_Actor_C' is invalid in object 'Default__WeaponBaseClass_Actor_C' 
+[2015.09.16-20.28.33:047][  0]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning [0005.10] Compile of WeaponBaseClass_Actor successful, but with 2 Warning(s) [in 1 ms]
+[2015.09.16-20.28.33:047][  0]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning [0005.11] Compile of WeaponBaseClass_Actor successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.16-20.28.33:048][  0]LogBlueprint:Warning: [compiler WeaponBaseClass_Actor] Warning [0005.11] Compile of WeaponBaseClass_Actor successful, but with 4 Warning(s) [in 0 ms]
+[2015.09.16-20.28.33:050][  0]LogBlueprint:Warning: [compiler AmmunitionBaseClass_Actor] Warning Default Enum value 'WeaponClass' for class 'AmmunitionBaseClass_Actor_C' is invalid in object 'Default__AmmunitionBaseClass_Actor_C' 
+[2015.09.16-20.28.33:050][  0]LogBlueprint:Warning: [compiler AmmunitionBaseClass_Actor] Warning [0005.11] Compile of AmmunitionBaseClass_Actor successful, but with 1 Warning(s) [in 0 ms]
+[2015.09.16-20.28.33:051][  0]LogBlueprint:Warning: [compiler AmmunitionBaseClass_Actor] Warning [0005.11] Compile of AmmunitionBaseClass_Actor successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.16-20.28.33:051][  0]LogBlueprint:Warning: [compiler AmmunitionBaseClass_Actor] Warning [0005.11] Compile of AmmunitionBaseClass_Actor successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.16-20.28.33:505][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/Files/RestaurantOwnerDiary_Actor.RestaurantOwnerDiary_Actor_C:UserConstructionScript; removing parent information, but keeping function
+[2015.09.16-20.28.33:512][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/GameItems/FirstAidSpray_Actor.FirstAidSpray_Actor_C:UserConstructionScript; removing parent information, but keeping function
+[2015.09.16-20.28.33:520][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/GameItems/HandgunA_Actor.HandgunA_Actor_C:UserConstructionScript; removing parent information, but keeping function
+[2015.09.16-20.28.33:527][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/GameItems/Shotgun_Actor.Shotgun_Actor_C:UserConstructionScript; removing parent information, but keeping function
+[2015.09.16-20.28.33:534][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Placeholder_Assets/Actors/GameItems/ShotgunShells_Actor.ShotgunShells_Actor_C:UserConstructionScript; removing parent information, but keeping function
+[2015.09.16-20.28.33:708][  0]LogMaterial: Missing cached shader map for material Plane01Mat, compiling. 
+[2015.09.16-20.28.33:708][  0]LogMaterial:Warning: Failed to compile Material /Game/Placeholder_Assets/Plane01Mat.Plane01Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2015.09.16-20.28.33:708][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.09.16-20.28.33:944][  0]LogAIModule: Creating AISystem for world TestingInstance
+[2015.09.16-20.28.33:946][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:946][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:946][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:946][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:946][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:946][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:946][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:946][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:947][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:947][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:947][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:947][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:947][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:951][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:951][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:951][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:951][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:951][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:951][  0]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.28.33:965][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.16-20.28.33:965][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.16-20.28.34:006][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.254ms to complete.
+[2015.09.16-20.28.34:006][  0]LogFileHelpers: Loading map 'TestingInstance' took 1.689
+[2015.09.16-20.28.34:095][  0]LogCollectionManager: Loaded 0 collections in 0.001826 seconds
+[2015.09.16-20.28.34:113][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 1882 classes and 339 folders.
+[2015.09.16-20.28.34:119][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Collections/' took 0.02s
+[2015.09.16-20.28.34:119][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Developers/Damir/Collections/' took 0.01s
+[2015.09.16-20.28.34:119][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Collections/' took 0.01s
+[2015.09.16-20.28.34:119][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.09.16-20.28.34:126][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.16-20.28.34:160][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.16-20.28.34:170][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.09.16-20.28.34:197][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.16-20.28.34:201][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.16-20.28.34:222][  0]LogLoad: Full Startup: 6.28 seconds (BP compile: 0.47 seconds)
+[2015.09.16-20.28.34:235][  0]LoadErrors:Error: Error /Game/Blueprints/Widgets/Menu/Menu_Widget : Failed import for FloatProperty /Game/Placeholder_Assets/Actors/HealthRestoreBase_Actor.HealthRestoreBase_Actor_C:RestoreValue
+[2015.09.16-20.28.34:288][  0]LogContentStreaming: Texture pool size now 700 MB
+[2015.09.16-20.28.34:393][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.09.16-20.28.34:828][  8]LogAssetRegistry: Asset discovery search completed in 3.4525 seconds
+[2015.09.16-20.28.34:828][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.09.16-20.28.34:828][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2015.09.16-20.29.24:822][906]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Damir/Downloads/zombie/walk.FBX)
+[2015.09.16-20.29.24:840][906]LogFbx: ItemName: Model, ItemCount : 61
+[2015.09.16-20.29.24:840][906]LogFbx: ItemName: Material, ItemCount : 1
+[2015.09.16-20.29.24:840][906]LogFbx: ItemName: Texture, ItemCount : 2
+[2015.09.16-20.29.24:840][906]LogFbx: ItemName: Video, ItemCount : 2
+[2015.09.16-20.29.24:840][906]LogFbx: ItemName: SceneInfo, ItemCount : 1
+[2015.09.16-20.29.24:840][906]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.09.16-20.29.24:840][906]LogFbx: ItemName: Implementation, ItemCount : 1
+[2015.09.16-20.29.24:840][906]LogFbx: ItemName: BindingTable, ItemCount : 1
+[2015.09.16-20.29.24:840][906]LogFbx: ItemName: Deformer, ItemCount : 1
+[2015.09.16-20.29.24:840][906]LogFbx: ItemName: SubDeformer, ItemCount : 44
+[2015.09.16-20.29.24:840][906]LogFbx: ItemName: Pose, ItemCount : 1
+[2015.09.16-20.29.24:847][906]LogFbx: Loading FBX Scene from ../../../../../../Users/Damir/Downloads/zombie/walk.FBX
+[2015.09.16-20.29.24:892][906]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.16-20.29.28:084][906]LogFbx: Loading FBX Scene from ../../../../../../Users/Damir/Downloads/zombie/walk.FBX
+[2015.09.16-20.29.28:127][906]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.16-20.29.28:129][906]LogFbx: =================================================
+[2015.09.16-20.29.28:129][906]LogFbx: Dumping Node START [default] 
+[2015.09.16-20.29.28:129][906]LogFbx: 	Total Deformer Count 1451095368.
+[2015.09.16-20.29.28:129][906]LogFbx: 		[Node 1] Skin default (Type Skin).
+[2015.09.16-20.29.28:129][906]LogFbx: =================================================
+[2015.09.16-20.29.28:129][906]LogFbx: 	Attribute (default) Type (4).
+[2015.09.16-20.29.28:129][906]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2015.09.16-20.29.28:129][906]LogFbx: Dumping Node END [default]
+[2015.09.16-20.29.28:129][906]LogFbx: =================================================
+[2015.09.16-20.29.28:129][906]LogFbx: Dumping Node START [default] 
+[2015.09.16-20.29.28:129][906]LogFbx: 	Total Deformer Count 1451094024.
+[2015.09.16-20.29.28:129][906]LogFbx: 		[Node 1] Skin default (Type Skin).
+[2015.09.16-20.29.28:129][906]LogFbx: =================================================
+[2015.09.16-20.29.28:129][906]LogFbx: 	Attribute (default) Type (4).
+[2015.09.16-20.29.28:129][906]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2015.09.16-20.29.28:129][906]LogFbx: Dumping Node END [default]
+[2015.09.16-20.29.28:132][906]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node default : The relative matrices do not match
+[2015.09.16-20.29.28:132][906]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2015.09.16-20.29.28:132][906]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - default
+[2015.09.16-20.29.28:132][906]LogFbx:Warning: Recreating bind pose succeeded.
+[2015.09.16-20.29.28:134][906]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/wire_028089177'
+[2015.09.16-20.29.28:134][906]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/wire_028089177'
+[2015.09.16-20.29.28:138][906]LogMaterial: Missing cached shader map for material wire_028089177, compiling. 
+[2015.09.16-20.29.28:166][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:166][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:166][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:166][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:166][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:166][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:166][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:166][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:166][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:166][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:166][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:166][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:166][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:167][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:167][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:167][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:167][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:167][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:167][906]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.29.28:176][906]LogFbx:Warning: Bones digested - 57  Depth of hierarchy - 14
+[2015.09.16-20.29.28:196][906]LogSkeletalMesh: Chunk 0: 1409 rigid vertices, 777 soft vertices, 44 active bones
+[2015.09.16-20.29.28:202][906]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 3574 triangles
+[2015.09.16-20.29.28:207][906]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/walk_PhysicsAsset'
+[2015.09.16-20.29.28:207][906]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/walk_PhysicsAsset'
+[2015.09.16-20.29.28:207][906]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Placeholder_Characters/walk_PhysicsAsset.walk_PhysicsAsset'
+[2015.09.16-20.29.28:208][906]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/walk_Skeleton'
+[2015.09.16-20.29.28:208][906]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/walk_Skeleton'
+[2015.09.16-20.29.28:208][906]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Placeholder_Characters/walk_Skeleton.walk_Skeleton'
+[2015.09.16-20.29.28:215][906]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+Bip01 HeadNub  
+Bip01 L Finger0Nub  
+Bip01 L Finger1Nub  
+Bip01 L Finger2Nub  
+Bip01 L Finger3Nub  
+Bip01 L Finger4Nub  
+Bip01 R Finger0Nub  
+Bip01 R Finger1Nub  
+Bip01 R Finger2Nub  
+Bip01 R Finger3Nub  
+Bip01 R Finger4Nub  
+Bip01 L Toe0Nub  
+Bip01 R Toe0Nub  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2015.09.16-20.29.28:248][907]LogMaterial:Warning: Material /Game/Placeholder_Characters/wire_028089177.wire_028089177 needed to have new flag set bUsedWithSkeletalMesh !
+[2015.09.16-20.29.28:273][907]LogMaterial: Missing cached shader map for material wire_028089177, compiling. 
+[2015.09.16-20.29.28:289][907]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-20.29.47:067][564]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.09.16-20.29.47:086][564]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.09.16-20.29.47:133][564]LogRenderer: Reallocating scene render targets to support 1208x880 (Frame:2252).
+[2015.09.16-20.29.59:997][ 51]LogContentBrowser: Native class hierarchy updated for 'PhAT' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.09.16-20.30.00:064][ 52]LogRenderer: Reallocating scene render targets to support 1524x900 (Frame:4074).
+[2015.09.16-20.31.01:085][431]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2015.09.16-20.31.01:094][431]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.09.16-20.31.04:118][771]LogRenderer: Reallocating scene render targets to support 1524x916 (Frame:14020).
+[2015.09.16-20.31.15:797][116]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.16-20.31.15:837][116]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000056746480
+[2015.09.16-20.31.15:837][116]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000056745F80
+[2015.09.16-20.31.15:838][116]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000563013A0
+[2015.09.16-20.31.15:838][116]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000056809620
+[2015.09.16-20.31.15:838][116]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005680BEC0
+[2015.09.16-20.31.15:839][116]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003526A480
+[2015.09.16-20.31.20:582][229]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Damir/Downloads/zombie/walk.FBX)
+[2015.09.16-20.31.20:588][229]LogFbx: ItemName: Model, ItemCount : 61
+[2015.09.16-20.31.20:588][229]LogFbx: ItemName: Material, ItemCount : 1
+[2015.09.16-20.31.20:588][229]LogFbx: ItemName: Texture, ItemCount : 2
+[2015.09.16-20.31.20:588][229]LogFbx: ItemName: Video, ItemCount : 2
+[2015.09.16-20.31.20:588][229]LogFbx: ItemName: SceneInfo, ItemCount : 1
+[2015.09.16-20.31.20:588][229]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.09.16-20.31.20:588][229]LogFbx: ItemName: Implementation, ItemCount : 1
+[2015.09.16-20.31.20:588][229]LogFbx: ItemName: BindingTable, ItemCount : 1
+[2015.09.16-20.31.20:588][229]LogFbx: ItemName: Deformer, ItemCount : 1
+[2015.09.16-20.31.20:588][229]LogFbx: ItemName: SubDeformer, ItemCount : 44
+[2015.09.16-20.31.20:588][229]LogFbx: ItemName: Pose, ItemCount : 1
+[2015.09.16-20.31.20:592][229]LogFbx: Loading FBX Scene from ../../../../../../Users/Damir/Downloads/zombie/walk.FBX
+[2015.09.16-20.31.20:635][229]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.16-20.31.46:227][229]LogFbx: Loading FBX Scene from ../../../../../../Users/Damir/Downloads/zombie/walk.FBX
+[2015.09.16-20.31.46:273][229]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.16-20.31.46:275][229]LogFbx: =================================================
+[2015.09.16-20.31.46:275][229]LogFbx: Dumping Node START [default] 
+[2015.09.16-20.31.46:275][229]LogFbx: 	Total Deformer Count 301177384.
+[2015.09.16-20.31.46:275][229]LogFbx: 		[Node 1] Skin default (Type Skin).
+[2015.09.16-20.31.46:275][229]LogFbx: =================================================
+[2015.09.16-20.31.46:275][229]LogFbx: 	Attribute (default) Type (4).
+[2015.09.16-20.31.46:275][229]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2015.09.16-20.31.46:275][229]LogFbx: Dumping Node END [default]
+[2015.09.16-20.31.46:275][229]LogFbx: =================================================
+[2015.09.16-20.31.46:275][229]LogFbx: Dumping Node START [default] 
+[2015.09.16-20.31.46:275][229]LogFbx: 	Total Deformer Count 301179848.
+[2015.09.16-20.31.46:275][229]LogFbx: 		[Node 1] Skin default (Type Skin).
+[2015.09.16-20.31.46:275][229]LogFbx: =================================================
+[2015.09.16-20.31.46:275][229]LogFbx: 	Attribute (default) Type (4).
+[2015.09.16-20.31.46:275][229]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2015.09.16-20.31.46:275][229]LogFbx: Dumping Node END [default]
+[2015.09.16-20.31.46:277][229]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node default : The relative matrices do not match
+[2015.09.16-20.31.46:277][229]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2015.09.16-20.31.46:277][229]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - default
+[2015.09.16-20.31.46:277][229]LogFbx:Warning: Recreating bind pose succeeded.
+[2015.09.16-20.31.46:278][229]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/wire_028089177'
+[2015.09.16-20.31.46:279][229]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/wire_028089177'
+[2015.09.16-20.31.46:282][229]LogMaterial: Missing cached shader map for material wire_028089177, compiling. 
+[2015.09.16-20.31.46:288][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:288][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:288][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:288][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:288][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:288][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:288][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:288][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:289][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:289][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:289][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:289][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:289][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:289][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:289][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:289][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:289][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:289][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:289][229]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.16-20.31.46:298][229]LogFbx:Warning: Bones digested - 57  Depth of hierarchy - 14
+[2015.09.16-20.31.46:316][229]LogSkeletalMesh: Chunk 0: 1409 rigid vertices, 777 soft vertices, 44 active bones
+[2015.09.16-20.31.46:322][229]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 3574 triangles
+[2015.09.16-20.31.46:327][229]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/walk_PhysicsAsset'
+[2015.09.16-20.31.46:328][229]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/walk_PhysicsAsset'
+[2015.09.16-20.31.46:328][229]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Placeholder_Characters/walk_PhysicsAsset.walk_PhysicsAsset'
+[2015.09.16-20.31.46:329][229]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/walk_Skeleton'
+[2015.09.16-20.31.46:329][229]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/walk_Skeleton'
+[2015.09.16-20.31.46:329][229]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Placeholder_Characters/walk_Skeleton.walk_Skeleton'
+[2015.09.16-20.31.46:329][229]LogFbx: =================================================
+[2015.09.16-20.31.46:329][229]LogFbx: Dumping Node START [default] 
+[2015.09.16-20.31.46:329][229]LogFbx: 	Total Deformer Count 296983864.
+[2015.09.16-20.31.46:329][229]LogFbx: 		[Node 1] Skin default (Type Skin).
+[2015.09.16-20.31.46:329][229]LogFbx: =================================================
+[2015.09.16-20.31.46:329][229]LogFbx: 	Attribute (default) Type (4).
+[2015.09.16-20.31.46:329][229]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2015.09.16-20.31.46:329][229]LogFbx: Dumping Node END [default]
+[2015.09.16-20.31.46:329][229]LogFbx: =================================================
+[2015.09.16-20.31.46:329][229]LogFbx: Dumping Node START [default] 
+[2015.09.16-20.31.46:329][229]LogFbx: 	Total Deformer Count 296991256.
+[2015.09.16-20.31.46:329][229]LogFbx: 		[Node 1] Skin default (Type Skin).
+[2015.09.16-20.31.46:329][229]LogFbx: =================================================
+[2015.09.16-20.31.46:329][229]LogFbx: 	Attribute (default) Type (4).
+[2015.09.16-20.31.46:329][229]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2015.09.16-20.31.46:329][229]LogFbx: Dumping Node END [default]
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(0) Bip01
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(1) Bip01 Pelvis
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(2) Bip01 Spine
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(3) Bip01 Spine1
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(4) Bip01 Spine2
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(5) Bip01 Spine3
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(6) Bip01 Neck
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(7) Bip01 Head
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(8) Bip01 HeadNub
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(9) Bip01 L Clavicle
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(10) Bip01 L UpperArm
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(11) Bip01 L Forearm
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(12) Bip01 L Hand
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(13) Bip01 L Finger0
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(14) Bip01 L Finger01
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(15) Bip01 L Finger0Nub
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(16) Bip01 L Finger1
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(17) Bip01 L Finger11
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(18) Bip01 L Finger1Nub
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(19) Bip01 L Finger2
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(20) Bip01 L Finger21
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(21) Bip01 L Finger2Nub
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(22) Bip01 L Finger3
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(23) Bip01 L Finger31
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(24) Bip01 L Finger3Nub
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(25) Bip01 L Finger4
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(26) Bip01 L Finger41
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(27) Bip01 L Finger4Nub
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(28) Bip01 R Clavicle
+[2015.09.16-20.31.46:330][229]LogFbx: SortedLinks :(29) Bip01 R UpperArm
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(30) Bip01 R Forearm
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(31) Bip01 R Hand
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(32) Bip01 R Finger0
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(33) Bip01 R Finger01
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(34) Bip01 R Finger0Nub
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(35) Bip01 R Finger1
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(36) Bip01 R Finger11
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(37) Bip01 R Finger1Nub
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(38) Bip01 R Finger2
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(39) Bip01 R Finger21
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(40) Bip01 R Finger2Nub
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(41) Bip01 R Finger3
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(42) Bip01 R Finger31
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(43) Bip01 R Finger3Nub
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(44) Bip01 R Finger4
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(45) Bip01 R Finger41
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(46) Bip01 R Finger4Nub
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(47) Bip01 L Thigh
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(48) Bip01 L Calf
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(49) Bip01 L Foot
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(50) Bip01 L Toe0
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(51) Bip01 L Toe0Nub
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(52) Bip01 R Thigh
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(53) Bip01 R Calf
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(54) Bip01 R Foot
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(55) Bip01 R Toe0
+[2015.09.16-20.31.46:331][229]LogFbx: SortedLinks :(56) Bip01 R Toe0Nub
+[2015.09.16-20.31.46:332][229]LogFbx: Parsing AnimStack Take 001
+[2015.09.16-20.31.46:335][229]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/walk_Anim'
+[2015.09.16-20.31.46:335][229]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/walk_Anim'
+[2015.09.16-20.31.46:335][229]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Placeholder_Characters/walk_Anim.walk_Anim'
+[2015.09.16-20.31.46:812][229]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+Bip01 HeadNub  
+Bip01 L Finger0Nub  
+Bip01 L Finger1Nub  
+Bip01 L Finger2Nub  
+Bip01 L Finger3Nub  
+Bip01 L Finger4Nub  
+Bip01 R Finger0Nub  
+Bip01 R Finger1Nub  
+Bip01 R Finger2Nub  
+Bip01 R Finger3Nub  
+Bip01 R Finger4Nub  
+Bip01 L Toe0Nub  
+Bip01 R Toe0Nub  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2015.09.16-20.31.46:821][229]LogMaterial:Warning: Material /Game/Placeholder_Characters/wire_028089177.wire_028089177 needed to have new flag set bUsedWithSkeletalMesh !
+[2015.09.16-20.31.46:823][229]LogMaterial: Missing cached shader map for material wire_028089177, compiling. 
+[2015.09.16-20.31.46:839][229]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-20.32.08:966][459]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2015.09.16-20.32.08:994][459]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.09.16-20.32.09:040][459]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.09.16-20.32.39:851][ 27]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Damir\Downloads\zombie\difusse.jpg)
+[2015.09.16-20.32.40:057][ 27]LogTexture:Display: Building textures: difusse (AutoDXT)
+[2015.09.16-20.32.42:110][ 27]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Damir\Downloads\zombie\especular.jpg)
+[2015.09.16-20.32.42:254][ 27]LogTexture:Display: Building textures: especular (AutoDXT)
+[2015.09.16-20.32.43:370][ 27]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Damir\Downloads\zombie\normal.JPG)
+[2015.09.16-20.32.43:585][ 27]LogTexture:Display: Building textures: normal (BC5)
+[2015.09.16-20.33.29:063][592]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Damir/Downloads/zombie/fury.FBX)
+[2015.09.16-20.33.29:068][592]LogFbx: ItemName: Model, ItemCount : 60
+[2015.09.16-20.33.29:068][592]LogFbx: ItemName: Material, ItemCount : 2
+[2015.09.16-20.33.29:068][592]LogFbx: ItemName: Texture, ItemCount : 2
+[2015.09.16-20.33.29:068][592]LogFbx: ItemName: Video, ItemCount : 2
+[2015.09.16-20.33.29:068][592]LogFbx: ItemName: SceneInfo, ItemCount : 1
+[2015.09.16-20.33.29:068][592]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.09.16-20.33.29:068][592]LogFbx: ItemName: Implementation, ItemCount : 1
+[2015.09.16-20.33.29:068][592]LogFbx: ItemName: BindingTable, ItemCount : 1
+[2015.09.16-20.33.29:068][592]LogFbx: ItemName: Deformer, ItemCount : 1
+[2015.09.16-20.33.29:068][592]LogFbx: ItemName: SubDeformer, ItemCount : 44
+[2015.09.16-20.33.29:068][592]LogFbx: ItemName: Pose, ItemCount : 1
+[2015.09.16-20.33.29:072][592]LogFbx: Loading FBX Scene from ../../../../../../Users/Damir/Downloads/zombie/fury.FBX
+[2015.09.16-20.33.29:120][592]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.16-20.33.39:048][592]LogFbx: Loading FBX Scene from ../../../../../../Users/Damir/Downloads/zombie/fury.FBX
+[2015.09.16-20.33.39:098][592]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.16-20.33.39:100][592]LogFbx: =================================================
+[2015.09.16-20.33.39:100][592]LogFbx: Dumping Node START [default] 
+[2015.09.16-20.33.39:100][592]LogFbx: 	Total Deformer Count 729681216.
+[2015.09.16-20.33.39:100][592]LogFbx: 		[Node 1] Skin default (Type Skin).
+[2015.09.16-20.33.39:100][592]LogFbx: =================================================
+[2015.09.16-20.33.39:100][592]LogFbx: 	Attribute (default) Type (4).
+[2015.09.16-20.33.39:100][592]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2015.09.16-20.33.39:100][592]LogFbx: Dumping Node END [default]
+[2015.09.16-20.33.39:100][592]LogFbx: =================================================
+[2015.09.16-20.33.39:100][592]LogFbx: Dumping Node START [Plane01] 
+[2015.09.16-20.33.39:100][592]LogFbx: 	Total Deformer Count 729681216.
+[2015.09.16-20.33.39:100][592]LogFbx: 	Attribute () Type (4).
+[2015.09.16-20.33.39:100][592]LogFbx: 		[Node Attribute Child 1] Plane01 (Type Mesh).
+[2015.09.16-20.33.39:100][592]LogFbx: Dumping Node END [Plane01]
+[2015.09.16-20.33.39:100][592]LogFbx: =================================================
+[2015.09.16-20.33.39:100][592]LogFbx: Dumping Node START [default] 
+[2015.09.16-20.33.39:100][592]LogFbx: 	Total Deformer Count 729693704.
+[2015.09.16-20.33.39:100][592]LogFbx: 		[Node 1] Skin default (Type Skin).
+[2015.09.16-20.33.39:100][592]LogFbx: =================================================
+[2015.09.16-20.33.39:100][592]LogFbx: 	Attribute (default) Type (4).
+[2015.09.16-20.33.39:100][592]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2015.09.16-20.33.39:100][592]LogFbx: Dumping Node END [default]
+[2015.09.16-20.33.39:101][592]LogFbx: =================================================
+[2015.09.16-20.33.39:101][592]LogFbx: Dumping Node START [Plane01] 
+[2015.09.16-20.33.39:101][592]LogFbx: 	Total Deformer Count 729693704.
+[2015.09.16-20.33.39:101][592]LogFbx: 	Attribute () Type (4).
+[2015.09.16-20.33.39:101][592]LogFbx: 		[Node Attribute Child 1] Plane01 (Type Mesh).
+[2015.09.16-20.33.39:101][592]LogFbx: Dumping Node END [Plane01]
+[2015.09.16-20.33.39:102][592]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node default : The relative matrices do not match
+[2015.09.16-20.33.39:102][592]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2015.09.16-20.33.39:102][592]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - default
+[2015.09.16-20.33.39:102][592]LogFbx:Warning: Recreating bind pose succeeded.
+[2015.09.16-20.33.39:111][592]LogFbx:Warning: Bones digested - 57  Depth of hierarchy - 14
+[2015.09.16-20.33.39:130][592]LogSkeletalMesh: Chunk 0: 1409 rigid vertices, 777 soft vertices, 44 active bones
+[2015.09.16-20.33.39:135][592]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 3574 triangles
+[2015.09.16-20.33.39:141][592]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/fury_PhysicsAsset'
+[2015.09.16-20.33.39:141][592]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/fury_PhysicsAsset'
+[2015.09.16-20.33.39:141][592]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Placeholder_Characters/fury_PhysicsAsset.fury_PhysicsAsset'
+[2015.09.16-20.33.39:143][592]LogFbx: =================================================
+[2015.09.16-20.33.39:143][592]LogFbx: Dumping Node START [default] 
+[2015.09.16-20.33.39:143][592]LogFbx: 	Total Deformer Count 729692192.
+[2015.09.16-20.33.39:143][592]LogFbx: 		[Node 1] Skin default (Type Skin).
+[2015.09.16-20.33.39:143][592]LogFbx: =================================================
+[2015.09.16-20.33.39:143][592]LogFbx: 	Attribute (default) Type (4).
+[2015.09.16-20.33.39:143][592]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2015.09.16-20.33.39:143][592]LogFbx: Dumping Node END [default]
+[2015.09.16-20.33.39:143][592]LogFbx: =================================================
+[2015.09.16-20.33.39:143][592]LogFbx: Dumping Node START [Plane01] 
+[2015.09.16-20.33.39:143][592]LogFbx: 	Total Deformer Count 729692192.
+[2015.09.16-20.33.39:143][592]LogFbx: 	Attribute () Type (4).
+[2015.09.16-20.33.39:143][592]LogFbx: 		[Node Attribute Child 1] Plane01 (Type Mesh).
+[2015.09.16-20.33.39:143][592]LogFbx: Dumping Node END [Plane01]
+[2015.09.16-20.33.39:143][592]LogFbx: =================================================
+[2015.09.16-20.33.39:143][592]LogFbx: Dumping Node START [default] 
+[2015.09.16-20.33.39:143][592]LogFbx: 	Total Deformer Count 729684688.
+[2015.09.16-20.33.39:143][592]LogFbx: 		[Node 1] Skin default (Type Skin).
+[2015.09.16-20.33.39:143][592]LogFbx: =================================================
+[2015.09.16-20.33.39:143][592]LogFbx: 	Attribute (default) Type (4).
+[2015.09.16-20.33.39:143][592]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2015.09.16-20.33.39:143][592]LogFbx: Dumping Node END [default]
+[2015.09.16-20.33.39:144][592]LogFbx: =================================================
+[2015.09.16-20.33.39:144][592]LogFbx: Dumping Node START [Plane01] 
+[2015.09.16-20.33.39:144][592]LogFbx: 	Total Deformer Count 729684688.
+[2015.09.16-20.33.39:144][592]LogFbx: 	Attribute () Type (4).
+[2015.09.16-20.33.39:144][592]LogFbx: 		[Node Attribute Child 1] Plane01 (Type Mesh).
+[2015.09.16-20.33.39:144][592]LogFbx: Dumping Node END [Plane01]
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(0) Bip01
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(1) Bip01 Pelvis
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(2) Bip01 Spine
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(3) Bip01 Spine1
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(4) Bip01 Spine2
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(5) Bip01 Spine3
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(6) Bip01 Neck
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(7) Bip01 Head
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(8) Bip01 HeadNub
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(9) Bip01 L Clavicle
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(10) Bip01 L UpperArm
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(11) Bip01 L Forearm
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(12) Bip01 L Hand
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(13) Bip01 L Finger0
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(14) Bip01 L Finger01
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(15) Bip01 L Finger0Nub
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(16) Bip01 L Finger1
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(17) Bip01 L Finger11
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(18) Bip01 L Finger1Nub
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(19) Bip01 L Finger2
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(20) Bip01 L Finger21
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(21) Bip01 L Finger2Nub
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(22) Bip01 L Finger3
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(23) Bip01 L Finger31
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(24) Bip01 L Finger3Nub
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(25) Bip01 L Finger4
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(26) Bip01 L Finger41
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(27) Bip01 L Finger4Nub
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(28) Bip01 R Clavicle
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(29) Bip01 R UpperArm
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(30) Bip01 R Forearm
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(31) Bip01 R Hand
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(32) Bip01 R Finger0
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(33) Bip01 R Finger01
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(34) Bip01 R Finger0Nub
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(35) Bip01 R Finger1
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(36) Bip01 R Finger11
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(37) Bip01 R Finger1Nub
+[2015.09.16-20.33.39:144][592]LogFbx: SortedLinks :(38) Bip01 R Finger2
+[2015.09.16-20.33.39:145][592]LogFbx: SortedLinks :(39) Bip01 R Finger21
+[2015.09.16-20.33.39:145][592]LogFbx: SortedLinks :(40) Bip01 R Finger2Nub
+[2015.09.16-20.33.39:145][592]LogFbx: SortedLinks :(41) Bip01 R Finger3
+[2015.09.16-20.33.39:145][592]LogFbx: SortedLinks :(42) Bip01 R Finger31
+[2015.09.16-20.33.39:145][592]LogFbx: SortedLinks :(43) Bip01 R Finger3Nub
+[2015.09.16-20.33.39:145][592]LogFbx: SortedLinks :(44) Bip01 R Finger4
+[2015.09.16-20.33.39:145][592]LogFbx: SortedLinks :(45) Bip01 R Finger41
+[2015.09.16-20.33.39:145][592]LogFbx: SortedLinks :(46) Bip01 R Finger4Nub
+[2015.09.16-20.33.39:145][592]LogFbx: SortedLinks :(47) Bip01 L Thigh
+[2015.09.16-20.33.39:145][592]LogFbx: SortedLinks :(48) Bip01 L Calf
+[2015.09.16-20.33.39:145][592]LogFbx: SortedLinks :(49) Bip01 L Foot
+[2015.09.16-20.33.39:145][592]LogFbx: SortedLinks :(50) Bip01 L Toe0
+[2015.09.16-20.33.39:145][592]LogFbx: SortedLinks :(51) Bip01 L Toe0Nub
+[2015.09.16-20.33.39:145][592]LogFbx: SortedLinks :(52) Bip01 R Thigh
+[2015.09.16-20.33.39:145][592]LogFbx: SortedLinks :(53) Bip01 R Calf
+[2015.09.16-20.33.39:145][592]LogFbx: SortedLinks :(54) Bip01 R Foot
+[2015.09.16-20.33.39:145][592]LogFbx: SortedLinks :(55) Bip01 R Toe0
+[2015.09.16-20.33.39:145][592]LogFbx: SortedLinks :(56) Bip01 R Toe0Nub
+[2015.09.16-20.33.39:145][592]LogFbx: Parsing AnimStack Take 001
+[2015.09.16-20.33.39:149][592]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/fury_Anim'
+[2015.09.16-20.33.39:149][592]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/fury_Anim'
+[2015.09.16-20.33.39:149][592]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Placeholder_Characters/fury_Anim.fury_Anim'
+[2015.09.16-20.33.39:741][592]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+Bip01 HeadNub  
+Bip01 L Finger0Nub  
+Bip01 L Finger1Nub  
+Bip01 L Finger2Nub  
+Bip01 L Finger3Nub  
+Bip01 L Finger4Nub  
+Bip01 R Finger0Nub  
+Bip01 R Finger1Nub  
+Bip01 R Finger2Nub  
+Bip01 R Finger3Nub  
+Bip01 R Finger4Nub  
+Bip01 L Toe0Nub  
+Bip01 R Toe0Nub  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2015.09.16-20.34.10:311][  9]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Damir/Downloads/zombie/dead.FBX)
+[2015.09.16-20.34.10:318][  9]LogFbx: ItemName: Model, ItemCount : 60
+[2015.09.16-20.34.10:318][  9]LogFbx: ItemName: Material, ItemCount : 2
+[2015.09.16-20.34.10:318][  9]LogFbx: ItemName: Texture, ItemCount : 2
+[2015.09.16-20.34.10:318][  9]LogFbx: ItemName: Video, ItemCount : 2
+[2015.09.16-20.34.10:318][  9]LogFbx: ItemName: SceneInfo, ItemCount : 1
+[2015.09.16-20.34.10:318][  9]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.09.16-20.34.10:318][  9]LogFbx: ItemName: Implementation, ItemCount : 1
+[2015.09.16-20.34.10:319][  9]LogFbx: ItemName: BindingTable, ItemCount : 1
+[2015.09.16-20.34.10:319][  9]LogFbx: ItemName: Deformer, ItemCount : 1
+[2015.09.16-20.34.10:319][  9]LogFbx: ItemName: SubDeformer, ItemCount : 44
+[2015.09.16-20.34.10:319][  9]LogFbx: ItemName: Pose, ItemCount : 1
+[2015.09.16-20.34.10:323][  9]LogFbx: Loading FBX Scene from ../../../../../../Users/Damir/Downloads/zombie/dead.FBX
+[2015.09.16-20.34.10:380][  9]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.16-20.34.16:493][  9]LogFbx: Loading FBX Scene from ../../../../../../Users/Damir/Downloads/zombie/dead.FBX
+[2015.09.16-20.34.16:550][  9]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.16-20.34.16:553][  9]LogFbx: =================================================
+[2015.09.16-20.34.16:553][  9]LogFbx: Dumping Node START [default] 
+[2015.09.16-20.34.16:553][  9]LogFbx: 	Total Deformer Count 813424656.
+[2015.09.16-20.34.16:553][  9]LogFbx: 		[Node 1] Skin default (Type Skin).
+[2015.09.16-20.34.16:553][  9]LogFbx: =================================================
+[2015.09.16-20.34.16:553][  9]LogFbx: 	Attribute (default) Type (4).
+[2015.09.16-20.34.16:553][  9]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2015.09.16-20.34.16:553][  9]LogFbx: Dumping Node END [default]
+[2015.09.16-20.34.16:553][  9]LogFbx: =================================================
+[2015.09.16-20.34.16:553][  9]LogFbx: Dumping Node START [Plane01] 
+[2015.09.16-20.34.16:553][  9]LogFbx: 	Total Deformer Count 813424656.
+[2015.09.16-20.34.16:553][  9]LogFbx: 	Attribute () Type (4).
+[2015.09.16-20.34.16:553][  9]LogFbx: 		[Node Attribute Child 1] Plane01 (Type Mesh).
+[2015.09.16-20.34.16:553][  9]LogFbx: Dumping Node END [Plane01]
+[2015.09.16-20.34.16:553][  9]LogFbx: =================================================
+[2015.09.16-20.34.16:553][  9]LogFbx: Dumping Node START [default] 
+[2015.09.16-20.34.16:553][  9]LogFbx: 	Total Deformer Count 813416872.
+[2015.09.16-20.34.16:553][  9]LogFbx: 		[Node 1] Skin default (Type Skin).
+[2015.09.16-20.34.16:553][  9]LogFbx: =================================================
+[2015.09.16-20.34.16:553][  9]LogFbx: 	Attribute (default) Type (4).
+[2015.09.16-20.34.16:553][  9]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2015.09.16-20.34.16:553][  9]LogFbx: Dumping Node END [default]
+[2015.09.16-20.34.16:554][  9]LogFbx: =================================================
+[2015.09.16-20.34.16:554][  9]LogFbx: Dumping Node START [Plane01] 
+[2015.09.16-20.34.16:554][  9]LogFbx: 	Total Deformer Count 813416872.
+[2015.09.16-20.34.16:554][  9]LogFbx: 	Attribute () Type (4).
+[2015.09.16-20.34.16:554][  9]LogFbx: 		[Node Attribute Child 1] Plane01 (Type Mesh).
+[2015.09.16-20.34.16:554][  9]LogFbx: Dumping Node END [Plane01]
+[2015.09.16-20.34.16:555][  9]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node default : The relative matrices do not match
+[2015.09.16-20.34.16:555][  9]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2015.09.16-20.34.16:556][  9]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - default
+[2015.09.16-20.34.16:556][  9]LogFbx:Warning: Recreating bind pose succeeded.
+[2015.09.16-20.34.16:564][  9]LogFbx:Warning: Bones digested - 57  Depth of hierarchy - 14
+[2015.09.16-20.34.16:582][  9]LogSkeletalMesh: Chunk 0: 1409 rigid vertices, 777 soft vertices, 44 active bones
+[2015.09.16-20.34.16:587][  9]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 3574 triangles
+[2015.09.16-20.34.16:595][  9]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/dead_PhysicsAsset'
+[2015.09.16-20.34.16:595][  9]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/dead_PhysicsAsset'
+[2015.09.16-20.34.16:595][  9]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Placeholder_Characters/dead_PhysicsAsset.dead_PhysicsAsset'
+[2015.09.16-20.34.16:596][  9]LogFbx: =================================================
+[2015.09.16-20.34.16:596][  9]LogFbx: Dumping Node START [default] 
+[2015.09.16-20.34.16:596][  9]LogFbx: 	Total Deformer Count 813420848.
+[2015.09.16-20.34.16:596][  9]LogFbx: 		[Node 1] Skin default (Type Skin).
+[2015.09.16-20.34.16:596][  9]LogFbx: =================================================
+[2015.09.16-20.34.16:596][  9]LogFbx: 	Attribute (default) Type (4).
+[2015.09.16-20.34.16:596][  9]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2015.09.16-20.34.16:596][  9]LogFbx: Dumping Node END [default]
+[2015.09.16-20.34.16:597][  9]LogFbx: =================================================
+[2015.09.16-20.34.16:597][  9]LogFbx: Dumping Node START [Plane01] 
+[2015.09.16-20.34.16:597][  9]LogFbx: 	Total Deformer Count 813420848.
+[2015.09.16-20.34.16:597][  9]LogFbx: 	Attribute () Type (4).
+[2015.09.16-20.34.16:597][  9]LogFbx: 		[Node Attribute Child 1] Plane01 (Type Mesh).
+[2015.09.16-20.34.16:597][  9]LogFbx: Dumping Node END [Plane01]
+[2015.09.16-20.34.16:597][  9]LogFbx: =================================================
+[2015.09.16-20.34.16:597][  9]LogFbx: Dumping Node START [default] 
+[2015.09.16-20.34.16:597][  9]LogFbx: 	Total Deformer Count 813426896.
+[2015.09.16-20.34.16:597][  9]LogFbx: 		[Node 1] Skin default (Type Skin).
+[2015.09.16-20.34.16:597][  9]LogFbx: =================================================
+[2015.09.16-20.34.16:597][  9]LogFbx: 	Attribute (default) Type (4).
+[2015.09.16-20.34.16:597][  9]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2015.09.16-20.34.16:597][  9]LogFbx: Dumping Node END [default]
+[2015.09.16-20.34.16:598][  9]LogFbx: =================================================
+[2015.09.16-20.34.16:598][  9]LogFbx: Dumping Node START [Plane01] 
+[2015.09.16-20.34.16:598][  9]LogFbx: 	Total Deformer Count 813426896.
+[2015.09.16-20.34.16:598][  9]LogFbx: 	Attribute () Type (4).
+[2015.09.16-20.34.16:598][  9]LogFbx: 		[Node Attribute Child 1] Plane01 (Type Mesh).
+[2015.09.16-20.34.16:598][  9]LogFbx: Dumping Node END [Plane01]
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(0) Bip01
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(1) Bip01 Pelvis
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(2) Bip01 Spine
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(3) Bip01 Spine1
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(4) Bip01 Spine2
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(5) Bip01 Spine3
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(6) Bip01 Neck
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(7) Bip01 Head
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(8) Bip01 HeadNub
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(9) Bip01 L Clavicle
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(10) Bip01 L UpperArm
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(11) Bip01 L Forearm
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(12) Bip01 L Hand
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(13) Bip01 L Finger0
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(14) Bip01 L Finger01
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(15) Bip01 L Finger0Nub
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(16) Bip01 L Finger1
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(17) Bip01 L Finger11
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(18) Bip01 L Finger1Nub
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(19) Bip01 L Finger2
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(20) Bip01 L Finger21
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(21) Bip01 L Finger2Nub
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(22) Bip01 L Finger3
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(23) Bip01 L Finger31
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(24) Bip01 L Finger3Nub
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(25) Bip01 L Finger4
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(26) Bip01 L Finger41
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(27) Bip01 L Finger4Nub
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(28) Bip01 R Clavicle
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(29) Bip01 R UpperArm
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(30) Bip01 R Forearm
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(31) Bip01 R Hand
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(32) Bip01 R Finger0
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(33) Bip01 R Finger01
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(34) Bip01 R Finger0Nub
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(35) Bip01 R Finger1
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(36) Bip01 R Finger11
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(37) Bip01 R Finger1Nub
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(38) Bip01 R Finger2
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(39) Bip01 R Finger21
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(40) Bip01 R Finger2Nub
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(41) Bip01 R Finger3
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(42) Bip01 R Finger31
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(43) Bip01 R Finger3Nub
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(44) Bip01 R Finger4
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(45) Bip01 R Finger41
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(46) Bip01 R Finger4Nub
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(47) Bip01 L Thigh
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(48) Bip01 L Calf
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(49) Bip01 L Foot
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(50) Bip01 L Toe0
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(51) Bip01 L Toe0Nub
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(52) Bip01 R Thigh
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(53) Bip01 R Calf
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(54) Bip01 R Foot
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(55) Bip01 R Toe0
+[2015.09.16-20.34.16:598][  9]LogFbx: SortedLinks :(56) Bip01 R Toe0Nub
+[2015.09.16-20.34.16:599][  9]LogFbx: Parsing AnimStack Take 001
+[2015.09.16-20.34.16:603][  9]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/dead_Anim'
+[2015.09.16-20.34.16:603][  9]LogLinker:Warning: Can't find file '/Game/Placeholder_Characters/dead_Anim'
+[2015.09.16-20.34.16:603][  9]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Placeholder_Characters/dead_Anim.dead_Anim'
+[2015.09.16-20.34.17:521][  9]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+Bip01 HeadNub  
+Bip01 L Finger0Nub  
+Bip01 L Finger1Nub  
+Bip01 L Finger2Nub  
+Bip01 L Finger3Nub  
+Bip01 L Finger4Nub  
+Bip01 R Finger0Nub  
+Bip01 R Finger1Nub  
+Bip01 R Finger2Nub  
+Bip01 R Finger3Nub  
+Bip01 R Finger4Nub  
+Bip01 L Toe0Nub  
+Bip01 R Toe0Nub  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2015.09.16-20.34.21:595][484]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2015.09.16-20.34.21:623][484]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.09.16-20.34.21:665][484]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.09.16-20.34.38:873][484]LogMaterial: Missing cached shader map for material wire_028089177, compiling. 
+[2015.09.16-20.34.38:923][484]LogMaterial: Missing cached shader map for material wire_028089177, compiling. 
+[2015.09.16-20.34.38:934][484]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-20.34.38:966][484]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2015.09.16-20.34.44:755][ 15]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.09.16-20.34.44:755][ 15]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.09.16-20.34.44:755][ 15]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.09.16-20.34.58:945][696]LogMaterial: Missing cached shader map for material wire_028089177, compiling. 
+[2015.09.16-20.34.58:957][696]LogMaterial: 0.000154 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-20.34.58:958][696]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.09.16-20.35.01:900][948]LogMaterial: Missing cached shader map for material wire_028089177, compiling. 
+[2015.09.16-20.35.01:912][948]LogMaterial: 0.000026 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-20.35.01:953][948]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.09.16-20.35.07:239][361]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.09.16-20.35.07:239][361]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.16-20.35.07:239][361]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.09.16-20.35.08:731][519]LogMaterial: Missing cached shader map for material wire_028089177, compiling. 
+[2015.09.16-20.35.08:743][519]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-20.35.08:794][519]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2015.09.16-20.35.11:623][789]LogMaterialEditor: Saving and Compiling material wire_028089177
+[2015.09.16-20.35.12:199][789]LogMaterial: Missing cached shader map for material wire_028089177, compiling. 
+[2015.09.16-20.35.12:225][789]LogMaterial: 0.000032 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-20.35.12:250][789]LogMaterial: Missing cached shader map for material wire_028089177, compiling. 
+[2015.09.16-20.35.12:279][789]LogMaterial: Missing cached shader map for material wire_028089177, compiling. 
+[2015.09.16-20.35.12:298][789]LogMaterial: 0.000705 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-20.35.20:150][789]LogSavePackage: Save=10.604602ms
+[2015.09.16-20.35.20:150][789]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/wire_028089177A13E39FC408391AD5C9916A317701984.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/wire_028089177.uasset'
+[2015.09.16-20.35.20:151][789]LogSavePackage: Total save time: 11.577692ms
+[2015.09.16-20.35.20:151][789]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/wire_028089177.uasset
+[2015.09.16-20.35.20:163][790]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.16-20.35.20:163][790]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.16-20.35.20:163][790]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.09.16-20.35.49:610][930]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2015.09.16-20.35.49:653][930]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.09.16-20.35.49:694][930]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.09.16-20.38.35:255][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.16-20.38.35:274][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012802340
+[2015.09.16-20.38.35:274][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000251DCC20
+[2015.09.16-20.38.35:275][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011B4B240
+[2015.09.16-20.38.35:276][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012802840
+[2015.09.16-20.38.35:277][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011B4B1A0
+[2015.09.16-20.38.35:277][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012801B20
+[2015.09.16-20.38.35:278][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002274D6C0
+[2015.09.16-20.38.35:278][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011035940
+[2015.09.16-20.38.35:279][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011037060
+[2015.09.16-20.38.37:423][156]LogSavePackage: Save=2099.496094ms
+[2015.09.16-20.38.37:423][156]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/TestingInstance_Auto14FCA4C234346B69DB4922FB383AA6730.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Maps/TestingInstance_Auto1.umap'
+[2015.09.16-20.38.37:424][156]LogSavePackage: Total save time: 2125.156648ms
+[2015.09.16-20.38.37:424][156]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Maps/TestingInstance_Auto1.umap
+[2015.09.16-20.38.37:425][156]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestingInstance' took 2.169
+[2015.09.16-20.38.37:425][156]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.169
+[2015.09.16-20.38.37:429][156]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Placeholder_Characters/walk_Skeleton] ([1] browsable assets)...
+[2015.09.16-20.38.37:429][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Placeholder_Characters/walk_Skeleton]
+[2015.09.16-20.38.37:431][156]LogSavePackage: Save=1.338112ms
+[2015.09.16-20.38.37:431][156]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/walk_Skeleton_Auto1C06083F746F80EDFF1976883C19E51A9.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/walk_Skeleton_Auto1.uasset'
+[2015.09.16-20.38.37:432][156]LogSavePackage: Total save time: 1.882330ms
+[2015.09.16-20.38.37:432][156]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/walk_Skeleton_Auto1.uasset
+[2015.09.16-20.38.37:434][156]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Placeholder_Characters/walk_PhysicsAsset] ([1] browsable assets)...
+[2015.09.16-20.38.37:434][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Placeholder_Characters/walk_PhysicsAsset]
+[2015.09.16-20.38.37:442][156]LogSavePackage: Save=6.974263ms
+[2015.09.16-20.38.37:442][156]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/walk_PhysicsAsset_Auto16E967E1A4798088C18721497F6C994E4.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/walk_PhysicsAsset_Auto1.uasset'
+[2015.09.16-20.38.37:442][156]LogSavePackage: Total save time: 7.579621ms
+[2015.09.16-20.38.37:442][156]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/walk_PhysicsAsset_Auto1.uasset
+[2015.09.16-20.38.37:445][156]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Placeholder_Characters/walk] ([1] browsable assets)...
+[2015.09.16-20.38.37:465][156]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Placeholder_Characters/walk.walk]
+[2015.09.16-20.38.37:465][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Placeholder_Characters/walk]
+[2015.09.16-20.38.37:477][156]LogSavePackage: Save=11.892718ms
+[2015.09.16-20.38.37:478][156]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/walk_Auto177867A1F426EDFE3B4111A8994EF9C59.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/walk_Auto1.uasset'
+[2015.09.16-20.38.37:478][156]LogSavePackage: Total save time: 12.732089ms
+[2015.09.16-20.38.37:478][156]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/walk_Auto1.uasset
+[2015.09.16-20.38.37:481][156]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Placeholder_Characters/walk_Anim] ([1] browsable assets)...
+[2015.09.16-20.38.37:500][156]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Placeholder_Characters/walk_Anim.walk_Anim]
+[2015.09.16-20.38.37:500][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Placeholder_Characters/walk_Anim]
+[2015.09.16-20.38.37:510][156]LogSavePackage: Save=9.074040ms
+[2015.09.16-20.38.37:510][156]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/walk_Anim_Auto12A4F974748D7D33EE41877890F8D36FD.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/walk_Anim_Auto1.uasset'
+[2015.09.16-20.38.37:511][156]LogSavePackage: Total save time: 9.780593ms
+[2015.09.16-20.38.37:511][156]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/walk_Anim_Auto1.uasset
+[2015.09.16-20.38.37:513][156]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Placeholder_Characters/difusse] ([1] browsable assets)...
+[2015.09.16-20.38.37:520][156]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Placeholder_Characters/difusse.difusse]
+[2015.09.16-20.38.37:520][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Placeholder_Characters/difusse]
+[2015.09.16-20.38.37:536][156]LogSavePackage: Save=14.498769ms
+[2015.09.16-20.38.37:536][156]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/difusse_Auto1E1A9A8D549DA3C65BB7211B911AA34A0.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/difusse_Auto1.uasset'
+[2015.09.16-20.38.37:536][156]LogSavePackage: Total save time: 15.236642ms
+[2015.09.16-20.38.37:536][156]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/difusse_Auto1.uasset
+[2015.09.16-20.38.37:539][156]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Placeholder_Characters/especular] ([1] browsable assets)...
+[2015.09.16-20.38.37:548][156]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Placeholder_Characters/especular.especular]
+[2015.09.16-20.38.37:548][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Placeholder_Characters/especular]
+[2015.09.16-20.38.37:562][156]LogSavePackage: Save=13.213362ms
+[2015.09.16-20.38.37:562][156]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/especular_Auto1FE9230524540CBC38C89C0AE01B3F98E.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/especular_Auto1.uasset'
+[2015.09.16-20.38.37:562][156]LogSavePackage: Total save time: 13.918709ms
+[2015.09.16-20.38.37:562][156]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/especular_Auto1.uasset
+[2015.09.16-20.38.37:565][156]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Placeholder_Characters/normal] ([1] browsable assets)...
+[2015.09.16-20.38.37:573][156]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Placeholder_Characters/normal.normal]
+[2015.09.16-20.38.37:573][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Placeholder_Characters/normal]
+[2015.09.16-20.38.37:590][156]LogSavePackage: Save=15.772730ms
+[2015.09.16-20.38.37:590][156]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/normal_Auto17FEAD451438858E3D6AF6D889BEEB21A.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/normal_Auto1.uasset'
+[2015.09.16-20.38.37:590][156]LogSavePackage: Total save time: 16.535904ms
+[2015.09.16-20.38.37:590][156]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/normal_Auto1.uasset
+[2015.09.16-20.38.37:593][156]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Placeholder_Characters/fury] ([1] browsable assets)...
+[2015.09.16-20.38.37:611][156]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Placeholder_Characters/fury.fury]
+[2015.09.16-20.38.37:611][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Placeholder_Characters/fury]
+[2015.09.16-20.38.37:624][156]LogSavePackage: Save=12.333636ms
+[2015.09.16-20.38.37:624][156]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/fury_Auto1F303FE3A45E5F190CEB0BFBC81AF223D.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/fury_Auto1.uasset'
+[2015.09.16-20.38.37:625][156]LogSavePackage: Total save time: 13.095003ms
+[2015.09.16-20.38.37:625][156]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/fury_Auto1.uasset
+[2015.09.16-20.38.37:628][156]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Placeholder_Characters/fury_PhysicsAsset] ([1] browsable assets)...
+[2015.09.16-20.38.37:628][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Placeholder_Characters/fury_PhysicsAsset]
+[2015.09.16-20.38.37:638][156]LogSavePackage: Save=6.828194ms
+[2015.09.16-20.38.37:638][156]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/fury_PhysicsAsset_Auto10D644440428D2FC961CA498861485277.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/fury_PhysicsAsset_Auto1.uasset'
+[2015.09.16-20.38.37:639][156]LogSavePackage: Total save time: 9.419788ms
+[2015.09.16-20.38.37:639][156]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/fury_PhysicsAsset_Auto1.uasset
+[2015.09.16-20.38.37:643][156]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Placeholder_Characters/fury_Anim] ([1] browsable assets)...
+[2015.09.16-20.38.37:661][156]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Placeholder_Characters/fury_Anim.fury_Anim]
+[2015.09.16-20.38.37:661][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Placeholder_Characters/fury_Anim]
+[2015.09.16-20.38.37:671][156]LogSavePackage: Save=9.267093ms
+[2015.09.16-20.38.37:671][156]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/fury_Anim_Auto144B8CE984B9471D548C67D93ACFA702C.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/fury_Anim_Auto1.uasset'
+[2015.09.16-20.38.37:671][156]LogSavePackage: Total save time: 9.912807ms
+[2015.09.16-20.38.37:671][156]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/fury_Anim_Auto1.uasset
+[2015.09.16-20.38.37:674][156]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Placeholder_Characters/dead] ([1] browsable assets)...
+[2015.09.16-20.38.37:693][156]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Placeholder_Characters/dead.dead]
+[2015.09.16-20.38.37:693][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Placeholder_Characters/dead]
+[2015.09.16-20.38.37:706][156]LogSavePackage: Save=12.583911ms
+[2015.09.16-20.38.37:706][156]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/dead_Auto1EEA84DE04EE9C1A6C168AEAABD7147B0.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/dead_Auto1.uasset'
+[2015.09.16-20.38.37:707][156]LogSavePackage: Total save time: 13.351601ms
+[2015.09.16-20.38.37:707][156]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/dead_Auto1.uasset
+[2015.09.16-20.38.37:710][156]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Placeholder_Characters/dead_PhysicsAsset] ([1] browsable assets)...
+[2015.09.16-20.38.37:710][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Placeholder_Characters/dead_PhysicsAsset]
+[2015.09.16-20.38.37:717][156]LogSavePackage: Save=6.773380ms
+[2015.09.16-20.38.37:718][156]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/dead_PhysicsAsset_Auto16EEEF506427F1BC41513F69E6739A55B.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/dead_PhysicsAsset_Auto1.uasset'
+[2015.09.16-20.38.37:718][156]LogSavePackage: Total save time: 7.423010ms
+[2015.09.16-20.38.37:718][156]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/dead_PhysicsAsset_Auto1.uasset
+[2015.09.16-20.38.37:721][156]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Placeholder_Characters/dead_Anim] ([1] browsable assets)...
+[2015.09.16-20.38.37:739][156]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Placeholder_Characters/dead_Anim.dead_Anim]
+[2015.09.16-20.38.37:739][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Placeholder_Characters/dead_Anim]
+[2015.09.16-20.38.37:749][156]LogSavePackage: Save=9.627898ms
+[2015.09.16-20.38.37:749][156]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/dead_Anim_Auto157C631A1452603AAE9054EBF1E302DB6.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/dead_Anim_Auto1.uasset'
+[2015.09.16-20.38.37:750][156]LogSavePackage: Total save time: 10.258853ms
+[2015.09.16-20.38.37:750][156]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/Autosaves/Game/Placeholder_Characters/dead_Anim_Auto1.uasset
+[2015.09.16-20.38.37:750][156]LogFileHelpers: Auto-saving content packages took 0.324
+[2015.09.16-20.39.36:709][775]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2015.09.16-20.40.00:310][573]LogSavePackage: Save=1.323354ms
+[2015.09.16-20.40.00:310][573]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/zombie_Skeleton7B20BCDD4D48213A0986ADB24EDB9720.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/zombie_Skeleton.uasset'
+[2015.09.16-20.40.00:311][573]LogSavePackage: Total save time: 2.661467ms
+[2015.09.16-20.40.00:311][573]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/zombie_Skeleton.uasset
+[2015.09.16-20.40.00:363][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000AC94EFC0
+[2015.09.16-20.40.00:364][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000AB879260
+[2015.09.16-20.40.03:753][976]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.16-20.40.30:093][818]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.16-20.40.32:327][945]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.16-20.41.16:745][336]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.09.16-20.41.40:288][111]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006047D9E0
+[2015.09.16-20.41.40:289][111]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005D08B1A0
+[2015.09.16-20.41.41:578][111]LogSavePackage: Save=1200.585449ms
+[2015.09.16-20.41.41:578][111]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/TestingInstanceE0E886A7424BB556126B6E8823E7468C.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Maps/TestingInstance.umap'
+[2015.09.16-20.41.41:582][111]LogSavePackage: Total save time: 1208.431575ms
+[2015.09.16-20.41.41:582][111]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Maps/TestingInstance.umap
+[2015.09.16-20.41.41:633][111]LogFileHelpers: Saving map 'TestingInstance' took 1.315
+[2015.09.16-20.41.41:638][111]LogSavePackage: Save=0.694204ms
+[2015.09.16-20.41.41:638][111]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/walk_Skeleton86833F8F4C0AEE4284C065B40CAA5F16.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk_Skeleton.uasset'
+[2015.09.16-20.41.41:639][111]LogSavePackage: Total save time: 1.733854ms
+[2015.09.16-20.41.41:639][111]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk_Skeleton.uasset
+[2015.09.16-20.41.41:651][111]LogSavePackage: Save=6.629721ms
+[2015.09.16-20.41.41:651][111]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/walk_PhysicsAssetCD2E3B604C0BEFB4E9173891219B128D.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk_PhysicsAsset.uasset'
+[2015.09.16-20.41.41:652][111]LogSavePackage: Total save time: 7.715147ms
+[2015.09.16-20.41.41:652][111]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk_PhysicsAsset.uasset
+[2015.09.16-20.41.41:667][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Placeholder_Characters/walk" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk.uasset" SILENT=true
+[2015.09.16-20.41.41:680][111]LogSavePackage: Save=11.756288ms
+[2015.09.16-20.41.41:680][111]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/walk4FDA71044DAAA674BA6C678EFE3308B4.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk.uasset'
+[2015.09.16-20.41.41:681][111]LogSavePackage: Total save time: 12.881771ms
+[2015.09.16-20.41.41:681][111]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk.uasset
+[2015.09.16-20.41.41:696][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Placeholder_Characters/walk_Anim" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk_Anim.uasset" SILENT=true
+[2015.09.16-20.41.41:706][111]LogSavePackage: Save=8.993628ms
+[2015.09.16-20.41.41:706][111]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/walk_AnimAD3C031640B2048B7DDC51B231140656.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk_Anim.uasset'
+[2015.09.16-20.41.41:707][111]LogSavePackage: Total save time: 10.101043ms
+[2015.09.16-20.41.41:707][111]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk_Anim.uasset
+[2015.09.16-20.41.41:718][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Placeholder_Characters/difusse" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/difusse.uasset" SILENT=true
+[2015.09.16-20.41.42:196][111]LogSavePackage: Save=477.705231ms
+[2015.09.16-20.41.42:196][111]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/difusse0E31F8B04DBE3290DB6F5484FE1BAB40.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/difusse.uasset'
+[2015.09.16-20.41.42:197][111]LogSavePackage: Total save time: 478.928883ms
+[2015.09.16-20.41.42:197][111]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/difusse.uasset
+[2015.09.16-20.41.42:210][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Placeholder_Characters/especular" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/especular.uasset" SILENT=true
+[2015.09.16-20.41.42:525][111]LogSavePackage: Save=314.979034ms
+[2015.09.16-20.41.42:525][111]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/especularBDFE86E94F16B7ABC7E1908408B5A838.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/especular.uasset'
+[2015.09.16-20.41.42:526][111]LogSavePackage: Total save time: 316.143084ms
+[2015.09.16-20.41.42:526][111]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/especular.uasset
+[2015.09.16-20.41.42:539][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Placeholder_Characters/normal" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/normal.uasset" SILENT=true
+[2015.09.16-20.41.43:030][111]LogSavePackage: Save=490.743896ms
+[2015.09.16-20.41.43:030][111]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/normal47B7D7BA4A9581646127EB8B775A4706.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/normal.uasset'
+[2015.09.16-20.41.43:032][111]LogSavePackage: Total save time: 493.251465ms
+[2015.09.16-20.41.43:032][111]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/normal.uasset
+[2015.09.16-20.41.43:044][111]LogSavePackage: Save=6.994140ms
+[2015.09.16-20.41.43:044][111]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/fury_PhysicsAsset9A68553A4677121F23FEF9AB70CF034D.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/fury_PhysicsAsset.uasset'
+[2015.09.16-20.41.43:045][111]LogSavePackage: Total save time: 8.032884ms
+[2015.09.16-20.41.43:045][111]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/fury_PhysicsAsset.uasset
+[2015.09.16-20.41.43:061][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Placeholder_Characters/fury_Anim" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/fury_Anim.uasset" SILENT=true
+[2015.09.16-20.41.43:071][111]LogSavePackage: Save=9.098435ms
+[2015.09.16-20.41.43:071][111]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/fury_Anim8CB6BB304888CC1ABD81C3A6CB23E24F.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/fury_Anim.uasset'
+[2015.09.16-20.41.43:072][111]LogSavePackage: Total save time: 10.194406ms
+[2015.09.16-20.41.43:072][111]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/fury_Anim.uasset
+[2015.09.16-20.41.43:084][111]LogSavePackage: Save=6.782115ms
+[2015.09.16-20.41.43:084][111]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/dead_PhysicsAsset5AC4C1174BCED36CAC315284F39D7402.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/dead_PhysicsAsset.uasset'
+[2015.09.16-20.41.43:084][111]LogSavePackage: Total save time: 7.783514ms
+[2015.09.16-20.41.43:085][111]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/dead_PhysicsAsset.uasset
+[2015.09.16-20.41.43:100][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Placeholder_Characters/dead_Anim" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/dead_Anim.uasset" SILENT=true
+[2015.09.16-20.41.43:110][111]LogSavePackage: Save=9.532426ms
+[2015.09.16-20.41.43:110][111]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/dead_Anim7D8EB7254E40D3B562B76A815A3A127F.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/dead_Anim.uasset'
+[2015.09.16-20.41.43:111][111]LogSavePackage: Total save time: 10.567859ms
+[2015.09.16-20.41.43:111][111]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/dead_Anim.uasset
+[2015.09.16-20.41.57:198][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Placeholder_Characters/material" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/material.uasset" SILENT=true
+[2015.09.16-20.41.57:209][789]LogSavePackage: Save=10.360351ms
+[2015.09.16-20.41.57:209][789]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/material3C737C7A44B4C9B77277B99CF5981A86.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/material.uasset'
+[2015.09.16-20.41.57:210][789]LogSavePackage: Total save time: 11.597566ms
+[2015.09.16-20.41.57:210][789]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/material.uasset
+[2015.09.16-20.41.57:302][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Placeholder_Characters/walk" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk.uasset" SILENT=true
+[2015.09.16-20.41.57:313][789]LogSavePackage: Save=5.700602ms
+[2015.09.16-20.41.57:313][789]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/walk0574D1BC4512AAB7161EDFBA774371D6.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk.uasset'
+[2015.09.16-20.41.57:314][789]LogSavePackage: Total save time: 10.926858ms
+[2015.09.16-20.41.57:314][789]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk.uasset
+[2015.09.16-20.42.06:988][929]LogSavePackage: Save=40.668289ms
+[2015.09.16-20.42.06:988][929]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/especular_texture9AC8F5B34F3453709DFA54A502507A5D.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/especular_texture.uasset'
+[2015.09.16-20.42.06:989][929]LogSavePackage: Total save time: 42.073261ms
+[2015.09.16-20.42.06:989][929]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/especular_texture.uasset
+[2015.09.16-20.42.07:007][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.16-20.42.15:081][868]LogSavePackage: Save=70.766617ms
+[2015.09.16-20.42.15:081][868]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/difusse_texture9249D5B041209D3241266F9E66A91CEE.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/difusse_texture.uasset'
+[2015.09.16-20.42.15:082][868]LogSavePackage: Total save time: 72.319761ms
+[2015.09.16-20.42.15:082][868]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/difusse_texture.uasset
+[2015.09.16-20.42.15:100][868]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.16-20.42.15:186][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Placeholder_Characters/material" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/material.uasset" SILENT=true
+[2015.09.16-20.42.15:193][868]LogSavePackage: Save=2.036532ms
+[2015.09.16-20.42.15:193][868]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/material122AC13C41FF9CB8C6B78A98C5471AC3.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/material.uasset'
+[2015.09.16-20.42.15:193][868]LogSavePackage: Total save time: 6.954085ms
+[2015.09.16-20.42.15:193][868]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/material.uasset
+[2015.09.16-20.42.22:249][688]LogSavePackage: Save=71.898125ms
+[2015.09.16-20.42.22:249][688]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/normal_texture7AD8118C4D3EBC592E9E278E6D592959.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/normal_texture.uasset'
+[2015.09.16-20.42.22:250][688]LogSavePackage: Total save time: 72.984152ms
+[2015.09.16-20.42.22:250][688]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/normal_texture.uasset
+[2015.09.16-20.42.22:267][688]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.16-20.42.29:009][473]LogSavePackage: Save=11.702679ms
+[2015.09.16-20.42.29:009][473]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/zombie_material89031E744C7EA68C3E2E90941BA34673.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/zombie_material.uasset'
+[2015.09.16-20.42.29:010][473]LogSavePackage: Total save time: 12.725160ms
+[2015.09.16-20.42.29:010][473]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/zombie_material.uasset
+[2015.09.16-20.42.29:029][473]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.16-20.42.29:102][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Placeholder_Characters/walk" FILE="../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk.uasset" SILENT=true
+[2015.09.16-20.42.29:113][473]LogSavePackage: Save=5.894257ms
+[2015.09.16-20.42.29:113][473]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/walkF3FF4DFE415A5E5CD4F4DEAA996881BD.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk.uasset'
+[2015.09.16-20.42.29:113][473]LogSavePackage: Total save time: 10.598578ms
+[2015.09.16-20.42.29:113][473]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk.uasset
+[2015.09.16-20.43.00:711][236]LogSavePackage: Save=11.643950ms
+[2015.09.16-20.43.00:711][236]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/zombie_skeletonMesh7B9C52D241A7ED3EB13396BD8A1B79C2.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/zombie_skeletonMesh.uasset'
+[2015.09.16-20.43.00:712][236]LogSavePackage: Total save time: 12.850150ms
+[2015.09.16-20.43.00:712][236]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/zombie_skeletonMesh.uasset
+[2015.09.16-20.43.00:730][236]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.16-20.43.00:824][236]LogSavePackage: Save=1.438703ms
+[2015.09.16-20.43.00:824][236]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/zombie_Skeleton4B6A19D24DC980F8D6F6A6B8BDC8E17B.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/zombie_Skeleton.uasset'
+[2015.09.16-20.43.00:825][236]LogSavePackage: Total save time: 6.307162ms
+[2015.09.16-20.43.00:825][236]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/zombie_Skeleton.uasset
+[2015.09.16-20.43.00:840][236]LogSavePackage: Save=5.636151ms
+[2015.09.16-20.43.00:840][236]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/walk_PhysicsAsset8A5B313247FD230EDDAA81BC88D266C1.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk_PhysicsAsset.uasset'
+[2015.09.16-20.43.00:840][236]LogSavePackage: Total save time: 10.864213ms
+[2015.09.16-20.43.00:840][236]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk_PhysicsAsset.uasset
+[2015.09.16-20.43.11:074][447]LogSavePackage: Save=11.734904ms
+[2015.09.16-20.43.11:074][447]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/zombie_skeletalMesh211A4EEE4077AE3F2DA93F82C3860D36.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/zombie_skeletalMesh.uasset'
+[2015.09.16-20.43.11:075][447]LogSavePackage: Total save time: 12.941703ms
+[2015.09.16-20.43.11:075][447]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/zombie_skeletalMesh.uasset
+[2015.09.16-20.43.11:094][447]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.16-20.43.11:173][447]LogSavePackage: Save=1.298959ms
+[2015.09.16-20.43.11:173][447]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/zombie_SkeletonC33E34AD4A0399C063AD11A33A6AB4F5.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/zombie_Skeleton.uasset'
+[2015.09.16-20.43.11:173][447]LogSavePackage: Total save time: 5.851790ms
+[2015.09.16-20.43.11:173][447]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/zombie_Skeleton.uasset
+[2015.09.16-20.43.11:187][447]LogSavePackage: Save=5.452435ms
+[2015.09.16-20.43.11:188][447]LogSavePackage: Moving '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Saved/walk_PhysicsAsset2E125F9E4638075D9438CEB5C760DA13.tmp' to '../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk_PhysicsAsset.uasset'
+[2015.09.16-20.43.11:188][447]LogSavePackage: Total save time: 9.932082ms
+[2015.09.16-20.43.11:188][447]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Damir/Documents/GitHub/Project_ReSurvivor/Content/Placeholder_Characters/walk_PhysicsAsset.uasset
+[2015.09.16-20.53.44:642][664]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.16-20.53.46:870][867]Cmd: QUIT_EDITOR
+[2015.09.16-20.53.47:131][867]LogExit: Preparing to exit.
+[2015.09.16-20.53.47:632][867]LogExit: Editor shut down
+[2015.09.16-20.53.47:632][867]LogExit: Transaction tracking system shut down
+[2015.09.16-20.53.47:635][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001245BA60
+[2015.09.16-20.53.47:635][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012458220
+[2015.09.16-20.53.47:636][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011C5E700
+[2015.09.16-20.53.47:644][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F61C720
+[2015.09.16-20.53.47:645][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002422A3E0
+[2015.09.16-20.53.47:645][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003074DA80
+[2015.09.16-20.53.47:646][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034B63880
+[2015.09.16-20.53.47:646][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034EFDE40
+[2015.09.16-20.53.47:646][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004807AFC0
+[2015.09.16-20.53.47:646][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019E35EE0
+[2015.09.16-20.53.47:646][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019E340E0
+[2015.09.16-20.53.47:863][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001290FF60
+[2015.09.16-20.53.47:863][867]LogExit: Object subsystem successfully closed.
+[2015.09.16-20.53.47:870][867]LogD3D11RHI: Shutdown
+[2015.09.16-20.53.47:870][867]LogD3D11RHI: CleanupD3DDevice
+[2015.09.16-20.53.47:925][867]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.16-20.53.47:936][867]LogModuleManager: Shutting down and abandoning module MaterialEditor (201)
+[2015.09.16-20.53.47:936][867]LogModuleManager: Shutting down and abandoning module PhAT (200)
+[2015.09.16-20.53.47:936][867]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2015.09.16-20.53.47:936][867]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2015.09.16-20.53.47:936][867]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2015.09.16-20.53.47:936][867]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2015.09.16-20.53.47:936][867]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2015.09.16-20.53.47:936][867]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2015.09.16-20.53.47:936][867]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2015.09.16-20.53.47:937][867]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2015.09.16-20.53.48:274][867]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2015.09.16-20.53.48:275][867]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2015.09.16-20.53.48:275][867]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2015.09.16-20.53.48:275][867]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2015.09.16-20.53.48:275][867]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2015.09.16-20.53.48:275][867]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2015.09.16-20.53.48:275][867]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2015.09.16-20.53.48:275][867]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2015.09.16-20.53.48:275][867]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2015.09.16-20.53.48:275][867]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2015.09.16-20.53.48:275][867]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2015.09.16-20.53.48:275][867]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2015.09.16-20.53.48:275][867]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2015.09.16-20.53.48:275][867]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2015.09.16-20.53.48:275][867]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2015.09.16-20.53.48:275][867]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2015.09.16-20.53.48:275][867]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2015.09.16-20.53.48:275][867]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2015.09.16-20.53.48:285][867]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2015.09.16-20.53.48:285][867]LogModuleManager: Shutting down and abandoning module SubstanceEditor (122)
+[2015.09.16-20.53.48:285][867]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.09.16-20.53.48:285][867]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.09.16-20.53.48:285][867]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.09.16-20.53.48:285][867]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.09.16-20.53.48:285][867]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.09.16-20.53.48:285][867]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.09.16-20.53.48:285][867]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.09.16-20.53.48:292][867]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.09.16-20.53.48:293][867]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.09.16-20.53.48:293][867]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2015.09.16-20.53.48:294][867]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2015.09.16-20.53.48:294][867]LogModuleManager: Shutting down and abandoning module UdpMessaging (88)
+[2015.09.16-20.53.48:394][867]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.09.16-20.53.48:394][867]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2015.09.16-20.53.48:527][867]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2015.09.16-20.53.48:527][867]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.09.16-20.53.48:527][867]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.09.16-20.53.48:527][867]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.09.16-20.53.48:528][867]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.09.16-20.53.48:528][867]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.09.16-20.53.48:528][867]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.09.16-20.53.48:528][867]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.09.16-20.53.48:528][867]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.09.16-20.53.48:528][867]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.09.16-20.53.48:528][867]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.09.16-20.53.48:528][867]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.09.16-20.53.48:528][867]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.09.16-20.53.48:528][867]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.09.16-20.53.48:528][867]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.09.16-20.53.48:528][867]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.09.16-20.53.48:528][867]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.09.16-20.53.48:528][867]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.09.16-20.53.48:528][867]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.09.16-20.53.48:528][867]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.09.16-20.53.48:530][867]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.09.16-20.53.48:530][867]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.09.16-20.53.48:530][867]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.09.16-20.53.48:530][867]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.09.16-20.53.48:530][867]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.09.16-20.53.48:530][867]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.09.16-20.53.48:530][867]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.09.16-20.53.48:530][867]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.09.16-20.53.48:530][867]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.09.16-20.53.48:530][867]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.09.16-20.53.48:531][867]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.09.16-20.53.48:583][867]LogDerivedDataCache: Shutdown
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.09.16-20.53.48:583][867]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.09.16-20.53.50:583][867]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.09.16-20.53.50:583][867]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.09.16-20.53.50:583][867]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.09.16-20.53.50:583][867]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.09.16-20.53.50:583][867]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.09.16-20.53.50:583][867]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.09.16-20.53.50:586][867]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.09.16-20.53.50:586][867]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.09.16-20.53.50:586][867]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.09.16-20.53.50:586][867]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.16-20.53.50:586][867]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.16-20.53.50:586][867]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.16-20.53.50:586][867]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.16-20.53.50:586][867]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.16-20.53.50:586][867]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.16-20.53.50:586][867]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.16-20.53.50:587][867]LogExit: Exiting.
+[2015.09.16-20.53.50:639][867]Log file closed, 09/16/15 22:53:50
