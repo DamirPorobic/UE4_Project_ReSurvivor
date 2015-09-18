@@ -44,16 +44,10 @@ Temporary Items
 *.ini
 
 
-# Unreal Engine files Damir has removed
-Saved/Logs/*
-Saved/SaveGames/*
-Saved/Config/Windows/Engine.ini
-Saved/Logs/Project_ReSurvivor.log
-Saved/AutoScreenshot.png
-Saved/Autosaves/PackageRestoreData.json
-Intermediate/CachedAssetRegistry.bin
-Intermediate/CachedAssetRegistry.bin
-Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+# Unreal Engine files that we don't want to track 
+Saved/**
+Intermediate/**
+DerivedDataCache/**
 
 <<<<<<< HEAD
 # Unreal Engine files that we don't want to track 
